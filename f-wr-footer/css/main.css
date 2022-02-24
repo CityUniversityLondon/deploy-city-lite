@@ -9796,6 +9796,9 @@ figure figcaption a:active,
     outline-style: dotted;
     outline-width: 0.125rem;
 }
+.global-footer .global-footer__container .global-footer__content .global-footer__content__logo a .logo {
+    width: 5rem;
+}
 
 .global-header {
     box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.15);
