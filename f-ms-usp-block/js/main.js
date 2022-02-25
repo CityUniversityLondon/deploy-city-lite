@@ -2,60 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/action-on-scroll.js":
-/*!*********************************!*\
-  !*** ./src/action-on-scroll.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "actionOnScroll": () => (/* binding */ actionOnScroll)
-/* harmony export */ });
-
-
-/**
- *
- * actionOnScroll use the IntersectionObserver API to check if element is intersceting
- *
- * @param {HTMLElement} element - element to observer
- * @param {Action} Function/String - To either excute provided function on element or add the string as a class name
- * @param {Boolean} defualt false - pass true if you want the function to run every time element is Intersecting
- * @param {Object} Object - Pass options to customise IntersectionObserver see docs
- */
-function actionOnScroll(element, action) {
-  let repeat = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
-  let options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {
-    threshold: [0, 0.1, 1]
-  };
-
-  if (element && typeof element !== 'undefined' && element !== null) {
-    let actionOnScrollAction = function (entries) {
-      entries.forEach(entry => {
-        //what to do with element depending on action type
-        if (entry.isIntersecting) {
-          if (typeof action === 'string') {
-            element.classList.add(action);
-          } else if (typeof action === 'function') {
-            action(element);
-          } // stop observing if repeat === false
-
-
-          if (repeat === false) {
-            observer.unobserve(element);
-          }
-        }
-      });
-    }; //intialise observer and observer element
-
-
-    let observer = new IntersectionObserver(actionOnScrollAction, options);
-    observer.observe(element);
-  }
-}
-
-/***/ }),
-
 /***/ "./src/main.js":
 /*!*********************!*\
   !*** ./src/main.js ***!
@@ -84,7 +30,6 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 
-console.log('a');
 /**
  * try a function, log the error if it throws an exception.
  *
@@ -143,9 +88,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patterns/accordion/accordion */ "./src/patterns/accordion/accordion.js");
-/* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _patterns_animation_number_animation_number_animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patterns/animation/number-animation/number-animation */ "./src/patterns/animation/number-animation/number-animation.js");
 
 
 /**
@@ -157,197 +99,10 @@ __webpack_require__.r(__webpack_exports__);
  * @author Web Development
  * @copyright City, University of London 2022
  */
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default()), _patterns_animation_number_animation_number_animation__WEBPACK_IMPORTED_MODULE_1__["default"]]);
-
-/***/ }),
-
-/***/ "./src/patterns/accordion/accordion.js":
-/*!*********************************************!*\
-  !*** ./src/patterns/accordion/accordion.js ***!
-  \*********************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./src/patterns/animation/number-animation/number-animation.js":
-/*!*********************************************************************!*\
-  !*** ./src/patterns/animation/number-animation/number-animation.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
-/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
-/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _action_on_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../action-on-scroll */ "./src/action-on-scroll.js");
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../util */ "./src/util.js");
-
-
-
-
-
-
-const className = 'animate-number',
-      DURATION = 1500; // set duration variable 1500 ms increase if want longer animation
-
-console.log('test');
-/**
- *
- * find container containing the number
- *
- * @param {HTMLElement} element - html element to be animated
- * @return {HTMLElement} element - if element to be animated is found return it else return original element
- */
-
-function findNumberContainer(widget) {
-  const nested = widget.querySelector('.animate--number__number');
-  return typeof nested !== 'undefined' && nested !== null ? nested : widget;
-}
-/**
- *
- * Intial setup
- * add data attr : data-animation-number-value - number to animate
- * add data attr : data-animation-number-float - boolean value if number is float
- * add data attr : data-animation-numner-start - number value of where to start animation from
- * add class name - animate--number--init
- *
- * @param {HTMLElement} element - The section that need to be animated
- * @return {boolean} - if number animation is setup?
- */
-
-
-function initNumberAnimation(widget) {
-  const startStr = widget.dataset.animationNumberStart || '0';
-  const start = parseFloat(startStr);
-  const numberContainer = findNumberContainer(widget);
-  const numberStr = numberContainer.innerHTML.trim().replace(/,/g, '');
-
-  if (numberStr.match(/^-?[0-9,]+(\.[0-9,]+])?/)) {
-    widget.dataset.animationNumberValue = parseFloat(numberStr);
-    widget.dataset.animationNumberFloat = !!numberStr.match(/\./);
-    widget.dataset.animationNumberStart = start;
-    numberContainer.innerHTML = startStr;
-    widget.classList.add('animate--number--init');
-    return true;
-  } else {
-    return false;
-  }
-}
-/**
- *
- * run animation function
- *
- * @param {HTMLElement} element - element to be animated
- */
-
-
-function runNumberAnimation(widget) {
-  const numberContainer = findNumberContainer(widget);
-  const isFloat = widget.dataset.animationNumberFloat;
-  const value = parseInt(widget.dataset.animationNumberValue);
-  const format = widget.dataset.animationNumberFormat;
-
-  if (value !== 0) {
-    let first = true;
-    let startTime = 0;
-    let startValue = parseInt(widget.dataset.animationNumberStart);
-    let lastValue = 0;
-    /**
-     * function to run animation
-     *
-     * @param {timestamp} time stamp - time stamp from requestAnimationFrame API
-     */
-
-    const f = timestamp => {
-      if (first) {
-        startTime = timestamp;
-        first = false;
-      }
-
-      const t = (timestamp - startTime) / DURATION; // difference in time between two discrete points in time divied by duration
-
-      const finish = t >= 1;
-      let k = finish ? 1 : 1 - Math.pow(1 - t, 4);
-      let v = k * (value - startValue) + startValue;
-
-      if (isFloat) {
-        v = Math.round(v);
-      }
-
-      if (lastValue !== v) {
-        lastValue = v;
-        numberContainer.innerHTML = format === 'true' ? v.toLocaleString('en-GB') // append and format to GB
-        : v;
-      }
-
-      if (finish) {
-        //end of animation
-        widget.classList.add('animate--number--complete');
-      } else {
-        //repeat call requestAnimationFrame until finish is true
-        window.requestAnimationFrame(f);
-      }
-    };
-    /**
-     * run requestAnimationFrame to repaint animation to screen
-     */
-
-
-    window.requestAnimationFrame(f);
-  }
-}
-/**
- *
- * Intial setup
- *
- * number animation should contain a wrapper with a class name 'animate-number'
- * there should be at least one child element with a class name 'animate--number__heading'
- * and a span element with a class name 'animate--number__number' containing the number
- *
- * e.g.
- *
- * <div class="animate-number">
- *  <h2 class="animate animate--number__heading">
- *      <span class="animate--number__number">10,000</span>
- *  </h2>
- * </div>
- *
- * @param {HTMLElement} elm - An HTML element with the 'animate-number' class.
- *
- */
-
-
-function init(elm) {
-  const lazyNumbers = [].slice.call(elm.querySelectorAll('.animate--number'));
-  /**
-   * check if browser support IntersectionObserver api
-   */
-
-  if ((0,_util__WEBPACK_IMPORTED_MODULE_3__.checkIntersectionObserver)()) {
-    lazyNumbers.forEach(function (lazyUnit) {
-      initNumberAnimation(lazyUnit);
-      /**
-       * pass the element and function to actionOnScroll
-       * to animate when element is intersecting
-       */
-
-      (0,_action_on_scroll__WEBPACK_IMPORTED_MODULE_2__.actionOnScroll)(lazyUnit, runNumberAnimation);
-    });
-  }
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  launchFn: init,
-  launchQuery: ".".concat(className)
-});
+// import accordion from './patterns/accordion/accordion';
+// import numberAnimation from './patterns/animation/number-animation/number-animation';
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([// accordion,
+numberAnimations]);
 
 /***/ }),
 
