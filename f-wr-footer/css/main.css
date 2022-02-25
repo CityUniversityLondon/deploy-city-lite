@@ -9549,15 +9549,16 @@ figure figcaption a:active,
 }
 .global-footer .global-footer__ribbon {
     background-color: #3e1031;
-    background: linear-gradient(90deg, #b91924 0%, #5d184a 70%, #3e1031 100%);
     padding-bottom: 1rem;
     padding-top: 1rem;
+    background: linear-gradient(90deg, #b91924 0%, #5d184a 70%, #3e1031 100%);
 }
 .global-footer .global-footer__container {
     background-color: #ffffff;
     box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.15);
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-bottom: 2rem;
 }
 @media (min-width: 901px) {
     .global-footer .global-footer__container {
@@ -9569,35 +9570,33 @@ figure figcaption a:active,
     border-bottom: 0.0625rem solid #d8d8d8;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-}
-.global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__text {
     display: flex;
+    flex-direction: column;
 }
-.global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__text h2 {
-    flex-basis: 100%;
+.global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__heading {
     text-align: center;
     color: #303030;
-    font-size: 1.125rem;
+    font-size: 1.424rem;
     line-height: 1.3333333333;
-    letter-spacing: -0.008em;
+    letter-spacing: -0.013em;
 }
 @media (min-width: 1280px) and (max-width: 1919px) {
-    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__text h2 {
-        letter-spacing: -0.011em;
+    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__heading {
+        letter-spacing: -0.015em;
     }
 }
 @media (min-width: 1920px) and (max-width: 3839px) {
-    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__text h2 {
-        letter-spacing: -0.014em;
+    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__heading {
+        letter-spacing: -0.016em;
     }
 }
 @media (min-width: 3840px) and (max-width: 7679px) {
-    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__text h2 {
+    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__heading {
         letter-spacing: -0.017em;
     }
 }
 @media (min-width: 7680px) {
-    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__text h2 {
+    .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media__heading {
         letter-spacing: -0.017em;
     }
 }
@@ -9638,7 +9637,7 @@ figure figcaption a:active,
 }
 @media (min-width: 900px) {
     .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li {
-        margin-right: 1.5rem;
+        margin-right: 0.5rem;
         padding-left: 0;
         padding-right: 0;
     }
@@ -9675,10 +9674,10 @@ figure figcaption a:active,
 }
 @media (hover: hover) {
     .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:hover {
-        border-color: #e93745;
+        border-color: #d61726;
     }
     .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:hover .icon {
-        color: #e93745;
+        color: #d61726;
     }
 }
 .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:active, .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:focus {
@@ -9706,7 +9705,6 @@ figure figcaption a:active,
 }
 .global-footer .global-footer__container .global-footer__content {
     display: flex;
-    padding-bottom: 1.75rem;
 }
 @media (max-width: 767px) {
     .global-footer .global-footer__container .global-footer__content {
@@ -9748,7 +9746,7 @@ figure figcaption a:active,
     max-width: 55ch;
 }
 .global-footer .global-footer__container .global-footer__content .global-footer__content__text .global-footer__content__text__copyright {
-    margin-top: 1.75rem;
+    margin-top: 1rem;
     font-weight: 500;
 }
 .global-footer .global-footer__container .global-footer__content .global-footer__content__logo {
@@ -9797,7 +9795,7 @@ figure figcaption a:active,
     outline-width: 0.125rem;
 }
 .global-footer .global-footer__container .global-footer__content .global-footer__content__logo a .logo {
-    width: 5rem;
+    width: 5.5rem;
 }
 
 .global-header {
