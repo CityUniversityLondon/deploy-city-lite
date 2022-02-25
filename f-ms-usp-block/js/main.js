@@ -88,6 +88,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patterns/accordion/accordion */ "./src/patterns/accordion/accordion.js");
+/* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__);
 
 
 /**
@@ -99,10 +101,18 @@ __webpack_require__.r(__webpack_exports__);
  * @author Web Development
  * @copyright City, University of London 2022
  */
-// import accordion from './patterns/accordion/accordion';
-// import numberAnimation from './patterns/animation/number-animation/number-animation';
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([// accordion,
-numberAnimations]);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default())]);
+
+/***/ }),
+
+/***/ "./src/patterns/accordion/accordion.js":
+/*!*********************************************!*\
+  !*** ./src/patterns/accordion/accordion.js ***!
+  \*********************************************/
+/***/ (() => {
+
+
 
 /***/ }),
 

@@ -9272,15 +9272,6 @@ main > .login footer p {
     text-align: center;
 }
 
-.animate--number--init .animate--number__number {
-    opacity: 0.5;
-}
-
-.animate--number--complete .animate--number__number {
-    transition: 1s opacity;
-    opacity: 1;
-}
-
 figure a {
     background-color: initial;
     background-image: initial;
@@ -9889,11 +9880,13 @@ figure figcaption a:active,
     }
 }
 @media (min-width: 768px) {
+    .ksp-block .ksp-block__heading {
+        grid-column: 3/-3;
+    }
+}
+@media (min-width: 768px) {
     .ksp-block .ksp__items {
         display: flex;
-    }
-    .ksp-block .ksp__items .ksp-block__heading {
-        grid-column: 3/-3;
     }
 }
 @media (max-width: 767px) {
@@ -9929,18 +9922,9 @@ figure figcaption a:active,
 }
 .ksp-block .ksp__items {
     grid-column: 1/-1;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    max-width: 80rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
     max-width: none;
     text-align: center;
-}
-@media (min-width: 901px) {
-    .ksp-block .ksp__items {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
 }
 .ksp-block .ksp__items .ksp__item {
     list-style-type: none;
