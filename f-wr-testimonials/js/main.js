@@ -1022,6 +1022,7 @@ function move(e, slider, controlsWrapper) {
 
 
 function launchSlider(slider) {
+  alert("hallo");
   console.log('test W');
   const style = slider.dataset.style || defaultStyle,
         cardsPerRow = parseInt(slider.dataset.cardsperrow) || defaultCardsPerRow; // CardsPerRow not currently in use. Tom's old code. 
