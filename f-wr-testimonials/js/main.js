@@ -202,11 +202,12 @@ __webpack_require__.r(__webpack_exports__);
  * Main entry
  *
  * @author Web Development
- * @copyright City, University of London 2021
+ * @copyright City, University of London 2022
  */
 
 
 
+const edgeVersion = 12;
 /**
  * try a function, log the error if it throws an exception.
  *
@@ -217,7 +218,6 @@ function tryCatch(f) {
   try {
     return f();
   } catch (e) {
-    // console.log(e);
     (0,_util__WEBPACK_IMPORTED_MODULE_2__.gaEvent)('jsError', 'JavaScript error', "Line ".concat(e.lineNumber, " \u2013 ").concat(e.message), "Pattern launch ".concat(e.fileName, " (").concat(window.location, ")"), true);
   }
 }
@@ -246,6 +246,16 @@ document.addEventListener('DOMContentLoaded', () => {
   if (/(Trident|MSIE)/.test(navigator.userAgent)) {
     return;
   } else {
+    Array.from(document.getElementsByTagName('html')).forEach(html => {
+      let ie = (0,_util__WEBPACK_IMPORTED_MODULE_2__.detectIE)();
+      (0,_util__WEBPACK_IMPORTED_MODULE_2__.removeClass)(html, 'no-js', false);
+
+      if (ie >= edgeVersion) {
+        html.className = (html.className + ' js ' + 'edge').trim();
+      } else {
+        html.className = (html.className + ' js').trim();
+      }
+    });
     _patterns__WEBPACK_IMPORTED_MODULE_1__["default"].forEach(launchPattern);
     const parameters = (0,_util__WEBPACK_IMPORTED_MODULE_2__.parametersToObject)(location.search);
     parameters['dev'] && (0,_patterns_devcorate_devcorate__WEBPACK_IMPORTED_MODULE_3__.devcorate)(document.querySelector('body'), 'dev', parameters['dev']);
@@ -266,7 +276,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patterns/accordion/accordion */ "./src/patterns/accordion/accordion.js");
-/* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patterns/slider/slider */ "./src/patterns/slider/slider.js");
 
 
@@ -281,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default()), _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__["default"]]);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__["default"], _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__["default"]]);
 
 /***/ }),
 
@@ -289,9 +298,25 @@ __webpack_require__.r(__webpack_exports__);
 /*!*********************************************!*\
   !*** ./src/patterns/accordion/accordion.js ***!
   \*********************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 
 
+const className = 'accordion';
+
+const launchAccordion = function () {
+  console.log('hello world');
+  ;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  launchFn: launchAccordion,
+  launchQuery: ".".concat(className)
+});
 
 /***/ }),
 
@@ -1065,7 +1090,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "parametersToObject": () => (/* binding */ parametersToObject),
 /* harmony export */   "objectToParameters": () => (/* binding */ objectToParameters),
 /* harmony export */   "gaEvent": () => (/* binding */ gaEvent),
-/* harmony export */   "detectIE": () => (/* binding */ detectIE)
+/* harmony export */   "detectIE": () => (/* binding */ detectIE),
+/* harmony export */   "checkIntersectionObserver": () => (/* binding */ checkIntersectionObserver)
 /* harmony export */ });
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -1179,6 +1205,19 @@ function detectIE() {
 
 
   return false;
+}
+/**
+ * Check if browser supports IntersectionObserver API
+ *
+ * @returns {Boolean} -
+ */
+
+function checkIntersectionObserver() {
+  if ('IntersectionObserver' in window && 'IntersectionObserverEntry' in window && 'intersectionRatio' in window.IntersectionObserverEntry.prototype) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /***/ })
