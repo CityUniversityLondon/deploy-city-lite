@@ -1,5 +1,183 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/aria-attributes.js":
+/*!********************************!*\
+  !*** ./src/aria-attributes.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+
+/**
+ * WAI-ARIA attributes
+ *
+ * Quicker to type, intellisensible, documents what they're for, and saves a
+ * tiny amount of code by replacing the string 'aria-' with a minifiable
+ * variable and dot notation.
+ *
+ * @module aria-attributes
+ * @author Web Development
+ * @copyright City, University of London 2018
+ */
+
+/**
+ * @readonly
+ * @enum {string}
+ */
+const aria = {
+  /** Identifies the currently active element when DOM focus is on a composite widget, textbox, group, or application. */
+  activeDescendant: 'aria-activedescendant',
+
+  /** Indicates whether assistive technologies will present all, or only parts of, the changed region based on the change notifications defined by the aria-relevant attribute. */
+  atomic: 'aria-atomic',
+
+  /** Indicates whether inputting text could trigger display of one or more predictions of the user's intended value for an input and specifies how predictions would be presented if they are made. */
+  autoComplete: 'aria-autocomplete',
+
+  /** Indicates an element is being modified and that assistive technologies MAY want to wait until the modifications are complete before exposing them to the user. */
+  busy: 'aria-busy',
+
+  /** Indicates the current "checked" state of checkboxes, radio buttons, and other widgets. */
+  checked: 'aria-checked',
+
+  /** Defines the total number of columns in a table, grid, or treegrid. */
+  colCount: 'aria-colcount',
+
+  /** Defines an element's column index or position with respect to the total number of columns within a table, grid, or treegrid. */
+  colIndex: 'aria-colindex',
+
+  /** Defines the number of columns spanned by a cell or gridcell within a table, grid, or treegrid. */
+  colSpan: 'aria-colspan',
+
+  /** Identifies the element (or elements) whose contents or presence are controlled by the current element. */
+  controls: 'aria-controls',
+
+  /** Indicates the element that represents the current item within a container or set of related elements. */
+  current: 'aria-current',
+
+  /** Identifies the element (or elements) that describes the object. */
+  describedBy: 'aria-describedby',
+
+  /** Identifies the element that provides a detailed, extended description for the object. */
+  details: 'aria-details',
+
+  /** Indicates that the element is perceivable but disabled, so it is not editable or otherwise operable. */
+  disabled: 'aria-disabled',
+
+  /** [Deprecated in ARIA 1.1] Indicates what functions can be performed when a dragged object is released on the drop target. */
+  dropEffect: 'aria-dropeffect',
+
+  /** Identifies the element that provides an error message for the object. */
+  errorMessage: 'aria-errormessage',
+
+  /** Indicates whether the element, or another grouping element it controls, is currently expanded or collapsed. */
+  expanded: 'aria-expanded',
+
+  /** Identifies the next element (or elements) in an alternate reading order of content which, at the user's discretion, allows assistive technology to override the general default of reading in document source order. */
+  flowTo: 'aria-flowto',
+
+  /** [Deprecated in ARIA 1.1] Indicates an element's "grabbed" state in a drag-and-drop operation. */
+  grabbed: 'aria-grabbed',
+
+  /** Indicates the availability and type of interactive popup element, such as menu or dialog, that can be triggered by an element. */
+  hasPopup: 'aria-haspopup',
+
+  /** Indicates whether the element is exposed to an accessibility API. */
+  hidden: 'aria-hidden',
+
+  /** Indicates the entered value does not conform to the format expected by the application. */
+  invalid: 'aria-invalid',
+
+  /** Indicates keyboard shortcuts that an author has implemented to activate or give focus to an element. */
+  keyShortcuts: 'aria-keyshortcuts',
+
+  /** Defines a string value that labels the current element. */
+  label: 'aria-label',
+
+  /** Identifies the element (or elements) that labels the current element. */
+  labelledBy: 'aria-labelledby',
+
+  /** Defines the hierarchical level of an element within a structure. */
+  level: 'aria-level',
+
+  /** Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region. */
+  live: 'aria-live',
+
+  /** Indicates whether an element is modal when displayed. */
+  modal: 'aria-modal',
+
+  /** Indicates whether a text box accepts multiple lines of input or only a single line. */
+  multiLine: 'aria-multiline',
+
+  /** Indicates that the user may select more than one item from the current selectable descendants. */
+  multiSelectable: 'aria-multiselectable',
+
+  /** Indicates whether the element's orientation is horizontal, vertical, or unknown/ambiguous. */
+  orientation: 'aria-orientation',
+
+  /** Identifies an element (or elements) in order to define a visual, functional, or contextual parent/child relationship between DOM elements where the DOM hierarchy cannot be used to represent the relationship. */
+  owns: 'aria-owns',
+
+  /** Defines a short hint (a word or short phrase) intended to aid the user with data entry when the control has no value. A hint could be a sample value or a brief description of the expected format. */
+  placeholder: 'aria-placeholder',
+
+  /** Defines an element's number or position in the current set of listitems or treeitems. Not required if all elements in the set are present in the DOM. */
+  posInset: 'aria-posinset',
+
+  /** Indicates the current "pressed" state of toggle buttons. */
+  pressed: 'aria-pressed',
+
+  /** Indicates that the element is not editable, but is otherwise operable. */
+  readOnly: 'aria-readonly',
+
+  /** Indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified. */
+  relevant: 'aria-relevant',
+
+  /** Indicates that user input is required on the element before a form may be submitted. */
+  required: 'aria-required',
+
+  /** Defines a human-readable, author-localized description for the role of an element. */
+  roleDescription: 'aria-roledescription',
+
+  /** Defines the total number of rows in a table, grid, or treegrid. */
+  rowCount: 'aria-rowcount',
+
+  /** Defines an element's row index or position with respect to the total number of rows within a table, grid, or treegrid. */
+  rowIndex: 'aria-rowindex',
+
+  /** Defines the number of rows spanned by a cell or gridcell within a table, grid, or treegrid. */
+  rowSpan: 'aria-rowspan',
+
+  /** Indicates the current "selected" state of various widgets. */
+  selected: 'aria-selected',
+
+  /** Defines the number of items in the current set of listitems or treeitems. Not required if all elements in the set are present in the DOM. */
+  setSize: 'aria-setsize',
+
+  /** Indicates if items in a table or grid are sorted in ascending or descending order. */
+  sort: 'aria-sort',
+
+  /** Defines the maximum allowed value for a range widget. */
+  valueMax: 'aria-valuemax',
+
+  /** Defines the minimum allowed value for a range widget. */
+  valueMin: 'aria-valuemin',
+
+  /** Defines the current value for a range widget. */
+  valueNow: 'aria-valuenow',
+
+  /** Defines the human readable text alternative of aria-valuenow for a range widget. */
+  valueText: 'aria-valuetext'
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Object.freeze(aria));
+
+/***/ }),
 
 /***/ "./src/main.js":
 /*!*********************!*\
@@ -7,7 +185,6 @@
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "tryCatch": () => (/* binding */ tryCatch)
@@ -15,7 +192,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _patterns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patterns */ "./src/patterns.js");
-/* harmony import */ var _patterns__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_patterns__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util */ "./src/util.js");
 /* harmony import */ var _patterns_devcorate_devcorate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./patterns/devcorate/devcorate */ "./src/patterns/devcorate/devcorate.js");
 
@@ -70,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (/(Trident|MSIE)/.test(navigator.userAgent)) {
     return;
   } else {
-    _patterns__WEBPACK_IMPORTED_MODULE_1___default().forEach(launchPattern);
+    _patterns__WEBPACK_IMPORTED_MODULE_1__["default"].forEach(launchPattern);
     const parameters = (0,_util__WEBPACK_IMPORTED_MODULE_2__.parametersToObject)(location.search);
     parameters['dev'] && (0,_patterns_devcorate_devcorate__WEBPACK_IMPORTED_MODULE_3__.devcorate)(document.querySelector('body'), 'dev', parameters['dev']);
     parameters['rel'] && (0,_patterns_devcorate_devcorate__WEBPACK_IMPORTED_MODULE_3__.devcorate)(document.querySelector('body'), 'rel', parameters['rel']);
@@ -83,9 +259,39 @@ document.addEventListener('DOMContentLoaded', () => {
 /*!*************************!*\
   !*** ./src/patterns.js ***!
   \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patterns/accordion/accordion */ "./src/patterns/accordion/accordion.js");
+/* harmony import */ var _patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patterns/slider/slider */ "./src/patterns/slider/slider.js");
+
+
+/**
+ * Pattern library
+ *
+ * Exports an array of patterns to execute on startup.
+ *
+ * @module patterns
+ * @author Web Development
+ * @copyright City, University of London 2022
+ */
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([(_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0___default()), _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__["default"]]);
+
+/***/ }),
+
+/***/ "./src/patterns/accordion/accordion.js":
+/*!*********************************************!*\
+  !*** ./src/patterns/accordion/accordion.js ***!
+  \*********************************************/
 /***/ (() => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/rof/src/github.com/CityUniversityLondon/city-lite/src/patterns.js: Identifier 'accordion' has already been declared. (11:8)\n\n\u001b[0m \u001b[90m  9 |\u001b[39m \u001b[90m */\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m  \u001b[36mimport\u001b[39m accordion \u001b[36mfrom\u001b[39m \u001b[32m'./patterns/accordion/accordion'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m  \u001b[36mimport\u001b[39m accordion \u001b[36mfrom\u001b[39m \u001b[32m'./patterns/slider/slider'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m  \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m [\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m     accordion\u001b[33m,\u001b[39m\u001b[0m\n    at Parser._raise (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/error.js:150:45)\n    at Parser.raiseWithData (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/error.js:145:17)\n    at Parser.raise (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/error.js:89:17)\n    at ScopeHandler.checkRedeclarationInScope (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/util/scope.js:152:12)\n    at ScopeHandler.declareName (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/util/scope.js:113:12)\n    at Parser.checkLVal (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/lval.js:554:22)\n    at Parser.parseImportSpecifierLocal (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:2463:10)\n    at Parser.maybeParseDefaultImportSpecifier (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:2588:12)\n    at Parser.parseImport (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:2412:31)\n    at Parser.parseStatementContent (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:422:25)");
+
 
 /***/ }),
 
@@ -95,7 +301,6 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "devcorate": () => (/* binding */ devcorate)
@@ -135,13 +340,724 @@ function devcorate(elem, param, value) {
 
 /***/ }),
 
+/***/ "./src/patterns/slider/slider.js":
+/*!***************************************!*\
+  !*** ./src/patterns/slider/slider.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../util */ "./src/util.js");
+/* harmony import */ var _aria_attributes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../aria-attributes */ "./src/aria-attributes.js");
+
+
+
+
+
+
+/**
+ * Slider
+ *
+ * @module patterns/slider/slider
+ * @author Web Development
+ * @copyright City, University of London 2020
+ */
+
+
+
+const className = 'slider',
+      defaultStyle = 'arrows',
+      defaultCardsPerRow = 1,
+      arrowLeft = 'ArrowLeft',
+      arrowRight = 'ArrowRight';
+/**
+ * This adds a few swipe related events listeners to the "ul" element of sliders
+ * 
+ * @param  {HTMLElement} slider - The slider ul element.
+ * @param  {HTMLElement} controlsWrapper - The nav element containing the slider controls
+ */
+
+function addSwipeEvents(slider, controlsWrapper) {
+  slider.addEventListener('mousedown', function (e) {
+    lock(e, slider);
+  });
+  slider.addEventListener('touchstart', function (e) {
+    lock(e, slider);
+  });
+  slider.addEventListener('mouseup', function (e) {
+    move(e, slider, controlsWrapper);
+  });
+  slider.addEventListener('touchend', function (e) {
+    move(e, slider, controlsWrapper);
+  });
+}
+/**
+* For arrow responsive slider. Opimises slide elements for responsive slider on 
+* bigger screens by creating a new "ul li" structure containing the slides
+* 
+* @param  {HTMLElement} slider - The slider "ul" element.
+* @param  {Array} slides - an array containing the individual slides as li elements.
+* @param  {HTMLElement} controls - The "nav" element containing the controls
+* 
+*/
+
+
+function responsiveOptimisation(slides, slider, controls, direction) {
+  const responsiveNum = 2; // number of items per slide to display
+
+  let i;
+  let d;
+  let currentSlide; // This cycles through all the current slides and re-structure the list by creating a "new" which list contains
+  // the number of items per slide, as set above (responsiveNum)
+  //i.e. 
+  //  <ul>
+  //      <li> slide 1
+  //          <ul>
+  //              <li>item 1</li>
+  //              <li>item 2</li>
+  //          </ul>
+  //      </li>
+  //
+  //      <li> slide 2...item 3 & 4</li>
+  //      <li> slide 3...item 5 & 6</li>
+  //  </ul>
+
+  for (i = 0; i < slides.length; i += responsiveNum) {
+    let liElement = document.createElement('li');
+    let ulElement = document.createElement('ul');
+    liElement.appendChild(ulElement);
+
+    for (d = 0; d < responsiveNum; d++) {
+      if (slides[i + d]) {
+        ulElement.appendChild(slides[i + d]);
+        let sliderposition = slides[i + d].getAttribute('data-sliderposition');
+
+        if (sliderposition == '0') {
+          currentSlide = i + d;
+        }
+
+        slides[i + d].classList.remove('slide');
+        slides[i + d].removeAttribute('data-sliderposition');
+      }
+    }
+
+    slider.appendChild(liElement);
+  } // Re-map slide items after re-structure
+
+
+  slides = Array.from(slider.children); // Adds appropriate data attributes to slides
+
+  prepareSlides(slides, Math.floor((currentSlide + direction) / 2));
+  slider.setAttribute('data-optimised', 'true'); // Resets pagination during screensize change - not during launch
+
+  if (controls) {
+    slides[Math.floor((currentSlide + direction) / 2)].focus();
+    controls.querySelector('.slider__indicator__total').innerText = slides.length; //slides.length == 1? controls.querySelector('.slider__indicator__total').innerText=9 : controls.querySelector('.slider__indicator__total').innerText=slides.length;
+
+    controls.querySelector('.slider__indicator__current').innerText = Math.floor((currentSlide + direction) / 2) + 1;
+    updateButtonState(slider, controls);
+  }
+
+  slider.setAttribute('data-count', slides.length);
+  return slides;
+}
+/**
+ * For arrow responsive slider.This reverses the optimasation (re-structure) that was done in
+ * the function (responsiveOptimisation) above by creating a "normal" single structure ul list
+ * 
+ * @param  {HTMLElement} slider - The slider "ul" element.
+ * @param  {HTMLElement} controls - The "nav" element containing the controls
+ */
+
+
+function reverseOptimisation(slider, controls, direction, click) {
+  //formula for reverse is working
+  let slides = Array.from(slider.children);
+  let i;
+  let currentSlide;
+  let adjustment = 0;
+
+  for (i = 0; i < slides.length; i++) {
+    let sliderposition = slides[i].getAttribute('data-sliderposition');
+
+    if (sliderposition == '0') {
+      currentSlide = i;
+    }
+
+    const slidesChildren = Array.from(slides[i].querySelector('ul').children);
+    slidesChildren.forEach((slide, n) => {
+      slider.appendChild(slide);
+    });
+    slides[i].remove();
+  } // Re-map slide items after re-structure
+
+
+  slides = Array.from(slider.children); // Edge case for responsive sliders with only 2 items to avoid 'over scroll' in screen size switch over
+
+  if (currentSlide * 2 + (Math.round(direction / 2) + direction) >= slides.length) {
+    adjustment = -1;
+  } // Assigns data attributes and positioning to slides
+
+
+  prepareSlides(slides, currentSlide * 2 + Math.round(direction / 2) + direction + adjustment);
+  slider.setAttribute('data-optimised', 'false'); // Resets pagination and places focus on first slide
+
+  slides[currentSlide * 2 + (Math.round(direction / 2) + direction) + adjustment].focus();
+  controls.querySelector('.slider__indicator__total').innerText = slides.length;
+  controls.querySelector('.slider__indicator__current').innerText = currentSlide * 2 + (Math.round(direction / 2) + direction + 1) + adjustment;
+  slider.setAttribute('data-count', slides.length);
+  updateButtonState(slider, controls);
+  return slides;
+}
+/**
+ * Updates buttons for arrow slider
+ * 
+ * @param  {HTMLElement} slider - The slider element.
+ * @param  {HTMLElement} controls - The slider controls element.
+ */
+
+
+function updateButtonState(slider, controls) {
+  // Disables "next" or "prev" buttons if on first or last slide
+  const nextButton = controls.querySelector(".".concat(className, "__controls__next")),
+        prevButton = controls.querySelector(".".concat(className, "__controls__prev"));
+  slider.querySelector('[data-sliderposition="-1"]') ? prevButton.removeAttribute('disabled') : prevButton.setAttribute('disabled', true);
+  slider.querySelector('[data-sliderposition="1"]') ? nextButton.removeAttribute('disabled') : nextButton.setAttribute('disabled', true);
+  slider.removeAttribute('disabled'); // Responsive slider edge case for when 2 items to allow next arrow to be clicable to allow switch over
+
+  const responsive = slider.getAttribute('data-style');
+  let slides = Array.from(slider.children);
+  responsive && slides.length == 1 ? nextButton.removeAttribute('disabled') : null;
+}
+/**
+ * Handle clicks on the next/previous buttons for arrow slider.
+ *
+ * @param  {HTMLElement} slider - The slider element.
+ * @param  {Number} direction - The scroll direction, 1 = next, -1 = previous.
+ */
+
+
+function handleNextPrevClick(slider, controls, direction) {
+  let slides = Array.from(slider.children);
+  const responsive = slider.getAttribute('data-style');
+  const optimised = slider.getAttribute('data-optimised');
+  let screenSize = window.innerWidth; // This is for responsive slider only, checking if re-structuring is necesssary in case the viewport size changed.
+
+  if (responsive === 'responsive' && screenSize < 768 && optimised == 'true') {
+    reverseOptimisation(slider, controls, direction, true);
+    return;
+  } else if (responsive === 'responsive' && screenSize >= 768 && optimised !== 'true') {
+    responsiveOptimisation(slides, slider, controls, direction);
+    return;
+  }
+
+  const current = slider.querySelector('[data-sliderposition="0"]'),
+        currentPage = controls.querySelector(".".concat(className, "__indicator__current")),
+        nextButton = controls.querySelector(".".concat(className, "__controls__next")),
+        prevButton = controls.querySelector(".".concat(className, "__controls__prev")); // Next arrow clicked
+
+  if (direction === 1) {
+    const next = current.nextElementSibling;
+
+    if (next) {
+      // Disables buttons during slide animation from current to next
+      nextButton.setAttribute('disabled', true);
+      prevButton.setAttribute('disabled', true); // Move focus to next slide, wait for transition to finish
+
+      next.addEventListener('transitionend', function focusNext() {
+        next.removeEventListener('transitionend', focusNext, true);
+        next.focus();
+        updateButtonState(slider, controls);
+      }, true); // Hide current slide once transition has finished
+
+      current.addEventListener('transitionend', function hideCurrent() {
+        current.removeEventListener('transitionend', hideCurrent, true);
+        current.dataset.hidden = true;
+        current.dataset.smallhidden = true;
+      }, true); // Updates position of slides
+      // Moves current slide to back to previous position
+
+      current.dataset.sliderposition = -1;
+      current.dataset.smallposition = -1; // Sets 'active' current slide
+
+      next.dataset.hidden = false;
+      next.dataset.smallhidden = false;
+      next.dataset.sliderposition = 0;
+      next.dataset.smallposition = 0; // Updates pagination to current slide position
+
+      currentPage.innerText = slides.indexOf(next) + 1;
+    }
+  } else {
+    // Previous arrow clicked
+    const previous = current.previousElementSibling;
+
+    if (previous) {
+      nextButton.setAttribute('disabled', true);
+      prevButton.setAttribute('disabled', true);
+      previous.addEventListener('transitionend', function focusPrevious() {
+        previous.removeEventListener('transitionend', focusPrevious, true);
+        previous.focus();
+        updateButtonState(slider, controls);
+      }, true);
+      current.addEventListener('transitionend', function hideCurrent() {
+        current.removeEventListener('transitionend', hideCurrent, true);
+        current.dataset.hidden = true;
+        current.dataset.smallhidden = true;
+      }, true); // Updates position of slides
+      // Moves current slide forward to next position
+
+      current.dataset.sliderposition = 1;
+      current.dataset.smallposition = 1; // Sets current / active slide
+
+      previous.dataset.hidden = false;
+      previous.dataset.smallhidden = false;
+      previous.dataset.sliderposition = 0;
+      previous.dataset.smallposition = 0; // Updates pagination to current slide
+
+      currentPage.innerText = slides.indexOf(previous) + 1;
+    }
+  } // Set the height of the slider container to be fixed. This fixes the issue of having 'arrow navigation'
+  //slideHeightFix(slider);
+
+}
+/**
+ * This is for arrow slider only. It applies the necessary data attribues needed
+ *  for the functionality of the slider which positions the slides into their starting positions
+ * 
+ * @param  {Array} slides - an array containing the individual slides as li elements
+ */
+
+
+function prepareSlides(slides, current) {
+  slides.forEach((slide, i) => {
+    slide.setAttribute('tabindex', -1); // Remove inactive
+
+    slide.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].label, "Slide ".concat(i + 1, " of ").concat(slides.length)); // Accesiblity
+
+    slide.classList.add('slide'); // Add slide class of slide
+    // 0 = active / first slide
+
+    if (i === current) {
+      slide.dataset.sliderposition = 0;
+      slide.dataset.smallposition = 0;
+      slide.dataset.hidden = false;
+    } else if (i > current) {
+      // 1 = next slide
+      slide.dataset.sliderposition = 1;
+      slide.dataset.smallposition = 1;
+      slide.dataset.hidden = 'true';
+      slide.dataset.smallhidden = 'true';
+    } else {
+      slide.dataset.sliderposition = -1;
+      slide.dataset.smallposition = -1;
+      slide.dataset.hidden = true; // @ WR review smallhidden - what was intended by it?
+    }
+  });
+  return slides;
+}
+/**
+ * Transform an element with the slider class name into a slider section controlled by arrows.
+ *
+ * @param {HTMLElement} slider - An element with the slider class
+ * 
+ */
+
+
+function launchArrow(slider) {
+  // creates elements for pagination and controls
+  let slides = Array.from(slider.children);
+  const controlsWrapper = document.createElement('nav'),
+        nextButton = document.createElement('button'),
+        nextButtonSpan = document.createElement('span'),
+        prevButton = document.createElement('button'),
+        prevButtonSpan = document.createElement('span'),
+        indicator = document.createElement('div'),
+        currentPage = document.createElement('span'),
+        totalPages = document.createElement('span'),
+        divider = document.createElement('span'),
+        dividerVisible = document.createElement('span'),
+        dividerScreenReader = document.createElement('span'); // If not enough slides, don't create it.
+
+  if (1 >= slides.length) {
+    (0,_util__WEBPACK_IMPORTED_MODULE_3__.removeClass)(slider, className, false);
+    return;
+  } // Reconstructs slides for responsive slider
+
+
+  const responsive = slider.getAttribute('data-style');
+  let screenSize = window.innerWidth;
+
+  if (responsive === 'responsive' && screenSize >= 768) {
+    responsiveOptimisation(slides, slider); // Re-map slide items after re-structure
+
+    slides = Array.from(slider.children);
+  }
+
+  ; // Sets up the positions of the cards / slides
+
+  prepareSlides(slides, 0); // Build the next button
+
+  nextButtonSpan.appendChild(document.createTextNode('Next slide'));
+  nextButton.appendChild(nextButtonSpan);
+  nextButton.setAttribute('type', 'button');
+  nextButton.className = className + '__controls__next'; // Wait for Click on next button
+
+  nextButton.addEventListener('click', () => handleNextPrevClick(slider, controlsWrapper, 1), true); // Build the previous button
+
+  prevButtonSpan.appendChild(document.createTextNode('Previous slide'));
+  prevButton.appendChild(prevButtonSpan);
+  prevButton.setAttribute('type', 'button');
+  prevButton.setAttribute('disabled', 'true');
+  prevButton.className = className + '__controls__prev'; // Wait for Click on previous button
+
+  prevButton.addEventListener('click', () => handleNextPrevClick(slider, controlsWrapper, -1), true); // Accessiblity wait for key press anywhere within slider
+
+  slider.addEventListener('keydown', e => {
+    switch (e.key) {
+      case arrowLeft:
+        prevButton.click();
+        break;
+
+      case arrowRight:
+        nextButton.click();
+        break;
+
+      default:
+        break;
+    }
+  }, true); // apply CSS to card which is currently visible
+
+  currentPage.appendChild(document.createTextNode(1)); // default is 1 when page loads
+
+  currentPage.className = className + '__indicator__current'; // Divider between 1 / 4 etc.
+
+  dividerVisible.appendChild(document.createTextNode('/'));
+  dividerVisible.className = className + '__indicator__divider--visible';
+  dividerVisible.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].hidden, 'true');
+  dividerScreenReader.appendChild(document.createTextNode(' of '));
+  dividerScreenReader.className = className + '__indicator__divider--sr';
+  divider.appendChild(dividerVisible);
+  divider.appendChild(dividerScreenReader);
+  divider.className = className + '__indicator__divider'; // Total pages
+
+  totalPages.className = className + '__indicator__total';
+  totalPages.appendChild(document.createTextNode(slides.length)); // Add to page
+
+  indicator.appendChild(currentPage);
+  indicator.appendChild(divider);
+  indicator.appendChild(totalPages);
+  indicator.className = className + '__indicator'; // Wrap element around slider__controls
+
+  controlsWrapper.appendChild(indicator);
+  controlsWrapper.appendChild(prevButton);
+  controlsWrapper.appendChild(nextButton);
+  controlsWrapper.className = className + '__controls';
+  controlsWrapper.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].label, 'Slider navigation'); // Places controls directly after 'ul' containing the slides
+
+  slider.nextElementSibling ? slider.parentElement.insertBefore(controlsWrapper, slider.nextElementSibling) : slider.parentElement.appendChild(controlsWrapper); // Add event listeners
+
+  addSwipeEvents(slider, controlsWrapper); // Set the height of the slider container to be fixed. This fixes the issue of having 'arrow navigation'
+  //slideHeightFix(slider);
+}
+
+;
+/**
+ * Transform an element with the slider class name into a slider section controlled by dots.
+ * This is to be launched on smaller screens only.
+ *
+ * @param {HTMLElement} slider - An element with the slider class
+ * 
+ */
+
+function launchDot(slider) {
+  // Creates pagination and control elements
+  const slides = Array.from(slider.children),
+        controlsWrapper = document.createElement('nav'); // If not enough slides, don't create it.
+
+  if (1 >= slides.length) {
+    (0,_util__WEBPACK_IMPORTED_MODULE_3__.removeClass)(slider, className, false);
+    return;
+  }
+
+  slides.forEach((slide, i) => {
+    slide.setAttribute('tabindex', -1); // Remove inactive
+
+    slide.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].label, "Slide ".concat(i + 1, " of ").concat(slides.length)); // Accesiblity
+
+    slide.classList.add('slide'); // Add slide class of slide
+    // Sets data attributes for slides which controls their position within slide collection
+
+    if (i === 0) {
+      slide.dataset.sliderposition = 0; // 0 for active slide
+
+      slide.dataset.smallposition = 0;
+      slide.dataset.hidden = false;
+    } else {
+      slide.dataset.sliderposition = 1; // 1 for 'next' slide
+
+      slide.dataset.smallposition = 1;
+      slide.dataset.hidden = 'true';
+      slide.dataset.smallhidden = 'true';
+    } // Creates dot buttons for each slide
+
+
+    let dot = (0,_util__WEBPACK_IMPORTED_MODULE_3__.createHTMLElement)('button', [{
+      label: 'data-page',
+      val: i
+    }, {
+      label: 'aria-label',
+      val: "Open slide ".concat(i + 1)
+    }, {
+      label: 'type',
+      val: 'button'
+    }]);
+
+    if (i === 0) {
+      // Active slide
+      dot.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].current, 'slide');
+      dot.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].expanded, 'true');
+      dot.setAttribute('disabled', 'true');
+    } else {
+      // All other slides
+      dot.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].expanded, 'false');
+    }
+
+    dot.addEventListener('click', () => handleDotClick(slider, controlsWrapper, i), true);
+    controlsWrapper.appendChild(dot);
+  }); // Accessiblity wait for key press anywhere within slider
+
+  slider.addEventListener('keydown', e => {
+    const current = slider.querySelector('[data-sliderposition="0"]');
+    const next = current.nextElementSibling;
+    const previous = current.previousElementSibling;
+    const pos = slides.indexOf(current);
+    const buttons = Array.from(controlsWrapper.children);
+
+    switch (e.key) {
+      case arrowLeft:
+        if (previous) {
+          buttons[pos - 1].click();
+        }
+
+        break;
+
+      case arrowRight:
+        if (next) {
+          buttons[pos + 1].click();
+        }
+
+        ;
+        break;
+
+      default:
+        break;
+    }
+  }, true); // Wrap element around slider__controls
+
+  controlsWrapper.className = className + '__controls';
+  controlsWrapper.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_4__["default"].label, 'Slider navigation'); // Places controls directly after 'ul' containing the slides
+
+  slider.nextElementSibling ? slider.parentElement.insertBefore(controlsWrapper, slider.nextElementSibling) : slider.parentElement.appendChild(controlsWrapper); //add event listeners
+
+  addSwipeEvents(slider, controlsWrapper); // Set the height of the slider container to be fixed. This fixes the issue of having 'arrow navigation'
+  //slideHeightFix(slider);
+}
+/**
+ * Handle clicks for dot slider
+ *
+ * @param  {HTMLElement} slider - The slider element.
+ * @param  {Number} selection - pass the paramaetr of selected slide as a number
+ * @param  {HTMLElement} controlsWrapper - Element containing the control buttons
+ */
+
+
+function handleDotClick(slider, controlsWrapper, selection) {
+  const slides = Array.from(slider.children),
+        dotButtons = Array.from(controlsWrapper.children); // Disables all buttons after click to avoid multiple clicks
+
+  dotButtons.forEach((dot, i) => {
+    dot.setAttribute('disabled', true);
+  }); // Re-arranges the positions of the slides
+
+  slides.forEach((slide, i) => {
+    // Cycles through slides and makes active the one 'selected'
+    if (i === selection) {
+      slide.dataset.sliderposition = 0;
+      slide.dataset.smallposition = 0;
+      slide.dataset.hidden = false;
+      slide.addEventListener('transitionend', function focusNext() {
+        slide.removeEventListener('transitionend', focusNext, true);
+        slide.focus();
+        updateDotButtonState(i, dotButtons, slider);
+      }, true);
+    } // Places slides 'after' current slide in next position
+    else if (i > selection) {
+      slide.dataset.sliderposition = 1;
+      slide.dataset.smallposition = 1;
+      slide.dataset.hidden = true; // @ WR review smallhidden - what was intended by it?
+    } // Places slides 'before' current slide in previous position
+    else {
+      slide.dataset.sliderposition = -1;
+      slide.dataset.smallposition = -1;
+      slide.dataset.hidden = true; // @ WR review smallhidden - what was intended by it?
+    }
+  }); // Set the height of the slider container to be fixed. This fixes the issue of having 'arrow navigation'
+  //slideHeightFix(slider);
+}
+/**
+ * @param  {number} active - This is the number/index of the 'active' slide.
+ * @param  {array} dotButtons - An array of all the dot buttons.
+ */
+
+
+function updateDotButtonState(active, dotButtons, slider) {
+  dotButtons.forEach((dot, i) => {
+    if (i === active) {
+      dot.setAttribute('disabled', true);
+      dot.setAttribute('aria-expanded', true);
+    } else {
+      dot.removeAttribute('disabled');
+      dot.setAttribute('aria-expanded', false);
+    }
+  });
+  slider.removeAttribute('disabled');
+}
+/**
+ * This function creates a fix height for the slider container so the height don't change depending on each 
+ * slides individual height which would cause the navigation arrows to move up and down when adjusting to the 
+ * height of the current slide
+ * @param  {HTMLElement} slider - The slider element.
+ */
+
+
+function slideHeightFix(slider) {
+  let slides = Array.from(slider.children);
+  let sliderSetHeight = 0;
+  slider.style.minHeight = '0px';
+  slides.forEach(slide => {
+    let slideHeight = slide.offsetHeight;
+    slideHeight > sliderSetHeight ? sliderSetHeight = slideHeight : null;
+  });
+  slider.style.minHeight = sliderSetHeight + 'px';
+}
+
+;
+/**
+ * 3 Swipe functions below. Unify records touch coordinates to determine left or right swipe.
+ * Lock function locks the ul element to prevent too many additional touches interfering with the sliding 
+ * functionality. I.e. when a slide is in progress it locks it not to register additional touches.
+ * Move function monitors the 'end' of the swipe action to determine the direction of the swipe i.e. left / right.
+ * The "dx" parameter can be used to adjust the sensitivity of the swiping. The larger the number the longer the swipe needs
+ * to be to register as an actual swipe.
+ *
+ * @param {event} e - Touch event
+ * @param {HTMLElement} Slider - The ul element containing the "li" slides
+ * @param {HTMLElement} ControlsWrapper - The nav element containing the slider controls
+ */
+
+let x0;
+
+function unify(e) {
+  return e.changedTouches ? e.changedTouches[0] : e;
+}
+
+function lock(e, slider) {
+  const locked = slider.getAttribute('disabled');
+
+  if (!locked) {
+    x0 = unify(e).clientX; //set mousedown clientX value
+    //e.target.classList.toggle('smooth', !(this.locked = true));
+  }
+}
+
+;
+
+function move(e, slider, controlsWrapper) {
+  const locked = slider.getAttribute('disabled');
+  let currentSlide = slider.querySelector("li[data-hidden=false]");
+  const sliderType = slider.getAttribute('data-style');
+
+  function getElementIndex(element) {
+    return [...element.parentNode.children].indexOf(element);
+  }
+
+  ;
+
+  if (!locked) {
+    let dx = unify(e).clientX - x0,
+        //dx is value calculate by using clientX mousedown and after value
+    s = Math.sign(dx),
+        //check if swipe is left or right by checking value is negative or positive
+    tx = getComputedStyle(e.target).getPropertyValue('--tx'),
+        p = parseInt(tx.replace(/\D/g, '')); // May use the drag length as a condition to move slider
+    // Next slide
+
+    if (s == -1 && currentSlide.nextElementSibling && dx < -25) {
+      // Checks which type of slider you are using and handles slide
+      slider.setAttribute('disabled', true);
+      sliderType == 'arrows' || sliderType === 'responsive' ? handleNextPrevClick(slider, controlsWrapper, 1) : handleDotClick(slider, controlsWrapper, getElementIndex(currentSlide) + 1);
+    } // Previous slide 
+    else if (s == 1 && currentSlide.previousElementSibling && dx > 25) {
+      // Checks which type of slider you are using and handles slide
+      slider.setAttribute('disabled', true);
+      sliderType == 'arrows' || sliderType === 'responsive' ? handleNextPrevClick(slider, controlsWrapper, -1) : handleDotClick(slider, controlsWrapper, getElementIndex(currentSlide) - 1);
+    }
+  }
+} // End of swipe functions
+
+/**
+ * Transform an element with the slider class name into a slider section.
+ * 
+ * @param {HTMLElement} slider - An element with the slider class
+ */
+
+
+function launchSlider(slider) {
+  console.log('test W');
+  const style = slider.dataset.style || defaultStyle,
+        cardsPerRow = parseInt(slider.dataset.cardsperrow) || defaultCardsPerRow; // CardsPerRow not currently in use. Tom's old code. 
+  // Might have use case for bigger screen which have capacity to have more than 1 item per slide.
+
+  switch (style) {
+    case 'arrows':
+      launchArrow(slider, cardsPerRow);
+      break;
+
+    case 'responsive':
+      launchArrow(slider, cardsPerRow);
+      break;
+
+    case 'dots':
+      launchDot(slider, cardsPerRow);
+      break;
+
+    default:
+      launchArrow(slider, cardsPerRow);
+  }
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  launchFn: launchSlider,
+  launchQuery: ".".concat(className)
+});
+
+/***/ }),
+
 /***/ "./src/util.js":
 /*!*********************!*\
   !*** ./src/util.js ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "removeClass": () => (/* binding */ removeClass),
