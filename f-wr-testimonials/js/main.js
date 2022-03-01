@@ -1047,8 +1047,6 @@ function move(e, slider, controlsWrapper) {
 
 
 function launchSlider(slider) {
-  alert("hallo");
-  console.log('test W');
   const style = slider.dataset.style || defaultStyle,
         cardsPerRow = parseInt(slider.dataset.cardsperrow) || defaultCardsPerRow; // CardsPerRow not currently in use. Tom's old code. 
   // Might have use case for bigger screen which have capacity to have more than 1 item per slide.
@@ -1091,7 +1089,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "objectToParameters": () => (/* binding */ objectToParameters),
 /* harmony export */   "gaEvent": () => (/* binding */ gaEvent),
 /* harmony export */   "detectIE": () => (/* binding */ detectIE),
-/* harmony export */   "checkIntersectionObserver": () => (/* binding */ checkIntersectionObserver)
+/* harmony export */   "checkIntersectionObserver": () => (/* binding */ checkIntersectionObserver),
+/* harmony export */   "createHTMLElement": () => (/* binding */ createHTMLElement)
 /* harmony export */ });
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -1218,6 +1217,20 @@ function checkIntersectionObserver() {
   } else {
     return false;
   }
+}
+/**
+ * Create elements containing classes, content and any other attributes
+ *
+ * @param {string} type - Type of element to create, e.g. "div", "button".
+ * @param {array} attributes - Array of objects specifying which attributes to assign to the element i.e. {label : "class", val : "container"}
+ */
+
+function createHTMLElement(type, attributes) {
+  let el = document.createElement(type);
+  attributes.map(function (att) {
+    att.label === 'content' ? el.appendChild(document.createTextNode(att.val)) : att.label === 'html' ? el.innerHTML = att.val : el.setAttribute(att.label, att.val);
+  });
+  return el;
 }
 
 /***/ })
