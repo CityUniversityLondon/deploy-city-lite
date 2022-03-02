@@ -208,6 +208,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const edgeVersion = 12;
+console.log("line 12");
 /**
  * try a function, log the error if it throws an exception.
  *
