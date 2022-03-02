@@ -244,8 +244,10 @@ function launchPattern(pattern) {
 
 document.addEventListener('DOMContentLoaded', () => {
   if (/(Trident|MSIE)/.test(navigator.userAgent)) {
+    console.log("if line 55");
     return;
   } else {
+    console.log("else...remove no-js!!");
     Array.from(document.getElementsByTagName('html')).forEach(html => {
       let ie = (0,_util__WEBPACK_IMPORTED_MODULE_2__.detectIE)();
       (0,_util__WEBPACK_IMPORTED_MODULE_2__.removeClass)(html, 'no-js', false);
@@ -1047,7 +1049,6 @@ function move(e, slider, controlsWrapper) {
 
 
 function launchSlider(slider) {
-  console.log('testt');
   const style = slider.dataset.style || defaultStyle,
         cardsPerRow = parseInt(slider.dataset.cardsperrow) || defaultCardsPerRow; // CardsPerRow not currently in use. Tom's old code. 
   // Might have use case for bigger screen which have capacity to have more than 1 item per slide.
