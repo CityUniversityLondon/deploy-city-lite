@@ -231,6 +231,8 @@ function tryCatch(f) {
  */
 
 function launchPattern(pattern) {
+  console.log("launchpattern run");
+
   if (typeof pattern === 'function') {
     tryCatch(pattern);
   } else if (pattern.launchQuery) {
