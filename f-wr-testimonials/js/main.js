@@ -208,7 +208,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const edgeVersion = 12;
-console.log("line 12");
 /**
  * try a function, log the error if it throws an exception.
  *
@@ -232,8 +231,6 @@ function tryCatch(f) {
  */
 
 function launchPattern(pattern) {
-  console.log("launchpattern run");
-
   if (typeof pattern === 'function') {
     tryCatch(pattern);
   } else if (pattern.launchQuery) {
@@ -247,10 +244,8 @@ function launchPattern(pattern) {
 
 document.addEventListener('DOMContentLoaded', () => {
   if (/(Trident|MSIE)/.test(navigator.userAgent)) {
-    console.log("if line 55");
     return;
   } else {
-    console.log("else...remove no-js!!");
     Array.from(document.getElementsByTagName('html')).forEach(html => {
       let ie = (0,_util__WEBPACK_IMPORTED_MODULE_2__.detectIE)();
       (0,_util__WEBPACK_IMPORTED_MODULE_2__.removeClass)(html, 'no-js', false);
@@ -313,10 +308,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const className = 'accordion';
 
-const launchAccordion = function () {
-  console.log('hello world');
-  ;
-};
+const launchAccordion = function () {};
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   launchFn: launchAccordion,
