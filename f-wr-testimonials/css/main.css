@@ -11482,65 +11482,51 @@ figure figcaption a:active,
 }
 .testimonials__wrapper .testimonials__heading {
     text-align: center;
-    color: #ffffff;
 }
 .testimonials__wrapper .testimonials {
-    grid-template-columns: repeat(24, 1fr);
-    grid-column-gap: 0;
-    display: grid;
     margin-top: 0.5rem;
-}
-@media (min-width: 768px) {
-    .testimonials__wrapper .testimonials {
-        grid-column-gap: 1rem;
-    }
-}
-@media (min-width: 901px) {
-    .testimonials__wrapper .testimonials {
-        grid-column-gap: 1.5rem;
-    }
 }
 .testimonials__wrapper .testimonials .slider {
     max-width: inherit;
-    grid-column: 1/-1;
 }
 .testimonials__wrapper .testimonials .slider .card__details {
-    grid-template-columns: repeat(24, 1fr);
-    grid-column-gap: 0;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
-@media (min-width: 768px) {
-    .testimonials__wrapper .testimonials .slider .card__details {
-        grid-column-gap: 1rem;
-    }
+.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 2rem;
+    align-self: stretch;
+    flex-basis: 50%;
 }
-@media (min-width: 901px) {
-    .testimonials__wrapper .testimonials .slider .card__details {
-        grid-column-gap: 1.5rem;
-    }
+.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail img {
+    z-index: 1;
+    position: relative;
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail::after {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 2rem;
+    z-index: 0;
+    content: "";
+    left: 0;
 }
 .testimonials__wrapper .testimonials .slider .card__details .card__details__container {
-    grid-column: 3/-2;
-    grid-template-columns: repeat(24, 1fr);
-    grid-column-gap: 0;
-    display: grid;
-    background-color: #ffffff;
-    z-index: 0;
-    margin-top: -17rem;
-    height: 19rem;
-}
-@media (min-width: 768px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container {
-        grid-column-gap: 1rem;
-    }
-}
-@media (min-width: 901px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container {
-        grid-column-gap: 1.5rem;
-    }
+    overflow: hidden;
+    align-self: stretch;
+    flex-basis: 50%;
+    display: flex;
 }
 .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text {
-    grid-column: 13/-2;
+    margin-top: 2rem;
+    height: 100%;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
 }
 .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote {
     position: relative;
@@ -11624,13 +11610,34 @@ figure figcaption a:active,
     position: absolute;
     bottom: 0;
 }
-.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail {
-    grid-column: 2/13;
-    z-index: 1;
-}
 .testimonials__wrapper .testimonials .slider + .slider__controls {
-    grid-column: 1/-2;
+    margin-right: 2rem;
     max-width: inherit;
+}
+
+.testimonials__wrapper.background--pink90 {
+    background-color: #3e1031;
+}
+.testimonials__wrapper.background--pink90 .testimonials__heading {
+    color: #ffffff;
+}
+.testimonials__wrapper.background--pink90 .testimonials .slider .card__details__text {
+    background-color: #ffffff;
+}
+.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__indicator .slider__indicator__divider, .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__indicator .slider__indicator__current {
+    color: #ffffff;
+}
+.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:not(:disabled) {
+    background: #ffffff;
+}
+.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:focus:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:active:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:focus:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:active:not(:disabled) {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:disabled, .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:disabled {
+    color: #ffffff;
 }
 
 @media (max-width: 1023px) {
