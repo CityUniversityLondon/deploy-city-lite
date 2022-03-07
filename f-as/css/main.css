@@ -599,12 +599,12 @@
     }
 }
 
-.cta--icon {
+.cta-icon--arrow {
     display: inline-flex;
     position: relative;
     transition: background-color 0.6s, transform 0.6s;
 }
-.cta--icon:after {
+.cta-icon--arrow:after {
     content: "\f061";
     font-family: "Font Awesome";
     opacity: 0;
@@ -613,15 +613,15 @@
     transform: translateX(-0.75rem);
     transition: background-color 0.6s, transform 0.6s;
 }
-.cta--icon span {
+.cta-icon--arrow span {
     transition: transform 0.6s;
 }
 @media (hover: hover) {
-    .cta--icon:focus:after, .cta--icon:hover:after {
+    .cta-icon--arrow:focus:after, .cta-icon--arrow:hover:after {
         opacity: 1;
         transform: translateX(0.75rem);
     }
-    .cta--icon:focus span, .cta--icon:hover span {
+    .cta-icon--arrow:focus span, .cta-icon--arrow:hover span {
         transform: translateX(-0.75rem);
     }
 }
