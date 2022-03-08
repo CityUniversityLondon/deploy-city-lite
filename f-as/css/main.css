@@ -11073,182 +11073,6 @@ figure figcaption a:active,
     }
 }
 
-.testimonials__wrapper {
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.5rem;
-    grid-column: 1/-1;
-    margin-top: 1.5rem;
-}
-.testimonials__wrapper .testimonials__heading {
-    text-align: center;
-}
-.testimonials__wrapper .testimonials {
-    margin-top: 0.5rem;
-}
-.testimonials__wrapper .testimonials .slider {
-    max-width: inherit;
-}
-@media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details {
-    display: flex;
-    flex-direction: row;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-@media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card__details {
-        flex-direction: column;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail {
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 2rem;
-    align-self: stretch;
-    flex-basis: 50%;
-}
-@media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__thumbnail {
-        padding-bottom: 0;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail img {
-    z-index: 1;
-    position: relative;
-}
-@media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__thumbnail img {
-        margin-left: 1.75rem;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail::after {
-    background-color: #ffffff;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-left: 2rem;
-    z-index: 0;
-    content: "";
-    left: 0;
-}
-@media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__thumbnail::after {
-        margin-left: 0;
-        margin-top: 1.75rem;
-        top: 0;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container {
-    overflow: hidden;
-    align-self: stretch;
-    flex-basis: 50%;
-    display: flex;
-    padding-top: 2rem;
-}
-@media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container {
-        padding-top: 0;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text {
-    height: 100%;
-    padding: 1.5rem;
-}
-@media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text {
-        width: 100%;
-        padding-top: 0;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote {
-    position: relative;
-    padding-left: 0.75rem;
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
-    font-size: 1.266rem;
-    line-height: 1.3333333333;
-    letter-spacing: -0.011em;
-    font-family: "Meta Sans", sans-serif;
-    font-feature-settings: "ss01" 1, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 1.625;
-    margin-top: 0.75rem;
-    max-width: 55ch;
-    display: inline;
-    /**
-    * Quotation mark line height equal to other lines, even though
-    * the font size is greater.
-    **/
-    line-height: 1;
-}
-@media (min-width: 1280px) and (max-width: 1919px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
-        letter-spacing: -0.013em;
-    }
-}
-@media (min-width: 1920px) and (max-width: 3839px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
-        letter-spacing: -0.015em;
-    }
-}
-@media (min-width: 3840px) and (max-width: 7679px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
-        letter-spacing: -0.017em;
-    }
-}
-@media (min-width: 7680px) {
-    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
-        letter-spacing: -0.017em;
-    }
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em {
-    font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before {
-    content: "“";
-}
-.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
-    content: "”";
-}
-.testimonials__wrapper .testimonials .slider + .slider__controls {
-    margin-right: 2rem;
-    max-width: inherit;
-}
-
-.testimonials__wrapper.background--pink90 {
-    background-color: #3e1031;
-}
-.testimonials__wrapper.background--pink90 .testimonials__heading {
-    color: #ffffff;
-}
-.testimonials__wrapper.background--pink90 .testimonials .slider .card__details__text {
-    background-color: #ffffff;
-}
-.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__indicator .slider__indicator__divider, .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__indicator .slider__indicator__current {
-    color: #ffffff;
-}
-.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:not(:disabled) {
-    background: #ffffff;
-}
-.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:focus:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:active:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:focus:not(:disabled), .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:active:not(:disabled) {
-    outline-color: #ffffff;
-    outline-offset: 0.1875rem;
-    outline-style: dotted;
-    outline-width: 0.125rem;
-}
-.testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__next:disabled, .testimonials__wrapper.background--pink90 .testimonials .slider__controls .slider__controls__prev:disabled {
-    color: #ffffff;
-}
-
 @media (max-width: 1023px) {
     main > .lifelong-learning .embedded-video .youtube-video {
         margin-top: 1.25rem;
@@ -11401,6 +11225,182 @@ figure figcaption a:active,
 .tabs__panel__body > .embedded-video:first-child,
 .wrapper--accordion__body__content > .embedded-video:first-child {
     padding-top: 0;
+}
+
+.testimonials__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    grid-column: 1/-1;
+    margin-top: 1.5rem;
+}
+.testimonials__wrapper .testimonials__heading {
+    text-align: center;
+}
+.testimonials__wrapper .testimonials {
+    margin-top: 0.5rem;
+}
+.testimonials__wrapper .testimonials .slider {
+    max-width: inherit;
+}
+@media (max-width: 767px) {
+    .testimonials__wrapper .testimonials .slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+@media (max-width: 767px) {
+    .testimonials__wrapper .testimonials .slider .card__details {
+        flex-direction: column;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 2rem;
+    align-self: stretch;
+    flex-basis: 50%;
+}
+@media (max-width: 767px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__thumbnail {
+        padding-bottom: 0;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail img {
+    z-index: 1;
+    position: relative;
+}
+@media (max-width: 767px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__thumbnail img {
+        margin-left: 1.75rem;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__thumbnail::after {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 2rem;
+    z-index: 0;
+    content: "";
+    left: 0;
+}
+@media (max-width: 767px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__thumbnail::after {
+        margin-left: 0;
+        margin-top: 1.75rem;
+        top: 0;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container {
+    overflow: hidden;
+    align-self: stretch;
+    flex-basis: 50%;
+    display: flex;
+    padding-top: 2rem;
+}
+@media (max-width: 767px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__details__container {
+        padding-top: 0;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text {
+    height: 100%;
+    padding: 1.5rem;
+}
+@media (max-width: 767px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text {
+        width: 100%;
+        padding-top: 0;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote {
+    position: relative;
+    padding-left: 0.75rem;
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    font-size: 1.266rem;
+    line-height: 1.3333333333;
+    letter-spacing: -0.011em;
+    font-family: "Meta Sans", sans-serif;
+    font-feature-settings: "ss01" 1, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.625;
+    margin-top: 0.75rem;
+    max-width: 55ch;
+    display: inline;
+    /**
+    * Quotation mark line height equal to other lines, even though
+    * the font size is greater.
+    **/
+    line-height: 1;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+        letter-spacing: -0.013em;
+    }
+}
+@media (min-width: 1920px) and (max-width: 3839px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+        letter-spacing: -0.015em;
+    }
+}
+@media (min-width: 3840px) and (max-width: 7679px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 7680px) {
+    .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+        letter-spacing: -0.017em;
+    }
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em, .testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em {
+    font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:before {
+    content: "“";
+}
+.testimonials__wrapper .testimonials .slider .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    content: "”";
+}
+.testimonials__wrapper .testimonials .slider + .slider__controls {
+    margin-right: 2rem;
+    max-width: inherit;
+}
+
+.testimonials__wrapper {
+    background-color: #3e1031;
+}
+.testimonials__wrapper .testimonials__heading {
+    color: #ffffff;
+}
+.testimonials__wrapper .testimonials .slider .card__details__text {
+    background-color: #ffffff;
+}
+.testimonials__wrapper .testimonials .slider__controls .slider__indicator .slider__indicator__divider, .testimonials__wrapper .testimonials .slider__controls .slider__indicator .slider__indicator__current {
+    color: #ffffff;
+}
+.testimonials__wrapper .testimonials .slider__controls .slider__controls__next:not(:disabled), .testimonials__wrapper .testimonials .slider__controls .slider__controls__prev:not(:disabled) {
+    background: #ffffff;
+}
+.testimonials__wrapper .testimonials .slider__controls .slider__controls__next:focus:not(:disabled), .testimonials__wrapper .testimonials .slider__controls .slider__controls__next:active:not(:disabled), .testimonials__wrapper .testimonials .slider__controls .slider__controls__prev:focus:not(:disabled), .testimonials__wrapper .testimonials .slider__controls .slider__controls__prev:active:not(:disabled) {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.testimonials__wrapper .testimonials .slider__controls .slider__controls__next:disabled, .testimonials__wrapper .testimonials .slider__controls .slider__controls__prev:disabled {
+    color: #ffffff;
 }
 
 @media (min-width: 1024px) {
