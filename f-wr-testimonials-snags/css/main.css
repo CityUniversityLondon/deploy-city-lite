@@ -11188,46 +11188,46 @@ figure figcaption a:active,
     padding-top: 0;
 }
 
-.testimonials__wrapper {
+.promo__wrapper {
     display: flex;
     flex-direction: column;
     padding-top: 0.5rem;
     grid-column: 1/-1;
 }
-.testimonials__wrapper .testimonials__heading {
+.promo__wrapper .promo__heading {
     text-align: center;
 }
-.testimonials__wrapper .testimonials {
+.promo__wrapper .promo {
     margin-top: 0.5rem;
 }
-.testimonials__wrapper .testimonials .slider {
+.promo__wrapper .promo .slider {
     max-width: inherit;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 @media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider {
+    .promo__wrapper .promo .slider {
         margin-left: 0;
         margin-right: 0;
     }
 }
-.testimonials__wrapper .testimonials .slider .card:focus {
+.promo__wrapper .promo .slider .card:focus {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
     outline-offset: -0.1875rem;
 }
-.testimonials__wrapper .testimonials .slider .card .card__details {
+.promo__wrapper .promo .slider .card .card__details {
     display: flex;
     flex-direction: row;
 }
 @media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details {
+    .promo__wrapper .promo .slider .card .card__details {
         flex-direction: column;
     }
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__thumbnail {
+.promo__wrapper .promo .slider .card .card__details .card__thumbnail {
     overflow: hidden;
     position: relative;
     padding-bottom: 2rem;
@@ -11235,20 +11235,20 @@ figure figcaption a:active,
     flex-basis: 50%;
 }
 @media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__thumbnail {
+    .promo__wrapper .promo .slider .card .card__details .card__thumbnail {
         padding-bottom: 0;
     }
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__thumbnail img {
+.promo__wrapper .promo .slider .card .card__details .card__thumbnail img {
     z-index: 1;
     position: relative;
 }
 @media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__thumbnail img {
+    .promo__wrapper .promo .slider .card .card__details .card__thumbnail img {
         margin-left: 1.75rem;
     }
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__thumbnail::after {
+.promo__wrapper .promo .slider .card .card__details .card__thumbnail::after {
     background-color: #ffffff;
     position: absolute;
     width: 100%;
@@ -11259,13 +11259,13 @@ figure figcaption a:active,
     left: 0;
 }
 @media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__thumbnail::after {
+    .promo__wrapper .promo .slider .card .card__details .card__thumbnail::after {
         margin-left: 0;
         margin-top: 1.75rem;
         top: 0;
     }
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container {
+.promo__wrapper .promo .slider .card .card__details .card__details__container {
     overflow: hidden;
     align-self: stretch;
     flex-basis: 50%;
@@ -11273,25 +11273,25 @@ figure figcaption a:active,
     padding-top: 2rem;
 }
 @media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container {
+    .promo__wrapper .promo .slider .card .card__details .card__details__container {
         padding-top: 0;
     }
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text {
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text {
     height: 100%;
     padding: 1.5rem;
 }
 @media (max-width: 767px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text {
+    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text {
         width: 100%;
         padding-top: 0;
     }
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote {
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote {
     position: relative;
     padding-left: 0.75rem;
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
     font-size: 1.266rem;
     line-height: 1.3333333333;
     letter-spacing: -0.011em;
@@ -11310,89 +11310,89 @@ figure figcaption a:active,
     line-height: 1;
 }
 @media (min-width: 1280px) and (max-width: 1919px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.013em;
     }
 }
 @media (min-width: 1920px) and (max-width: 3839px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.015em;
     }
 }
 @media (min-width: 3840px) and (max-width: 7679px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.017em;
     }
 }
 @media (min-width: 7680px) {
-    .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.017em;
     }
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em, .testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em {
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em {
     font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before {
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before {
     content: "“";
 }
-.testimonials__wrapper .testimonials .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
     content: "”";
 }
-.testimonials__wrapper .testimonials .slider + .slider__controls {
+.promo__wrapper .promo .slider + .slider__controls {
     margin-right: 2rem;
     max-width: inherit;
 }
 
-.testimonials__wrapper {
+.promo__wrapper {
     background-color: #3e1031;
 }
-.testimonials__wrapper .testimonials__heading {
+.promo__wrapper .promo__heading {
     color: #ffffff;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] .card__details__text {
+.promo__wrapper .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__indicator .slider__indicator__divider, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__indicator .slider__indicator__current, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__indicator .slider__indicator__total {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__indicator .slider__indicator__divider, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__indicator .slider__indicator__current, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__indicator .slider__indicator__total {
     color: #ffffff;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover {
+    .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     color: #ffffff;
     background: #ffffff;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:active, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:active, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:disabled, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:disabled {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:disabled, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus {
     background-color: transparent;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     color: #3e1031;
     background-color: #ffffff;
 }
-.testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .testimonials__wrapper .testimonials .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
     outline-color: #ffffff;
 }
 
