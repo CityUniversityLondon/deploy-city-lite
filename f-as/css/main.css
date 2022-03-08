@@ -124,16 +124,25 @@
 .cta:after {
     opacity: 0;
 }
+.cta:visited {
+    border: 0.125rem solid #d61726;
+}
 .cta, .cta:focus, .cta:active {
     background-color: #d61726;
     color: #ffffff;
     border: 0.125rem solid #d61726;
+}
+.cta span, .cta:focus span, .cta:active span {
+    color: #ffffff;
 }
 @media (hover: hover) {
     .cta:hover {
         background-color: #9e111c;
         color: #ffffff;
         border: 0.125rem solid #9e111c;
+    }
+    .cta:hover span {
+        color: #ffffff;
     }
 }
 
@@ -201,16 +210,25 @@
 .cta--outline:after {
     opacity: 0;
 }
+.cta--outline:visited {
+    border: 0.125rem solid #d61726;
+}
 .cta--outline, .cta--outline:focus, .cta--outline:active {
     background-color: #d61726;
     color: #ffffff;
     border: 0.125rem solid #d61726;
+}
+.cta--outline span, .cta--outline:focus span, .cta--outline:active span {
+    color: #ffffff;
 }
 @media (hover: hover) {
     .cta--outline:hover {
         background-color: #ffffff;
         color: #d61726;
         border: 0.125rem solid #d61726;
+    }
+    .cta--outline:hover span {
+        color: #d61726;
     }
 }
 
@@ -278,16 +296,25 @@
 .cta--bg:after {
     opacity: 0;
 }
+.cta--bg:visited {
+    border: 0.125rem solid #d61726;
+}
 .cta--bg, .cta--bg:focus, .cta--bg:active {
     background-color: #d61726;
     color: #ffffff;
     border: 0.125rem solid #d61726;
+}
+.cta--bg span, .cta--bg:focus span, .cta--bg:active span {
+    color: #ffffff;
 }
 @media (hover: hover) {
     .cta--bg:hover {
         background-color: #9e111c;
         color: #ffffff;
         border: 0.125rem solid #9e111c;
+    }
+    .cta--bg:hover span {
+        color: #ffffff;
     }
 }
 
@@ -355,16 +382,25 @@
 .cta--t2:after {
     opacity: 0;
 }
+.cta--t2:visited {
+    border: 0.125rem solid #3e1031;
+}
 .cta--t2, .cta--t2:focus, .cta--t2:active {
     background-color: #3e1031;
     color: #ffffff;
     border: 0.125rem solid #3e1031;
+}
+.cta--t2 span, .cta--t2:focus span, .cta--t2:active span {
+    color: #ffffff;
 }
 @media (hover: hover) {
     .cta--t2:hover {
         background-color: #7c2062;
         color: #ffffff;
         border: 0.125rem solid #7c2062;
+    }
+    .cta--t2:hover span {
+        color: #ffffff;
     }
 }
 
@@ -432,16 +468,25 @@
 .cta--inverse:after {
     opacity: 0;
 }
+.cta--inverse:visited {
+    border: 0.125rem solid #0c0c0e;
+}
 .cta--inverse, .cta--inverse:focus, .cta--inverse:active {
     background-color: transparent;
     color: #0c0c0e;
     border: 0.125rem solid #0c0c0e;
+}
+.cta--inverse span, .cta--inverse:focus span, .cta--inverse:active span {
+    color: #0c0c0e;
 }
 @media (hover: hover) {
     .cta--inverse:hover {
         background-color: #0c0c0e;
         color: #ffffff;
         border: 0.125rem solid #0c0c0e;
+    }
+    .cta--inverse:hover span {
+        color: #ffffff;
     }
 }
 
@@ -509,16 +554,25 @@
 .cta--inverse--bg:after {
     opacity: 0;
 }
+.cta--inverse--bg:visited {
+    border: 0.125rem solid #ffffff;
+}
 .cta--inverse--bg, .cta--inverse--bg:focus, .cta--inverse--bg:active {
     background-color: transparent;
     color: #ffffff;
     border: 0.125rem solid #ffffff;
+}
+.cta--inverse--bg span, .cta--inverse--bg:focus span, .cta--inverse--bg:active span {
+    color: #ffffff;
 }
 @media (hover: hover) {
     .cta--inverse--bg:hover {
         background-color: #ffffff;
         color: #0c0c0e;
         border: 0.125rem solid #ffffff;
+    }
+    .cta--inverse--bg:hover span {
+        color: #0c0c0e;
     }
 }
 
@@ -586,16 +640,25 @@
 .cta--duotone:after {
     opacity: 0;
 }
+.cta--duotone:visited {
+    border: 0.125rem solid #d61726;
+}
 .cta--duotone, .cta--duotone:focus, .cta--duotone:active {
     background-color: #ffffff;
     color: #0c0c0e;
     border: 0.125rem solid #d61726;
+}
+.cta--duotone span, .cta--duotone:focus span, .cta--duotone:active span {
+    color: #0c0c0e;
 }
 @media (hover: hover) {
     .cta--duotone:hover {
         background-color: #d61726;
         color: #ffffff;
         border: 0.125rem solid #d61726;
+    }
+    .cta--duotone:hover span {
+        color: #ffffff;
     }
 }
 
@@ -9201,6 +9264,12 @@ form:not([class]) textarea[type=submit]:after,
 .form textarea[type=submit]:after {
     opacity: 0;
 }
+form:not([class]) input[type=submit]:visited,
+form:not([class]) textarea[type=submit]:visited,
+.form input[type=submit]:visited,
+.form textarea[type=submit]:visited {
+    border: 0.125rem solid #d61726;
+}
 form:not([class]) input[type=submit], form:not([class]) input[type=submit]:focus, form:not([class]) input[type=submit]:active,
 form:not([class]) textarea[type=submit],
 form:not([class]) textarea[type=submit]:focus,
@@ -9215,6 +9284,18 @@ form:not([class]) textarea[type=submit]:active,
     color: #ffffff;
     border: 0.125rem solid #d61726;
 }
+form:not([class]) input[type=submit] span, form:not([class]) input[type=submit]:focus span, form:not([class]) input[type=submit]:active span,
+form:not([class]) textarea[type=submit] span,
+form:not([class]) textarea[type=submit]:focus span,
+form:not([class]) textarea[type=submit]:active span,
+.form input[type=submit] span,
+.form input[type=submit]:focus span,
+.form input[type=submit]:active span,
+.form textarea[type=submit] span,
+.form textarea[type=submit]:focus span,
+.form textarea[type=submit]:active span {
+    color: #ffffff;
+}
 @media (hover: hover) {
     form:not([class]) input[type=submit]:hover,
 form:not([class]) textarea[type=submit]:hover,
@@ -9223,6 +9304,12 @@ form:not([class]) textarea[type=submit]:hover,
         background-color: #9e111c;
         color: #ffffff;
         border: 0.125rem solid #9e111c;
+    }
+    form:not([class]) input[type=submit]:hover span,
+form:not([class]) textarea[type=submit]:hover span,
+.form input[type=submit]:hover span,
+.form textarea[type=submit]:hover span {
+        color: #ffffff;
     }
 }
 form:not([class]) input[type=submit]:active, form:not([class]) input[type=submit]:focus,
