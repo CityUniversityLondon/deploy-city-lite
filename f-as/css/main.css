@@ -10894,9 +10894,6 @@ figure figcaption a:active,
     margin-right: 0;
     margin-left: 1rem;
 }
-.js .content-hub .slider[data-style=arrows] + .slider__controls {
-    max-width: 47.4rem;
-}
 .js .slider[data-style=responsive] {
     margin-left: 0;
     margin-right: 0;
@@ -11035,42 +11032,6 @@ figure figcaption a:active,
 .js .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true]:active,
 .js .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true]:focus {
     box-shadow: none;
-}
-
-.js .statistics-block .ksp__items.slider[data-small=true] {
-    display: flex;
-    flex-direction: row;
-    margin-top: 0;
-}
-.js .statistics-block .ksp__items.slider[data-small=true] .ksp__item {
-    margin-right: 0;
-    flex: 1;
-}
-.js .statistics-block .ksp__item__overline,
-.js .statistics-block .ksp__item__description p {
-    margin-left: auto;
-    margin-right: auto;
-}
-.js .statistics-block .slider__controls {
-    margin-top: 1rem;
-}
-@media (min-width: 1024px) and (min-width: 768px) {
-    .js main article:first-child .slider[data-cardsperrow][data-small=true][data-nonav-cardsperrow="2"] {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
-        grid-gap: 1.5rem;
-        list-style-type: none;
-        margin: 1rem 0;
-    }
-    .js main article:first-child .slider[data-cardsperrow][data-small=true][data-nonav-cardsperrow="2"] .slide {
-        margin: 0 1.5rem 0 0;
-    }
-    .js main article:first-child .slider[data-cardsperrow][data-small=true][data-nonav-cardsperrow="2"] .slide:nth-of-type(3n) {
-        margin: 0;
-    }
-    .js main article:first-child .slider[data-cardsperrow][data-small=true][data-nonav-cardsperrow="2"] .card--casestudy .card__details {
-        height: 100%;
-    }
 }
 
 @media (max-width: 1023px) {
