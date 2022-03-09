@@ -7643,13 +7643,18 @@ main article .content {
     margin-right: 1rem;
     max-width: 80rem;
     grid-column: 1/-1;
-    padding: 0.5rem;
 }
 @media (min-width: 901px) {
     main article .content {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
+}
+main article .content > :first-child {
+    padding-top: 0.5rem;
+}
+main article .content > :last-child {
+    padding-bottom: 0.5rem;
 }
 @media (min-width: 1024px) {
     main article .content {
