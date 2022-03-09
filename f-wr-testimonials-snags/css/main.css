@@ -7655,6 +7655,7 @@ main article .content > :first-child {
 }
 main article .content > :last-child {
     padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 @media (min-width: 1024px) {
     main article .content {
