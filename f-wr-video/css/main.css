@@ -11320,7 +11320,16 @@ figure figcaption a:active,
     font-weight: 900;
 }
 
-/* test*/
+.embedded-video--2-columns {
+    grid-column: 1/-1;
+    display: flex;
+}
+.embedded-video--2-columns .embedded-video {
+    flex-basis: 50%;
+}
+.embedded-video--2-columns .embedded-video:first-child {
+    margin-right: 2rem;
+}
 .promo__wrapper {
     display: flex;
     flex-direction: column;
