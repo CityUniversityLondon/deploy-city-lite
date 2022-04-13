@@ -11322,6 +11322,12 @@ figure figcaption a:active,
 
 main .youtube-description-cta {
     margin: 0 0 1rem 0;
+    flex-wrap: wrap;
+}
+@media (min-width: 1024px) {
+    main .youtube-description-cta .youtube-video {
+        margin-top: 0.75rem;
+    }
 }
 @media (min-width: 768px) {
     main .youtube-description-cta {
@@ -11332,7 +11338,7 @@ main .youtube-description-cta {
         flex: 1;
     }
     main .youtube-description-cta .youtube-description-cta__panel.youtube-description-cta__panel__text {
-        margin-right: 1rem;
+        margin-right: 1.5rem;
     }
 }
 @media (max-width: 767px) {
@@ -11354,7 +11360,8 @@ main .youtube-description-cta {
     }
 }
 main .youtube-description-cta .youtube-description-cta__heading {
-    margin-top: 0;
+    text-align: center;
+    flex-basis: 100%;
 }
 
 .promo__wrapper {
