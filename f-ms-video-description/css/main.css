@@ -11334,6 +11334,9 @@ main .youtube-description-cta {
         display: flex;
         grid-column: 2/-2;
     }
+    main .youtube-description-cta .youtube-description-cta__heading {
+        text-align: center;
+    }
     main .youtube-description-cta .youtube-description-cta__panel {
         flex: 1;
     }
@@ -11360,7 +11363,6 @@ main .youtube-description-cta {
     }
 }
 main .youtube-description-cta .youtube-description-cta__heading {
-    text-align: center;
     flex-basis: 100%;
 }
 
