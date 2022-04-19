@@ -10075,13 +10075,11 @@ figure figcaption a:active,
 @media (max-width: 768px) {
     .hallway-cards__wrapper .hallway-cards {
         grid-template-columns: 1fr;
+        grid-row-gap: 1.5rem;
     }
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card {
     position: relative;
-}
-.hallway-cards__wrapper .hallway-cards .hallway-cards__card:hover .hallway-cards__card__img img {
-    transform: scale(1.02);
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__img {
     overflow: hidden;
@@ -10091,20 +10089,21 @@ figure figcaption a:active,
     overflow: hidden;
     margin-top: 0;
 }
-.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__img .figure--image::after {
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__img .figure--image:after {
     background: black;
     width: 100%;
     height: 100%;
     position: absolute;
     content: "";
     left: 0;
-    opacity: 0.25;
+    opacity: 0.5;
     top: 0;
+    transition: opacity 0.2s ease-in-out;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__img .figure--image img {
     display: block;
     width: 100%;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.55s ease-in-out;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details__wrap {
     position: absolute;
@@ -10116,22 +10115,14 @@ figure figcaption a:active,
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details {
     color: #ffffff;
-    text-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.3);
+    text-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.8);
     text-align: center;
     width: 100%;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title {
     margin-top: 0;
 }
-.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title a {
-    text-decoration: none;
-    color: inherit;
-    border: none;
-}
-.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title a:hover {
-    background: none;
-}
-.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title:after {
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__seperator {
     background-color: #d61726;
     content: "";
     display: block;
@@ -10141,6 +10132,7 @@ figure figcaption a:active,
     width: 6rem;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
+    transition: 0.2s ease-in-out;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text {
     font-size: 0.79rem;
@@ -10166,6 +10158,24 @@ figure figcaption a:active,
     .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text {
         letter-spacing: -0.017em;
     }
+}
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card:hover .hallway-cards__card__details__seperator {
+    width: 4.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card:hover .hallway-cards__card__img img {
+    transform: scale(1.02);
+}
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card:hover .hallway-cards__card__img .figure--image:after {
+    opacity: 0.7;
+}
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked {
+    text-decoration: none;
+    border: none;
+}
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus .hallway-cards__card__details__title {
+    outline: thick dotted yellow;
 }
 
 .global-header {
