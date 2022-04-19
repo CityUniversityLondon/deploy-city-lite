@@ -10602,7 +10602,8 @@ figure figcaption a:active,
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    font-size: 3rem;
+    font-size: 5rem;
+    opacity: 0.9;
 }
 .pathway .pathway__cards .card--pathway .modal {
     list-style: none;
