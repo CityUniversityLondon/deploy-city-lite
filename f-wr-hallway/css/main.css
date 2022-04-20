@@ -10217,6 +10217,7 @@ figure figcaption a:active,
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus .hallway-cards__card__img .figure--image:after, .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:active .hallway-cards__card__img .figure--image:after {
     background: #250020;
+    opacity: 1;
 }
 
 .global-header {
