@@ -10063,7 +10063,7 @@ figure figcaption a:active,
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     display: grid;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
 @media (min-width: 901px) {
@@ -10121,6 +10121,32 @@ figure figcaption a:active,
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title {
     margin-top: 0;
+    display: inline;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 1.602rem;
+    line-height: 1.3333333333;
+    letter-spacing: -0.015em;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title {
+        letter-spacing: -0.016em;
+    }
+}
+@media (min-width: 1920px) and (max-width: 3839px) {
+    .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 3840px) and (max-width: 7679px) {
+    .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 7680px) {
+    .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__title {
+        letter-spacing: -0.017em;
+    }
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__seperator {
     background-color: #d61726;
@@ -10135,18 +10161,20 @@ figure figcaption a:active,
     transition: 0.2s ease-in-out;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text {
-    font-size: 0.79rem;
+    font-family: "Meta Sans", sans-serif;
+    font-size: 0.889rem;
     line-height: 1.625;
-    letter-spacing: 0.005em;
+    letter-spacing: 0em;
+    font-feature-settings: "ss01" 1, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
 }
 @media (min-width: 1280px) and (max-width: 1919px) {
     .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text {
-        letter-spacing: 0em;
+        letter-spacing: -0.005em;
     }
 }
 @media (min-width: 1920px) and (max-width: 3839px) {
     .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text {
-        letter-spacing: -0.007em;
+        letter-spacing: -0.01em;
     }
 }
 @media (min-width: 3840px) and (max-width: 7679px) {
@@ -10158,6 +10186,10 @@ figure figcaption a:active,
     .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text {
         letter-spacing: -0.017em;
     }
+}
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text i,
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__details .hallway-cards__card__details__text em {
+    font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card:hover .hallway-cards__card__details__seperator {
     width: 4.5rem;
@@ -10174,8 +10206,14 @@ figure figcaption a:active,
     text-decoration: none;
     border: none;
 }
-.hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus .hallway-cards__card__details__title {
-    outline: thick dotted yellow;
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus .hallway-cards__card__details__title, .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:active .hallway-cards__card__details__title {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus .hallway-cards__card__img .figure--image:after, .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:active .hallway-cards__card__img .figure--image:after {
+    opacity: 1;
 }
 
 .global-header {
