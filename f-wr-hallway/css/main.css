@@ -10098,7 +10098,7 @@ figure figcaption a:active,
     left: 0;
     opacity: 0.5;
     top: 0;
-    transition: opacity 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card .hallway-cards__card__img .figure--image img {
     display: block;
@@ -10206,6 +10206,9 @@ figure figcaption a:active,
     text-decoration: none;
     border: none;
 }
+.hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus, .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:active {
+    outline: none;
+}
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus .hallway-cards__card__details__title, .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:active .hallway-cards__card__details__title {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
@@ -10213,7 +10216,7 @@ figure figcaption a:active,
     outline-width: 0.125rem;
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:focus .hallway-cards__card__img .figure--image:after, .hallway-cards__wrapper .hallway-cards .hallway-cards__card--linked:active .hallway-cards__card__img .figure--image:after {
-    opacity: 1;
+    background: #250020;
 }
 
 .global-header {
