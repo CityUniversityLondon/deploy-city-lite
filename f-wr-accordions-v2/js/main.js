@@ -310,8 +310,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../util */ "./src/util.js");
 /* harmony import */ var _aria_attributes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../aria-attributes */ "./src/aria-attributes.js");
-/* harmony import */ var zenscroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! zenscroll */ "./node_modules/zenscroll/zenscroll.js");
-/* harmony import */ var zenscroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(zenscroll__WEBPACK_IMPORTED_MODULE_4__);
+Object(function webpackMissingModule() { var e = new Error("Cannot find module 'zenscroll'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 
@@ -449,7 +448,7 @@ function buttonClick(button, headings, toggleOpen) {
     setSection(heading, true);
 
     if (scrollTo && !((0,_util__WEBPACK_IMPORTED_MODULE_2__.verticallyInWindow)(heading) && (0,_util__WEBPACK_IMPORTED_MODULE_2__.verticallyInWindow)(accordionSection))) {
-      zenscroll__WEBPACK_IMPORTED_MODULE_4___default().to(heading, scrollDuration);
+      Object(function webpackMissingModule() { var e = new Error("Cannot find module 'zenscroll'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())(heading, scrollDuration);
     }
   }
 }
@@ -545,7 +544,7 @@ function launchAccordion(accordion) {
       window.onload = function () {
         setSection(heading, true);
         heading.nextElementSibling.dataset.closed = 'false';
-        zenscroll__WEBPACK_IMPORTED_MODULE_4___default().to(heading, scrollDuration);
+        Object(function webpackMissingModule() { var e = new Error("Cannot find module 'zenscroll'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())(heading, scrollDuration);
       };
     } // determines if the hash is perhaps of an accordion which kicks in on smaller viewports, as part of a tabs / accordion pattern
 
@@ -557,7 +556,7 @@ function launchAccordion(accordion) {
         heading = accordion.parentElement.querySelector('' + hashConvert + '');
         setSection(heading, true);
         heading.nextElementSibling.dataset.closed = 'false';
-        zenscroll__WEBPACK_IMPORTED_MODULE_4___default().to(heading, scrollDuration);
+        Object(function webpackMissingModule() { var e = new Error("Cannot find module 'zenscroll'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())(heading, scrollDuration);
       };
     }
   }
@@ -1609,7 +1608,7 @@ function screenWidth(size) {
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -1765,7 +1764,7 @@ function screenWidth(size) {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["core","vendor-dependencies"], () => (__webpack_require__("./src/main.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["core"], () => (__webpack_require__("./src/main.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
