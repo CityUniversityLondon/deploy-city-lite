@@ -498,6 +498,7 @@ function buttonFromHeading(heading) {
 
 
 function launchAccordion(accordion) {
+  console.log('test');
   const toggleOpen = (0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(accordion.dataset.toggleopen),
         defaultOpen = (0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(accordion.dataset.defaultopen),
         allowSingle = (0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(accordion.dataset.allowsingle),
