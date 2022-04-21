@@ -10605,10 +10605,14 @@ figure figcaption a:active,
     font-size: 5rem;
     opacity: 0.9;
 }
+.pathway .pathway__cards .card--pathway button .card--pathway__content__text {
+    text-align: left;
+}
 .pathway .pathway__cards .card--pathway .modal {
     list-style: none;
     margin-left: initial;
     margin-top: initial;
+    max-width: initial;
 }
 .pathway .pathway__cards .card--pathway .modal li {
     margin-top: initial;
@@ -11849,7 +11853,7 @@ figure figcaption a:active,
 @media (min-width: 768px) {
     .dialog__inner {
         width: 65%;
-        margin-top: 15vh;
+        margin-top: 8vh;
         max-height: calc(100% - 30vh);
     }
 }
@@ -11978,6 +11982,10 @@ figure figcaption a:active,
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #ffffff;
+}
+.dialog__content .youtube-video__caption-element--text,
+.dialog__content .youtube-video__caption-element--time {
+    font-size: 16px;
 }
 
 .dialog__close {
