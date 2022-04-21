@@ -304,11 +304,264 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
+/* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../util */ "./src/util.js");
+/* harmony import */ var _aria_attributes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../aria-attributes */ "./src/aria-attributes.js");
+/* harmony import */ var zenscroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! zenscroll */ "./node_modules/zenscroll/zenscroll.js");
+/* harmony import */ var zenscroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(zenscroll__WEBPACK_IMPORTED_MODULE_4__);
 
 
-const className = 'accordion';
 
-const launchAccordion = function () {};
+
+
+
+/**
+ * Accordion
+ *
+ * @module patterns/accordion/accordion
+ * @author Web Development
+ * @copyright City, University of London 2018-2019
+ */
+
+
+const className = 'accordion',
+      headingClassName = className + '__heading',
+      headingTextClassName = headingClassName + '__text',
+      headingIconClassName = headingClassName + '__indicator fal',
+      bodyClassName = className + '__body',
+      oneSecond = 1000,
+      tenthOfASecond = 100,
+      scrollDuration = (0,_util__WEBPACK_IMPORTED_MODULE_2__.reduceMotion)() ? 0 : oneSecond,
+      scrollTo = true;
+/**
+ * Sets a heading and the button nested within to be open or closed.
+ *
+ * @param {HTMLHeadingElement} heading - An accordion heading.
+ * @param {boolean} open - Set this section to be open?
+ */
+
+function setSection(heading, open) {
+  heading.dataset.open = open;
+  heading.firstElementChild.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_3__["default"].expanded, open);
+}
+/**
+ * Open a section, calculate its height, then close it again.
+ *
+ * With no transition, this is essentially invisible to the user.
+ *
+ * @param {HTMLHeadingElement} heading - An accordion heading.
+ * @return {string} The pixel height of the section when open.
+ */
+
+
+function calculateAccordionBodyHeight(heading) {
+  const section = heading.nextElementSibling;
+  setSection(heading, true);
+  section.dataset.closed = 'false';
+  const height = section.offsetHeight + 'px';
+  setSection(heading, false);
+  section.dataset.closed = 'true';
+  return height;
+}
+/**
+ * Set style properties for transition.
+ *
+ * @param {HTMLElement} element - The section to transition.
+ * @param {string} initialHeight - The initial height from which to transition.
+ */
+
+
+function setupTransition(element, initialHeight) {
+  element.style.height = initialHeight;
+  element.dataset.closed = 'false';
+  return true;
+}
+/**
+ * Cleanup after transition.
+ *
+ * @param {HTMLElement} accordionSection - The section that transitioned.
+ */
+
+
+function cleanupTransition(section) {
+  const open = (0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(section.previousElementSibling.dataset.open);
+  section.style.height = null;
+  section.dataset.closed = open ? 'false' : 'true';
+}
+/**
+ * Respond to button clicks - open if closed, close if open.
+ *
+ * If opening, will also push the heading ID into the history, so C+Ping the URL
+ * will open the most recently viewed section. Closing a section removes any
+ * hash.
+ *
+ * @param {HTMLButtonElement} button - The button that was clicked.
+ * @param {HTMLElement[]} headings - All headings in this accordion.
+ * @param {boolean} [toggleOpen] - Should other accordion sections close? Default to false.
+ */
+
+
+function buttonClick(button, headings, toggleOpen) {
+  const heading = button.parentNode,
+        accordionSection = heading.nextElementSibling; // updates URL hash with clicked accordion heading
+
+  window.location.hash = event.currentTarget.parentElement.id;
+  /**
+   * After we've transitioned the opening/closing, we want to revert to
+   * letting the CSS size the element. Add a listener to do this that will
+   * self-destruct after running.
+   */
+
+  accordionSection.addEventListener('transitionend', () => cleanupTransition(accordionSection), {
+    capture: true,
+    once: true
+  });
+
+  if ((0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(button.getAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_3__["default"].expanded))) {
+    // Starting height is the current height
+    setupTransition(accordionSection, accordionSection.offsetHeight + 'px'); // setTimeout lets the DOM recalculate before we continue, so the transition will fire
+
+    setTimeout(() => {
+      accordionSection.style.height = '0px';
+    }, tenthOfASecond);
+    setSection(heading, false);
+  } else {
+    // Calclulate and save how big we're transitioning to
+    const sectionHeight = calculateAccordionBodyHeight(heading); // Starting height is 0
+
+    setupTransition(accordionSection, '0px'); // setTimeout lets the DOM recalculate before we continue, so the transition will fire
+
+    setTimeout(() => {
+      accordionSection.style.height = sectionHeight;
+    }, tenthOfASecond);
+
+    if (toggleOpen) {
+      const sections = Array.from(heading.parentNode.parentNode.querySelectorAll(`#${heading.parentElement.id} > .${bodyClassName}`));
+      headings.forEach(heading => setSection(heading, false));
+      sections.filter(section => section.id !== accordionSection.id).forEach(section => {
+        section.dataset.closed = 'true';
+      });
+    }
+
+    setSection(heading, true);
+
+    if (scrollTo && !((0,_util__WEBPACK_IMPORTED_MODULE_2__.verticallyInWindow)(heading) && (0,_util__WEBPACK_IMPORTED_MODULE_2__.verticallyInWindow)(accordionSection))) {
+      zenscroll__WEBPACK_IMPORTED_MODULE_4___default().to(heading, scrollDuration);
+    }
+  }
+}
+/**
+ * Create a button from the text content of a heading.
+ *
+ * @param {HTMLElement} heading - An accordion heading.
+ * @returns {HTMLButtonElement} An accordion section button.
+ */
+
+
+function buttonFromHeading(heading) {
+  const button = document.createElement('button'),
+        // Chrome can't apply grid layout to buttons, need to wrap contents
+  wrapper = document.createElement('div'),
+        textSpan = document.createElement('span'),
+        iconSpan = document.createElement('span');
+  textSpan.className = headingTextClassName;
+  iconSpan.className = headingIconClassName;
+  iconSpan.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_3__["default"].hidden, true);
+  button.setAttribute('type', 'button');
+  textSpan.appendChild(document.createTextNode(heading.textContent));
+  (0,_util__WEBPACK_IMPORTED_MODULE_2__.appendAll)(wrapper, [textSpan, iconSpan]);
+  button.appendChild(wrapper);
+  return button;
+}
+/**
+ * Transform an element with the accordion class into an accordion.
+ *
+ * accordions should contain an even number of children, alternating headings
+ * and content elements. The element type is unimportant - headings should have
+ * the headingClassName - but headings should contain only text, no other
+ * children.
+ *
+ * e.g.
+ *
+ * <div class="accordion">
+ * <h2 class="accordion__heading">Heading 1</h2>
+ * <div>Content 1</div>
+ * <h2 class="accordion__heading">Heading 2</h2>
+ * <div>Content 2</div>
+ * </div>
+ *
+ * @param {HTMLElement} accordion - An HTML element with the accordion class.
+ */
+
+
+function launchAccordion(accordion) {
+  const toggleOpen = (0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(accordion.dataset.toggleopen),
+        defaultOpen = (0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(accordion.dataset.defaultopen),
+        allowSingle = (0,_util__WEBPACK_IMPORTED_MODULE_2__.toBool)(accordion.dataset.allowsingle),
+        headings = Array.from(accordion.parentNode.querySelectorAll(`#${accordion.id} > .${headingClassName}`));
+  let idLinked = false;
+
+  if (!(allowSingle || headings.length > 1)) {
+    /**
+     * not enough content to accordion
+     */
+    (0,_util__WEBPACK_IMPORTED_MODULE_2__.removeClass)(accordion, className, false);
+    return;
+  }
+
+  headings.forEach(heading => {
+    const content = heading.nextElementSibling,
+          button = buttonFromHeading(heading);
+    content.setAttribute(_aria_attributes__WEBPACK_IMPORTED_MODULE_3__["default"].labelledBy, heading.id);
+    content.setAttribute('role', 'region');
+    heading.replaceChild(button, heading.firstChild);
+    setSection(heading, false);
+    heading.nextElementSibling.dataset.closed = 'true';
+    button.addEventListener('click', () => buttonClick(button, headings, toggleOpen), true);
+  });
+  /* Show first item of accordion, if accordion is set to default open,
+         and we haven't linked to a specific section */
+
+  if (defaultOpen && !idLinked) {
+    setSection(headings[0], true);
+    headings[0].nextElementSibling.dataset.closed = 'false';
+  }
+  /**
+   * Checks if hash ID is present in the URL then on page load it will open the corresponding accordordion
+   */
+
+
+  if (window.location.hash) {
+    //finds accordion heading in URL
+    let urlHash = window.location.hash;
+    let heading = accordion.querySelector('' + urlHash + '');
+    let viewportWidth = window.innerWidth; // condition when hash in URL is of a 'always' accordion, regardless of viewport width
+
+    if (heading) {
+      // Wait for DOM to load before accessing selected accordion
+      window.onload = function () {
+        setSection(heading, true);
+        heading.nextElementSibling.dataset.closed = 'false';
+        zenscroll__WEBPACK_IMPORTED_MODULE_4___default().to(heading, scrollDuration);
+      };
+    } // determines if the hash is perhaps of an accordion which kicks in on smaller viewports, as part of a tabs / accordion pattern
+
+
+    if (accordion.parentElement.className == 'tabs--accordion' && accordion.parentElement.querySelector('' + urlHash + '') && viewportWidth <= (0,_util__WEBPACK_IMPORTED_MODULE_2__.screenWidth)('tablet')) {
+      let hashConvert = urlHash.replace('tabs', 'accordion').replace('link', 'header'); // Wait for DOM to load before accessing selected accordion
+
+      window.onload = function () {
+        heading = accordion.parentElement.querySelector('' + hashConvert + '');
+        setSection(heading, true);
+        heading.nextElementSibling.dataset.closed = 'false';
+        zenscroll__WEBPACK_IMPORTED_MODULE_4___default().to(heading, scrollDuration);
+      };
+    }
+  }
+}
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   launchFn: launchAccordion,
@@ -1087,7 +1340,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "gaEvent": () => (/* binding */ gaEvent),
 /* harmony export */   "detectIE": () => (/* binding */ detectIE),
 /* harmony export */   "checkIntersectionObserver": () => (/* binding */ checkIntersectionObserver),
-/* harmony export */   "createHTMLElement": () => (/* binding */ createHTMLElement)
+/* harmony export */   "createHTMLElement": () => (/* binding */ createHTMLElement),
+/* harmony export */   "appendAll": () => (/* binding */ appendAll),
+/* harmony export */   "reduceMotion": () => (/* binding */ reduceMotion),
+/* harmony export */   "toBool": () => (/* binding */ toBool),
+/* harmony export */   "verticallyInWindow": () => (/* binding */ verticallyInWindow),
+/* harmony export */   "screenWidth": () => (/* binding */ screenWidth)
 /* harmony export */ });
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -1228,7 +1486,106 @@ function createHTMLElement(type, attributes) {
     att.label === 'content' ? el.appendChild(document.createTextNode(att.val)) : att.label === 'html' ? el.innerHTML = att.val : el.setAttribute(att.label, att.val);
   });
   return el;
-} //test
+}
+/**
+ * Append an array of elements to an element.
+ *
+ * @param {HTMLElement} elem - The parent element.
+ * @param {HTMLElement[]} children - An array of elements to append to it.
+ */
+
+function appendAll(elem, children) {
+  children.forEach(child => elem.appendChild(child));
+}
+/**
+ * Detect whether reduced motion is enabled.
+ *
+ * If it is, you should shortcut animations, disable autoplay elements, avoid
+ * smooth scrolling in favour of jump scrolling, etc.
+ *
+ * Currently unsupported by Chrome, but works in Safari and Firefox.
+ *
+ * @returns {boolean} Boolean indicating that the reduce motion media query matches.
+ */
+
+function reduceMotion() {
+  const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  return reducedMotionQuery.matches ? true : false;
+}
+/**
+ * Turns string boolean into real boolean.
+ *
+ * @param {string} s - A string that may be 'true'.
+ * @returns {boolean} True if 'true'.
+ */
+
+function toBool(s) {
+  return s === 'true' ? true : false;
+}
+/**
+ * Predicate testing whether an element is positioned in the window.
+ *
+ *
+ * @param {HTMLElement} elem - An HTML element.
+ * @returns {boolean} - Is it onscreen?
+ */
+
+function verticallyInWindow(elem) {
+  return elem.getBoundingClientRect().top >= 0 && elem.getBoundingClientRect().top <= window.innerHeight ? true : false;
+}
+/**
+ * Screen width
+ *
+ * @param {size} string - variable name for sreensize value. To be consistent with values stored in _variables.scss
+ */
+
+function screenWidth(size) {
+  switch (size) {
+    case 'tiny':
+      return 375;
+      break;
+
+    case 'mobile':
+      return 432;
+      break;
+
+    case 'tablet':
+      return 768;
+      break;
+
+    case 'between':
+      return 900;
+      break;
+
+    case 'small':
+      return 1024;
+      break;
+
+    case 'desktop':
+      return 1280;
+      break;
+
+    case 'large':
+      return 1440;
+      break;
+
+    case '1080':
+      return 1920;
+      break;
+
+    case '4k':
+      return 3840;
+      break;
+
+    case '8k':
+      return 7680;
+      break;
+
+    default:
+      return 1280;
+      break;
+  }
+}
 
 /***/ })
 
@@ -1252,7 +1609,7 @@ function createHTMLElement(type, attributes) {
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -1408,7 +1765,7 @@ function createHTMLElement(type, attributes) {
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["core"], () => (__webpack_require__("./src/main.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["core","vendor-dependencies"], () => (__webpack_require__("./src/main.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
