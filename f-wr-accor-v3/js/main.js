@@ -194,7 +194,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _patterns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patterns */ "./src/patterns.js");
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./util */ "./src/util.js");
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_util__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _patterns_devcorate_devcorate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./patterns/devcorate/devcorate */ "./src/patterns/devcorate/devcorate.js");
 
 
@@ -315,7 +314,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
 /* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../util */ "./src/util.js");
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_util__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _aria_attributes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../aria-attributes */ "./src/aria-attributes.js");
 /* harmony import */ var zenscroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! zenscroll */ "./node_modules/zenscroll/zenscroll.js");
 /* harmony import */ var zenscroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(zenscroll__WEBPACK_IMPORTED_MODULE_4__);
@@ -591,7 +589,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../util */ "./src/util.js");
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_util__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
@@ -636,7 +633,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../util */ "./src/util.js");
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_util__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _aria_attributes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../aria-attributes */ "./src/aria-attributes.js");
 /* harmony import */ var focus_trap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! focus-trap */ "./node_modules/focus-trap/index.js");
 /* harmony import */ var focus_trap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(focus_trap__WEBPACK_IMPORTED_MODULE_2__);
@@ -1016,7 +1012,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.string.replace.js */ "./node_modules/core-js/modules/es.string.replace.js");
 /* harmony import */ var core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace_js__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../util */ "./src/util.js");
-/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_util__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _aria_attributes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../aria-attributes */ "./src/aria-attributes.js");
 
 
@@ -1715,9 +1710,263 @@ function launchSlider(slider) {
 /*!*********************!*\
   !*** ./src/util.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/rof/src/github.com/CityUniversityLondon/city-lite/src/util.js: Identifier 'appendAll' has already been declared. (272:17)\n\n\u001b[0m \u001b[90m 270 |\u001b[39m \u001b[90m * @param {HTMLElement[]} children - An array of elements to append to it.\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 271 |\u001b[39m \u001b[90m */\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 272 |\u001b[39m  \u001b[36mexport\u001b[39m \u001b[36mfunction\u001b[39m appendAll(elem\u001b[33m,\u001b[39m children) {\u001b[0m\n\u001b[0m \u001b[90m     |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 273 |\u001b[39m     children\u001b[33m.\u001b[39mforEach((child) \u001b[33m=>\u001b[39m elem\u001b[33m.\u001b[39mappendChild(child))\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 274 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 275 |\u001b[39m\u001b[0m\n    at Parser._raise (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/error.js:150:45)\n    at Parser.raiseWithData (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/error.js:145:17)\n    at Parser.raise (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/error.js:89:17)\n    at ScopeHandler.checkRedeclarationInScope (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/util/scope.js:152:12)\n    at ScopeHandler.declareName (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/util/scope.js:113:12)\n    at Parser.registerFunctionStatementId (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:1344:16)\n    at Parser.parseFunction (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:1311:12)\n    at Parser.parseFunctionStatement (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:749:17)\n    at Parser.parseStatementContent (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:366:21)\n    at Parser.parseStatement (/home/rof/src/github.com/CityUniversityLondon/city-lite/node_modules/@babel/parser/src/parser/statement.js:329:17)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "removeClass": () => (/* binding */ removeClass),
+/* harmony export */   "parametersToObject": () => (/* binding */ parametersToObject),
+/* harmony export */   "objectToParameters": () => (/* binding */ objectToParameters),
+/* harmony export */   "gaEvent": () => (/* binding */ gaEvent),
+/* harmony export */   "detectIE": () => (/* binding */ detectIE),
+/* harmony export */   "checkIntersectionObserver": () => (/* binding */ checkIntersectionObserver),
+/* harmony export */   "createHTMLElement": () => (/* binding */ createHTMLElement),
+/* harmony export */   "appendAll": () => (/* binding */ appendAll),
+/* harmony export */   "reduceMotion": () => (/* binding */ reduceMotion),
+/* harmony export */   "toBool": () => (/* binding */ toBool),
+/* harmony export */   "verticallyInWindow": () => (/* binding */ verticallyInWindow),
+/* harmony export */   "screenWidth": () => (/* binding */ screenWidth)
+/* harmony export */ });
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+
+
+const partialMatchFn = m => s => s.indexOf(m) < 0,
+      fullMatchFn = m => s => s !== m;
+/**
+ * Remove a class name from an HTML element.
+ *
+ * @param {HTMLElement} elem - An HTML element.
+ * @param {string} className - A string representing the class to remove.
+ * @param {boolean} [removePartials] - If true, remove partially matching classes.
+ */
+
+
+function removeClass(elem, className, removePartials) {
+  const matchFn = removePartials ? partialMatchFn(className) : fullMatchFn(className);
+  elem.className = elem.className.split(/\s+/).filter(s => matchFn(s)).join(' ');
+}
+/**
+ * Turn a query string into an object.
+ *
+ * @param {string} parameterString - An HTML query string.
+ * @returns {object} An object containing the parameters.
+ */
+
+function parametersToObject(parameterString) {
+  const parameters = {};
+  parameterString.substr(1).split('&').forEach(parameter => {
+    const [k, v] = parameter.split('=');
+    parameters[k] = v;
+  });
+  return parameters;
+}
+/**
+* Turn an object into a query string.
+*
+* @param {object} parameterObj - An object containing the parameters and their values.
+* @returns {string} A string of the parameters.
+*/
+
+function objectToParameters(parameterObj) {
+  if (Object.keys(parameterObj).length > 0) {
+    let parameters = '?';
+
+    for (const key in parameterObj) {
+      parameters.length !== 1 && (parameters += '&');
+      parameters += key + '=' + parameterObj[key];
+    }
+
+    return parameters;
+  } else {
+    return '';
+  }
+}
+/**
+ * Track a Google Analytics event.
+ *
+ * @param {string} event - The event key for Tag Manager.
+ * @param {string} eventCategory - The event category.
+ * @param {string} eventAction - The event action.
+ * @param {string} [eventLabel] - The event label.
+ * @param {number} [eventValue] - The event value.
+ * @param {boolean} [nonInteractionHit] - Does this count as interacting with the page?
+ */
+
+function gaEvent(event, eventCategory, eventAction, eventLabel, eventValue, nonInteractionHit) {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: event,
+    eventCategory: eventCategory,
+    eventAction: eventAction,
+    eventLabel: eventLabel,
+    eventValue: eventValue,
+    nonInteractionHit: nonInteractionHit
+  });
+}
+function detectIE() {
+  const ua = window.navigator.userAgent,
+        versionLength = 10,
+        msie = ua.indexOf('MSIE '),
+        msieVersionOffset = 5;
+
+  if (msie > 0) {
+    // IE 10 or older => return version number
+    return parseInt(ua.substring(msie + msieVersionOffset, ua.indexOf('.', msie)), versionLength);
+  }
+
+  const trident = ua.indexOf('Trident/'),
+        tridentVersionOffset = 3;
+
+  if (trident > 0) {
+    // IE 11 => return version number
+    let rv = ua.indexOf('rv:');
+    return parseInt(ua.substring(rv + tridentVersionOffset, ua.indexOf('.', rv)), versionLength);
+  }
+
+  const edge = ua.indexOf('Edge/'),
+        edgeVersionOffset = 5;
+
+  if (edge > 0) {
+    // Edge (IE 12+) => return version number
+    return parseInt(ua.substring(edge + edgeVersionOffset, ua.indexOf('.', edge)), versionLength);
+  } // other browser
+
+
+  return false;
+}
+/**
+ * Check if browser supports IntersectionObserver API
+ *
+ * @returns {Boolean} -
+ */
+
+function checkIntersectionObserver() {
+  if ('IntersectionObserver' in window && 'IntersectionObserverEntry' in window && 'intersectionRatio' in window.IntersectionObserverEntry.prototype) {
+    return true;
+  } else {
+    return false;
+  }
+}
+/**
+ * Create elements containing classes, content and any other attributes
+ *
+ * @param {string} type - Type of element to create, e.g. "div", "button".
+ * @param {array} attributes - Array of objects specifying which attributes to assign to the element i.e. {label : "class", val : "container"}
+ */
+
+function createHTMLElement(type, attributes) {
+  let el = document.createElement(type);
+  attributes.map(function (att) {
+    att.label === 'content' ? el.appendChild(document.createTextNode(att.val)) : att.label === 'html' ? el.innerHTML = att.val : el.setAttribute(att.label, att.val);
+  });
+  return el;
+}
+/**
+ * Append an array of elements to an element.
+ *
+ * @param {HTMLElement} elem - The parent element.
+ * @param {HTMLElement[]} children - An array of elements to append to it.
+ */
+
+function appendAll(elem, children) {
+  children.forEach(child => elem.appendChild(child));
+}
+/**
+ * Detect whether reduced motion is enabled.
+ *
+ * If it is, you should shortcut animations, disable autoplay elements, avoid
+ * smooth scrolling in favour of jump scrolling, etc.
+ *
+ * Currently unsupported by Chrome, but works in Safari and Firefox.
+ *
+ * @returns {boolean} Boolean indicating that the reduce motion media query matches.
+ */
+
+function reduceMotion() {
+  const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  return reducedMotionQuery.matches ? true : false;
+}
+/**
+ * Turns string boolean into real boolean.
+ *
+ * @param {string} s - A string that may be 'true'.
+ * @returns {boolean} True if 'true'.
+ */
+
+function toBool(s) {
+  return s === 'true' ? true : false;
+}
+/**
+ * Predicate testing whether an element is positioned in the window.
+ *
+ *
+ * @param {HTMLElement} elem - An HTML element.
+ * @returns {boolean} - Is it onscreen?
+ */
+
+function verticallyInWindow(elem) {
+  return elem.getBoundingClientRect().top >= 0 && elem.getBoundingClientRect().top <= window.innerHeight ? true : false;
+}
+/**
+ * Screen width
+ *
+ * @param {size} string - variable name for sreensize value. To be consistent with values stored in _variables.scss
+ */
+
+function screenWidth(size) {
+  switch (size) {
+    case 'tiny':
+      return 375;
+      break;
+
+    case 'mobile':
+      return 432;
+      break;
+
+    case 'tablet':
+      return 768;
+      break;
+
+    case 'between':
+      return 900;
+      break;
+
+    case 'small':
+      return 1024;
+      break;
+
+    case 'desktop':
+      return 1280;
+      break;
+
+    case 'large':
+      return 1440;
+      break;
+
+    case '1080':
+      return 1920;
+      break;
+
+    case '4k':
+      return 3840;
+      break;
+
+    case '8k':
+      return 7680;
+      break;
+
+    default:
+      return 1280;
+      break;
+  }
+}
 
 /***/ }),
 
