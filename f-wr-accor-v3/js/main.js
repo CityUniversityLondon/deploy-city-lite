@@ -1087,7 +1087,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "gaEvent": () => (/* binding */ gaEvent),
 /* harmony export */   "detectIE": () => (/* binding */ detectIE),
 /* harmony export */   "checkIntersectionObserver": () => (/* binding */ checkIntersectionObserver),
-/* harmony export */   "createHTMLElement": () => (/* binding */ createHTMLElement)
+/* harmony export */   "createHTMLElement": () => (/* binding */ createHTMLElement),
+/* harmony export */   "appendAll": () => (/* binding */ appendAll),
+/* harmony export */   "reduceMotion": () => (/* binding */ reduceMotion),
+/* harmony export */   "toBool": () => (/* binding */ toBool),
+/* harmony export */   "verticallyInWindow": () => (/* binding */ verticallyInWindow),
+/* harmony export */   "screenWidth": () => (/* binding */ screenWidth)
 /* harmony export */ });
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
 /* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_0__);
@@ -1228,6 +1233,105 @@ function createHTMLElement(type, attributes) {
     att.label === 'content' ? el.appendChild(document.createTextNode(att.val)) : att.label === 'html' ? el.innerHTML = att.val : el.setAttribute(att.label, att.val);
   });
   return el;
+}
+/**
+ * Append an array of elements to an element.
+ *
+ * @param {HTMLElement} elem - The parent element.
+ * @param {HTMLElement[]} children - An array of elements to append to it.
+ */
+
+function appendAll(elem, children) {
+  children.forEach(child => elem.appendChild(child));
+}
+/**
+ * Detect whether reduced motion is enabled.
+ *
+ * If it is, you should shortcut animations, disable autoplay elements, avoid
+ * smooth scrolling in favour of jump scrolling, etc.
+ *
+ * Currently unsupported by Chrome, but works in Safari and Firefox.
+ *
+ * @returns {boolean} Boolean indicating that the reduce motion media query matches.
+ */
+
+function reduceMotion() {
+  const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  return reducedMotionQuery.matches ? true : false;
+}
+/**
+ * Turns string boolean into real boolean.
+ *
+ * @param {string} s - A string that may be 'true'.
+ * @returns {boolean} True if 'true'.
+ */
+
+function toBool(s) {
+  return s === 'true' ? true : false;
+}
+/**
+ * Predicate testing whether an element is positioned in the window.
+ *
+ *
+ * @param {HTMLElement} elem - An HTML element.
+ * @returns {boolean} - Is it onscreen?
+ */
+
+function verticallyInWindow(elem) {
+  return elem.getBoundingClientRect().top >= 0 && elem.getBoundingClientRect().top <= window.innerHeight ? true : false;
+}
+/**
+ * Screen width
+ *
+ * @param {size} string - variable name for sreensize value. To be consistent with values stored in _variables.scss
+ */
+
+function screenWidth(size) {
+  switch (size) {
+    case 'tiny':
+      return 375;
+      break;
+
+    case 'mobile':
+      return 432;
+      break;
+
+    case 'tablet':
+      return 768;
+      break;
+
+    case 'between':
+      return 900;
+      break;
+
+    case 'small':
+      return 1024;
+      break;
+
+    case 'desktop':
+      return 1280;
+      break;
+
+    case 'large':
+      return 1440;
+      break;
+
+    case '1080':
+      return 1920;
+      break;
+
+    case '4k':
+      return 3840;
+      break;
+
+    case '8k':
+      return 7680;
+      break;
+
+    default:
+      return 1280;
+      break;
+  }
 }
 
 /***/ })
