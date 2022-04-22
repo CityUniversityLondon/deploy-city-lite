@@ -10595,15 +10595,12 @@ figure figcaption a:active,
 .pathway .pathway__cards .card--pathway button .card--pathway__content__img {
     position: relative;
 }
-.pathway .pathway__cards .card--pathway button .card--pathway__content__img:after {
-    font-family: "Font Awesome Brands";
-    content: "\f167";
+.pathway .pathway__cards .card--pathway button .card--pathway__content__img .card--pathway__content__yt-play-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    font-size: 5rem;
-    opacity: 0.9;
+    width: 5rem;
 }
 .pathway .pathway__cards .card--pathway button .card--pathway__content__text {
     text-align: left;
