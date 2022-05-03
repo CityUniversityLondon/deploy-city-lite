@@ -7807,7 +7807,9 @@ main article .content {
     margin-right: 1rem;
     max-width: 80rem;
     grid-column: 1/-1;
-    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background: #DCC39D;
 }
 @media (min-width: 901px) {
     main article .content {
@@ -7820,6 +7822,12 @@ main article .content {
         grid-column: 7/-7;
         margin: 0;
     }
+}
+main article .content > :last-child:not(div) {
+    padding-bottom: 0.5rem;
+}
+main article .content > :first-child:not(div) {
+    padding-top: 0.5rem;
 }
 main .navigation--secondary {
     grid-column: 1/span 6;
