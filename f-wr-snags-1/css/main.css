@@ -7809,7 +7809,6 @@ main article .content {
     grid-column: 1/-1;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background: #DCC39D;
 }
 @media (min-width: 901px) {
     main article .content {
@@ -10891,6 +10890,11 @@ figure figcaption a:active,
         transition: none;
     }
 }
+.pathway .pathway__cards .card--pathway a:hover {
+    border-bottom-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-bottom-width: 0.0625rem;
+}
 @media (hover: hover) {
     .pathway .pathway__cards .card--pathway a:hover .card--pathway__content__img {
         transform: scale(1.02);
@@ -11022,6 +11026,11 @@ figure figcaption a:active,
         transition: none;
     }
 }
+.pathway .pathway__cards .card--pathway button:hover {
+    border-bottom-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-bottom-width: 0.0625rem;
+}
 @media (hover: hover) {
     .pathway .pathway__cards .card--pathway button:hover .card--pathway__content__img {
         transform: scale(1.02);
@@ -11081,6 +11090,9 @@ figure figcaption a:active,
 }
 .pathway .pathway__cards .card--pathway .modal li {
     margin-top: initial;
+}
+.pathway .pathway__cards .card--pathway .card--pathway__content {
+    overflow: hidden;
 }
 @media (min-width: 432px) and (max-width: 767px) {
     .pathway .pathway__cards .card--pathway .card--pathway__content {
