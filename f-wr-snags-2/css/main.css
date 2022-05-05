@@ -12303,6 +12303,7 @@ main .youtube-description-cta .youtube-description-cta__heading {
 .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text {
     height: 100%;
     padding: 1.5rem;
+    width: 100%;
 }
 @media (max-width: 767px) {
     .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text {
