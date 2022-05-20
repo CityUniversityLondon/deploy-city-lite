@@ -9694,7 +9694,7 @@ form:not([class]) .form__required-note--marker,
         grid-column-gap: 0;
         display: grid;
         grid-column: 1/-1;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 }
 @media (min-width: 769px) and (min-width: 768px) {
@@ -9725,8 +9725,11 @@ form:not([class]) .form__required-note--marker,
 }
 @media (min-width: 769px) {
     .banner__txt {
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 2/12;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 0.75rem;
     }
 }
 
@@ -9747,7 +9750,7 @@ form:not([class]) .form__required-note--marker,
 }
 @media (min-width: 769px) {
     .banner__ribbon {
-        grid-row: 3;
+        grid-row: 2;
         grid-column: 2/12;
     }
 }
@@ -9762,7 +9765,7 @@ form:not([class]) .form__required-note--marker,
     .banner__img {
         display: block;
         max-height: 480px;
-        grid-row: 1/span 3;
+        grid-row: 1/span 2;
         grid-column: 12/-1;
     }
 }
