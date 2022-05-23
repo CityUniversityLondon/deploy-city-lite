@@ -9833,8 +9833,15 @@ form:not([class]) .form__required-note--marker,
     color: #3e1031;
     background-color: #ffffff;
     box-shadow: 0.5rem 0 0 #ffffff, -0.5rem 0 0 #ffffff;
-    line-height: 3.5rem;
+    line-height: 3rem;
     display: inline;
+}
+@media (min-width: 768px) {
+    .banner--highlight .banner__txt__padding h1,
+.banner--highlight .banner__txt__padding p,
+.banner--highlight .banner__txt__padding span {
+        line-height: 3.5rem;
+    }
 }
 
 figure a {
