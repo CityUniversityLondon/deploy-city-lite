@@ -11666,6 +11666,9 @@ figure figcaption a:active,
         grid-column: 2/-2;
     }
 }
+.embedded-video--collage__wrapper .embedded-video--collage__heading {
+    text-align: center;
+}
 @media (max-width: 1024px) {
     .embedded-video--collage__wrapper .embedded-video--collage__heading {
         padding-left: 1.5rem;
@@ -11679,6 +11682,7 @@ figure figcaption a:active,
     }
 }
 .embedded-video--collage__wrapper .embedded-video--collage__container {
+    margin-top: 1rem;
     display: grid;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
@@ -11903,6 +11907,10 @@ main .youtube-description-cta {
 }
 main .youtube-description-cta .youtube-description-cta__heading {
     flex-basis: 100%;
+    margin-bottom: 1.5rem;
+}
+main .youtube-description-cta .youtube-description-cta__panel.youtube-description-cta__panel__text .cta-block {
+    margin: 0 0 2rem;
 }
 
 .promo__wrapper {
