@@ -137,9 +137,9 @@
 }
 @media (hover: hover) {
     .cta:hover {
-        background-color: #9e111c;
+        background-color: #ba1421;
         color: #ffffff;
-        border: 0.125rem solid #9e111c;
+        border: 0.125rem solid #ba1421;
     }
     .cta:hover span {
         color: #ffffff;
@@ -686,6 +686,1716 @@
     }
     .cta-icon--arrow:focus span, .cta-icon--arrow:hover span {
         transform: translateX(-0.75rem);
+    }
+}
+
+.city-lite--b .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #e30613;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b .cta:focus, .city-lite--b .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b .cta:focus, .city-lite--b .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .cta:after {
+    opacity: 0;
+}
+.city-lite--b .cta:visited {
+    border: 0.125rem solid #e30613;
+}
+.city-lite--b .cta, .city-lite--b .cta:focus, .city-lite--b .cta:active {
+    background-color: #e30613;
+    color: #ffffff;
+    border: 0.125rem solid #e30613;
+}
+.city-lite--b .cta span, .city-lite--b .cta:focus span, .city-lite--b .cta:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b .cta:hover {
+        background-color: #c50511;
+        color: #ffffff;
+        border: 0.125rem solid #c50511;
+    }
+    .city-lite--b .cta:hover span {
+        color: #ffffff;
+    }
+}
+.city-lite--b .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #7e756d;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b .cta--t2:focus, .city-lite--b .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b .cta--t2:focus, .city-lite--b .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b .cta--t2:visited {
+    border: 0.125rem solid #7e756d;
+}
+.city-lite--b .cta--t2, .city-lite--b .cta--t2:focus, .city-lite--b .cta--t2:active {
+    background-color: #7e756d;
+    color: #ffffff;
+    border: 0.125rem solid #7e756d;
+}
+.city-lite--b .cta--t2 span, .city-lite--b .cta--t2:focus span, .city-lite--b .cta--t2:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b .cta--t2:hover {
+        background-color: #6e665f;
+        color: #ffffff;
+        border: 0.125rem solid #6e665f;
+    }
+    .city-lite--b .cta--t2:hover span {
+        color: #ffffff;
+    }
+}
+
+.city-lite--b-ug .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #e35205;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .cta:after {
+    opacity: 0;
+}
+.city-lite--b-ug .cta:visited {
+    border: 0.125rem solid #e35205;
+}
+.city-lite--b-ug .cta, .city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active {
+    background-color: #e35205;
+    color: #0c0c0e;
+    border: 0.125rem solid #e35205;
+}
+.city-lite--b-ug .cta span, .city-lite--b-ug .cta:focus span, .city-lite--b-ug .cta:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .cta:hover {
+        background-color: #c54704;
+        color: #0c0c0e;
+        border: 0.125rem solid #c54704;
+    }
+    .city-lite--b-ug .cta:hover span {
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-ug .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #f1b434;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-ug .cta--t2:focus, .city-lite--b-ug .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-ug .cta--t2:focus, .city-lite--b-ug .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-ug .cta--t2:visited {
+    border: 0.125rem solid #f1b434;
+}
+.city-lite--b-ug .cta--t2, .city-lite--b-ug .cta--t2:focus, .city-lite--b-ug .cta--t2:active {
+    background-color: #f1b434;
+    color: #0c0c0e;
+    border: 0.125rem solid #f1b434;
+}
+.city-lite--b-ug .cta--t2 span, .city-lite--b-ug .cta--t2:focus span, .city-lite--b-ug .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .cta--t2:hover {
+        background-color: #efa917;
+        color: #0c0c0e;
+        border: 0.125rem solid #efa917;
+    }
+    .city-lite--b-ug .cta--t2:hover span {
+        color: #0c0c0e;
+    }
+}
+
+.city-lite--b-msc .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #002b49;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .cta:after {
+    opacity: 0;
+}
+.city-lite--b-msc .cta:visited {
+    border: 0.125rem solid #002b49;
+}
+.city-lite--b-msc .cta, .city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active {
+    background-color: #002b49;
+    color: #ffffff;
+    border: 0.125rem solid #002b49;
+}
+.city-lite--b-msc .cta span, .city-lite--b-msc .cta:focus span, .city-lite--b-msc .cta:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .cta:hover {
+        background-color: #00192a;
+        color: #ffffff;
+        border: 0.125rem solid #00192a;
+    }
+    .city-lite--b-msc .cta:hover span {
+        color: #ffffff;
+    }
+}
+.city-lite--b-msc .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #006699;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-msc .cta--t2:focus, .city-lite--b-msc .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-msc .cta--t2:focus, .city-lite--b-msc .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-msc .cta--t2:visited {
+    border: 0.125rem solid #006699;
+}
+.city-lite--b-msc .cta--t2, .city-lite--b-msc .cta--t2:focus, .city-lite--b-msc .cta--t2:active {
+    background-color: #006699;
+    color: #ffffff;
+    border: 0.125rem solid #006699;
+}
+.city-lite--b-msc .cta--t2 span, .city-lite--b-msc .cta--t2:focus span, .city-lite--b-msc .cta--t2:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .cta--t2:hover {
+        background-color: #00527a;
+        color: #ffffff;
+        border: 0.125rem solid #00527a;
+    }
+    .city-lite--b-msc .cta--t2:hover span {
+        color: #ffffff;
+    }
+}
+
+.city-lite--b-phd .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #006699;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .cta:after {
+    opacity: 0;
+}
+.city-lite--b-phd .cta:visited {
+    border: 0.125rem solid #006699;
+}
+.city-lite--b-phd .cta, .city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active {
+    background-color: #006699;
+    color: #ffffff;
+    border: 0.125rem solid #006699;
+}
+.city-lite--b-phd .cta span, .city-lite--b-phd .cta:focus span, .city-lite--b-phd .cta:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .cta:hover {
+        background-color: #00527a;
+        color: #ffffff;
+        border: 0.125rem solid #00527a;
+    }
+    .city-lite--b-phd .cta:hover span {
+        color: #ffffff;
+    }
+}
+.city-lite--b-phd .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #5bc2e7;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-phd .cta--t2:focus, .city-lite--b-phd .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-phd .cta--t2:focus, .city-lite--b-phd .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-phd .cta--t2:visited {
+    border: 0.125rem solid #5bc2e7;
+}
+.city-lite--b-phd .cta--t2, .city-lite--b-phd .cta--t2:focus, .city-lite--b-phd .cta--t2:active {
+    background-color: #5bc2e7;
+    color: #0c0c0e;
+    border: 0.125rem solid #5bc2e7;
+}
+.city-lite--b-phd .cta--t2 span, .city-lite--b-phd .cta--t2:focus span, .city-lite--b-phd .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .cta--t2:hover {
+        background-color: #40b8e3;
+        color: #0c0c0e;
+        border: 0.125rem solid #40b8e3;
+    }
+    .city-lite--b-phd .cta--t2:hover span {
+        color: #0c0c0e;
+    }
+}
+
+.city-lite--b-mba .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #2e767a;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-mba .cta:after {
+    opacity: 0;
+}
+.city-lite--b-mba .cta:visited {
+    border: 0.125rem solid #2e767a;
+}
+.city-lite--b-mba .cta, .city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active {
+    background-color: #2e767a;
+    color: #ffffff;
+    border: 0.125rem solid #2e767a;
+}
+.city-lite--b-mba .cta span, .city-lite--b-mba .cta:focus span, .city-lite--b-mba .cta:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .cta:hover {
+        background-color: #266164;
+        color: #ffffff;
+        border: 0.125rem solid #266164;
+    }
+    .city-lite--b-mba .cta:hover span {
+        color: #ffffff;
+    }
+}
+.city-lite--b-mba .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #a3d5cd;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-mba .cta--t2:focus, .city-lite--b-mba .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-mba .cta--t2:focus, .city-lite--b-mba .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-mba .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-mba .cta--t2:visited {
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-mba .cta--t2, .city-lite--b-mba .cta--t2:focus, .city-lite--b-mba .cta--t2:active {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-mba .cta--t2 span, .city-lite--b-mba .cta--t2:focus span, .city-lite--b-mba .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .cta--t2:hover {
+        background-color: #8ecbc2;
+        color: #0c0c0e;
+        border: 0.125rem solid #8ecbc2;
+    }
+    .city-lite--b-mba .cta--t2:hover span {
+        color: #0c0c0e;
+    }
+}
+
+.city-lite--b-emba .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #496c60;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-emba .cta:after {
+    opacity: 0;
+}
+.city-lite--b-emba .cta:visited {
+    border: 0.125rem solid #496c60;
+}
+.city-lite--b-emba .cta, .city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active {
+    background-color: #496c60;
+    color: #ffffff;
+    border: 0.125rem solid #496c60;
+}
+.city-lite--b-emba .cta span, .city-lite--b-emba .cta:focus span, .city-lite--b-emba .cta:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .cta:hover {
+        background-color: #3d5a50;
+        color: #ffffff;
+        border: 0.125rem solid #3d5a50;
+    }
+    .city-lite--b-emba .cta:hover span {
+        color: #ffffff;
+    }
+}
+.city-lite--b-emba .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #a3d5cd;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-emba .cta--t2:focus, .city-lite--b-emba .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-emba .cta--t2:focus, .city-lite--b-emba .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-emba .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-emba .cta--t2:visited {
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-emba .cta--t2, .city-lite--b-emba .cta--t2:focus, .city-lite--b-emba .cta--t2:active {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-emba .cta--t2 span, .city-lite--b-emba .cta--t2:focus span, .city-lite--b-emba .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .cta--t2:hover {
+        background-color: #8ecbc2;
+        color: #0c0c0e;
+        border: 0.125rem solid #8ecbc2;
+    }
+    .city-lite--b-emba .cta--t2:hover span {
+        color: #0c0c0e;
+    }
+}
+
+.city-lite--b-demba .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #91baa3;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .cta:after {
+    opacity: 0;
+}
+.city-lite--b-demba .cta:visited {
+    border: 0.125rem solid #91baa3;
+}
+.city-lite--b-demba .cta, .city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active {
+    background-color: #91baa3;
+    color: #0c0c0e;
+    border: 0.125rem solid #91baa3;
+}
+.city-lite--b-demba .cta span, .city-lite--b-demba .cta:focus span, .city-lite--b-demba .cta:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .cta:hover {
+        background-color: #7eae93;
+        color: #0c0c0e;
+        border: 0.125rem solid #7eae93;
+    }
+    .city-lite--b-demba .cta:hover span {
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-demba .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #a3d5cd;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-demba .cta--t2:focus, .city-lite--b-demba .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-demba .cta--t2:focus, .city-lite--b-demba .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-demba .cta--t2:visited {
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-demba .cta--t2, .city-lite--b-demba .cta--t2:focus, .city-lite--b-demba .cta--t2:active {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-demba .cta--t2 span, .city-lite--b-demba .cta--t2:focus span, .city-lite--b-demba .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .cta--t2:hover {
+        background-color: #8ecbc2;
+        color: #0c0c0e;
+        border: 0.125rem solid #8ecbc2;
+    }
+    .city-lite--b-demba .cta--t2:hover span {
+        color: #0c0c0e;
+    }
+}
+
+.city-lite--b-omba .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #189183;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .cta:after {
+    opacity: 0;
+}
+.city-lite--b-omba .cta:visited {
+    border: 0.125rem solid #189183;
+}
+.city-lite--b-omba .cta, .city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active {
+    background-color: #189183;
+    color: #0c0c0e;
+    border: 0.125rem solid #189183;
+}
+.city-lite--b-omba .cta span, .city-lite--b-omba .cta:focus span, .city-lite--b-omba .cta:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .cta:hover {
+        background-color: #14776b;
+        color: #0c0c0e;
+        border: 0.125rem solid #14776b;
+    }
+    .city-lite--b-omba .cta:hover span {
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-omba .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #a3d5cd;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-omba .cta--t2:focus, .city-lite--b-omba .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-omba .cta--t2:focus, .city-lite--b-omba .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-omba .cta--t2:visited {
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-omba .cta--t2, .city-lite--b-omba .cta--t2:focus, .city-lite--b-omba .cta--t2:active {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+    border: 0.125rem solid #a3d5cd;
+}
+.city-lite--b-omba .cta--t2 span, .city-lite--b-omba .cta--t2:focus span, .city-lite--b-omba .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .cta--t2:hover {
+        background-color: #8ecbc2;
+        color: #0c0c0e;
+        border: 0.125rem solid #8ecbc2;
+    }
+    .city-lite--b-omba .cta--t2:hover span {
+        color: #0c0c0e;
+    }
+}
+
+.city-lite--b-exec .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #93328e;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .cta:after {
+    opacity: 0;
+}
+.city-lite--b-exec .cta:visited {
+    border: 0.125rem solid #93328e;
+}
+.city-lite--b-exec .cta, .city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active {
+    background-color: #93328e;
+    color: #ffffff;
+    border: 0.125rem solid #93328e;
+}
+.city-lite--b-exec .cta span, .city-lite--b-exec .cta:focus span, .city-lite--b-exec .cta:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .cta:hover {
+        background-color: #7c2a78;
+        color: #ffffff;
+        border: 0.125rem solid #7c2a78;
+    }
+    .city-lite--b-exec .cta:hover span {
+        color: #ffffff;
+    }
+}
+.city-lite--b-exec .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #e31c79;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-exec .cta--t2:focus, .city-lite--b-exec .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-exec .cta--t2:focus, .city-lite--b-exec .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-exec .cta--t2:visited {
+    border: 0.125rem solid #e31c79;
+}
+.city-lite--b-exec .cta--t2, .city-lite--b-exec .cta--t2:focus, .city-lite--b-exec .cta--t2:active {
+    background-color: #e31c79;
+    color: #0c0c0e;
+    border: 0.125rem solid #e31c79;
+}
+.city-lite--b-exec .cta--t2 span, .city-lite--b-exec .cta--t2:focus span, .city-lite--b-exec .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .cta--t2:hover {
+        background-color: #c8196a;
+        color: #0c0c0e;
+        border: 0.125rem solid #c8196a;
+    }
+    .city-lite--b-exec .cta--t2:hover span {
+        color: #0c0c0e;
+    }
+}
+
+.city-lite--b-cce .cta {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #8b2433;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .cta:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .cta:after {
+    opacity: 0;
+}
+.city-lite--b-cce .cta:visited {
+    border: 0.125rem solid #8b2433;
+}
+.city-lite--b-cce .cta, .city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active {
+    background-color: #8b2433;
+    color: #ffffff;
+    border: 0.125rem solid #8b2433;
+}
+.city-lite--b-cce .cta span, .city-lite--b-cce .cta:focus span, .city-lite--b-cce .cta:active span {
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .cta:hover {
+        background-color: #731e2a;
+        color: #ffffff;
+        border: 0.125rem solid #731e2a;
+    }
+    .city-lite--b-cce .cta:hover span {
+        color: #ffffff;
+    }
+}
+.city-lite--b-cce .cta--t2 {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    transition: background-color 0.6s, transform 0.6s;
+    border: 0.125rem solid #a9a19c;
+    border-radius: 0.25rem;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .cta--t2:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-cce .cta--t2:focus, .city-lite--b-cce .cta--t2:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+.city-lite--b-cce .cta--t2:focus, .city-lite--b-cce .cta--t2:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .cta--t2:after {
+    opacity: 0;
+}
+.city-lite--b-cce .cta--t2:visited {
+    border: 0.125rem solid #a9a19c;
+}
+.city-lite--b-cce .cta--t2, .city-lite--b-cce .cta--t2:focus, .city-lite--b-cce .cta--t2:active {
+    background-color: #a9a19c;
+    color: #0c0c0e;
+    border: 0.125rem solid #a9a19c;
+}
+.city-lite--b-cce .cta--t2 span, .city-lite--b-cce .cta--t2:focus span, .city-lite--b-cce .cta--t2:active span {
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .cta--t2:hover {
+        background-color: #9b918c;
+        color: #0c0c0e;
+        border: 0.125rem solid #9b918c;
+    }
+    .city-lite--b-cce .cta--t2:hover span {
+        color: #0c0c0e;
     }
 }
 
