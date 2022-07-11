@@ -13996,6 +13996,56 @@ figure figcaption a:active,
     width: 5.5rem;
 }
 
+.city-lite--b .global-footer__ribbon {
+    background-color: #7e756d;
+    background: #7e756d;
+}
+
+.city-lite--b-ug .global-footer__ribbon {
+    background-color: #e35205;
+    background: #e35205;
+}
+
+.city-lite--b-msc .global-footer__ribbon {
+    background-color: #002b49;
+    background: #002b49;
+}
+
+.city-lite--b-phd .global-footer__ribbon {
+    background-color: #006699;
+    background: #006699;
+}
+
+.city-lite--b-mba .global-footer__ribbon {
+    background-color: #2e767a;
+    background: #2e767a;
+}
+
+.city-lite--b-emba .global-footer__ribbon {
+    background-color: #496c60;
+    background: #496c60;
+}
+
+.city-lite--b-demba .global-footer__ribbon {
+    background-color: #91baa3;
+    background: #91baa3;
+}
+
+.city-lite--b-omba .global-footer__ribbon {
+    background-color: #189183;
+    background: #189183;
+}
+
+.city-lite--b-exec .global-footer__ribbon {
+    background-color: #93328e;
+    background: #93328e;
+}
+
+.city-lite--b-cce .global-footer__ribbon {
+    background-color: #8b2433;
+    background: #8b2433;
+}
+
 .global-header {
     background-color: #f2f2f2;
 }
