@@ -13253,7 +13253,7 @@ form:not([class]) .form__required-note--marker,
     }
 }
 
-body[class*=city-lite--b] .banner--bayes {
+body[class*=city-lite--b] .banner {
     background-color: #ffffff;
     color: #0c0c0e;
 }
@@ -13268,6 +13268,105 @@ body[class*=city-lite--b] .banner--bayes {
         grid-column: 1/13;
     }
 }
+
+.banner--bayes-highlight .banner__txt__padding {
+    padding: 0 0.5rem;
+}
+.banner--bayes-highlight .banner__txt__padding h1,
+.banner--bayes-highlight .banner__txt__padding p,
+.banner--bayes-highlight .banner__txt__padding span {
+    box-decoration-break: clone;
+    line-height: 3rem;
+    display: inline;
+}
+@media (min-width: 768px) {
+    .banner--bayes-highlight .banner__txt__padding h1,
+.banner--bayes-highlight .banner__txt__padding p,
+.banner--bayes-highlight .banner__txt__padding span {
+        line-height: 3.5rem;
+    }
+}
+
+.city-lite--b .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b .banner--bayes-highlight .banner__txt__padding span {
+    color: #ffffff;
+    background-color: #7e756d;
+    box-shadow: 0.5rem 0 0 #7e756d, -0.5rem 0 0 #7e756d;
+}
+
+.city-lite--b-ug .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-ug .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-ug .banner--bayes-highlight .banner__txt__padding span {
+    color: #0c0c0e;
+    background-color: #e35205;
+    box-shadow: 0.5rem 0 0 #e35205, -0.5rem 0 0 #e35205;
+}
+
+.city-lite--b-msc .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-msc .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-msc .banner--bayes-highlight .banner__txt__padding span {
+    color: #ffffff;
+    background-color: #002b49;
+    box-shadow: 0.5rem 0 0 #002b49, -0.5rem 0 0 #002b49;
+}
+
+.city-lite--b-phd .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-phd .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-phd .banner--bayes-highlight .banner__txt__padding span {
+    color: #ffffff;
+    background-color: #006699;
+    box-shadow: 0.5rem 0 0 #006699, -0.5rem 0 0 #006699;
+}
+
+.city-lite--b-mba .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-mba .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-mba .banner--bayes-highlight .banner__txt__padding span {
+    color: #ffffff;
+    background-color: #2e767a;
+    box-shadow: 0.5rem 0 0 #2e767a, -0.5rem 0 0 #2e767a;
+}
+
+.city-lite--b-emba .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-emba .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-emba .banner--bayes-highlight .banner__txt__padding span {
+    color: #ffffff;
+    background-color: #496c60;
+    box-shadow: 0.5rem 0 0 #496c60, -0.5rem 0 0 #496c60;
+}
+
+.city-lite--b-demba .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-demba .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-demba .banner--bayes-highlight .banner__txt__padding span {
+    color: #0c0c0e;
+    background-color: #91baa3;
+    box-shadow: 0.5rem 0 0 #91baa3, -0.5rem 0 0 #91baa3;
+}
+
+.city-lite--b-omba .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-omba .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-omba .banner--bayes-highlight .banner__txt__padding span {
+    color: #0c0c0e;
+    background-color: #189183;
+    box-shadow: 0.5rem 0 0 #189183, -0.5rem 0 0 #189183;
+}
+
+.city-lite--b-exec .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-exec .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-exec .banner--bayes-highlight .banner__txt__padding span {
+    color: #ffffff;
+    background-color: #93328e;
+    box-shadow: 0.5rem 0 0 #93328e, -0.5rem 0 0 #93328e;
+}
+
+.city-lite--b-cce .banner--bayes-highlight .banner__txt__padding h1,
+.city-lite--b-cce .banner--bayes-highlight .banner__txt__padding p,
+.city-lite--b-cce .banner--bayes-highlight .banner__txt__padding span {
+    color: #ffffff;
+    background-color: #8b2433;
+    box-shadow: 0.5rem 0 0 #8b2433, -0.5rem 0 0 #8b2433;
+}
+
 @media (min-width: 769px) {
     body[class*=city-lite--b] .banner__separator {
         grid-column: 11/14;
