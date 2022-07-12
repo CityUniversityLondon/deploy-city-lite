@@ -13367,8 +13367,12 @@ body[class*=city-lite--b] .banner {
     box-shadow: 0.5rem 0 0 #8b2433, -0.5rem 0 0 #8b2433;
 }
 
+body[class*=city-lite--b] .banner__separator {
+    display: none;
+}
 @media (min-width: 769px) {
     body[class*=city-lite--b] .banner__separator {
+        display: block;
         grid-column: 11/14;
         grid-row: 1/-1;
         height: 100%;
