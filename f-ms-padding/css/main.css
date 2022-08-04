@@ -13178,6 +13178,7 @@ form:not([class]) .form__required-note--marker,
     display: grid;
     padding-top: 1.75rem;
     padding-bottom: 2rem;
+    margin-top: 1.5rem;
 }
 @media (min-width: 768px) {
     .accordion__wrapper {
@@ -13266,9 +13267,6 @@ form:not([class]) .form__required-note--marker,
     background: #ffffff;
 }
 
-.city-lite--b .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #7e756d;
     color: #ffffff;
@@ -13282,9 +13280,6 @@ form:not([class]) .form__required-note--marker,
     color: #ffffff;
 }
 
-.city-lite--b-ug .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-ug .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #e35205;
     color: #0c0c0e;
@@ -13298,9 +13293,6 @@ form:not([class]) .form__required-note--marker,
     color: #0c0c0e;
 }
 
-.city-lite--b-msc .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-msc .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #002b49;
     color: #ffffff;
@@ -13314,9 +13306,6 @@ form:not([class]) .form__required-note--marker,
     color: #ffffff;
 }
 
-.city-lite--b-phd .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-phd .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #006699;
     color: #ffffff;
@@ -13330,9 +13319,6 @@ form:not([class]) .form__required-note--marker,
     color: #ffffff;
 }
 
-.city-lite--b-mba .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-mba .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #2e767a;
     color: #ffffff;
@@ -13346,9 +13332,6 @@ form:not([class]) .form__required-note--marker,
     color: #ffffff;
 }
 
-.city-lite--b-emba .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-emba .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #496c60;
     color: #ffffff;
@@ -13362,9 +13345,6 @@ form:not([class]) .form__required-note--marker,
     color: #ffffff;
 }
 
-.city-lite--b-demba .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-demba .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #91baa3;
     color: #0c0c0e;
@@ -13378,9 +13358,6 @@ form:not([class]) .form__required-note--marker,
     color: #0c0c0e;
 }
 
-.city-lite--b-omba .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-omba .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #189183;
     color: #0c0c0e;
@@ -13394,9 +13371,6 @@ form:not([class]) .form__required-note--marker,
     color: #0c0c0e;
 }
 
-.city-lite--b-exec .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-exec .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #93328e;
     color: #ffffff;
@@ -13410,9 +13384,6 @@ form:not([class]) .form__required-note--marker,
     color: #ffffff;
 }
 
-.city-lite--b-cce .accordion__wrapper {
-    margin-top: 1.5rem;
-}
 .city-lite--b-cce .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #8b2433;
     color: #ffffff;
