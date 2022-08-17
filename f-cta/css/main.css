@@ -15202,6 +15202,46 @@ figure figcaption a:active,
     margin-left: 0.25rem;
 }
 
+.city-lite--b .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #7e756d;
+}
+
+.city-lite--b-ug .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #e35205;
+}
+
+.city-lite--b-msc .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #002b49;
+}
+
+.city-lite--b-phd .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #006699;
+}
+
+.city-lite--b-mba .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #2e767a;
+}
+
+.city-lite--b-emba .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #496c60;
+}
+
+.city-lite--b-demba .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #91baa3;
+}
+
+.city-lite--b-omba .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #189183;
+}
+
+.city-lite--b-exec .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #93328e;
+}
+
+.city-lite--b-cce .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
+    border-top: 0.5rem solid #8b2433;
+}
+
 .js .slider {
     display: flex;
 }
