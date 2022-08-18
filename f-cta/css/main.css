@@ -60,7 +60,8 @@
     }
 }
 
-.cta {
+.cta,
+.cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -84,7 +85,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .cta:hover {
+    .cta:hover,
+.cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -100,7 +102,9 @@
         text-decoration: none;
     }
 }
-.cta:focus, .cta:active {
+.cta:focus, .cta:active,
+.cta--basic:focus,
+.cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -115,33 +119,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.cta:focus, .cta:active {
+.cta:focus, .cta:active,
+.cta--basic:focus,
+.cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.cta:after {
+.cta:after,
+.cta--basic:after {
     opacity: 0;
 }
-.cta:visited {
+.cta:visited,
+.cta--basic:visited {
     border: 0.125rem solid #d61726;
 }
-.cta, .cta:focus, .cta:active {
+.cta, .cta:focus, .cta:active,
+.cta--basic,
+.cta--basic:focus,
+.cta--basic:active {
     background-color: #d61726;
     color: #ffffff;
     border: 0.125rem solid #d61726;
 }
-.cta span, .cta:focus span, .cta:active span {
+.cta span, .cta:focus span, .cta:active span,
+.cta--basic span,
+.cta--basic:focus span,
+.cta--basic:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
-    .cta:hover {
+    .cta:hover,
+.cta--basic:hover {
         background-color: #ba1421;
         color: #ffffff;
         border: 0.125rem solid #ba1421;
     }
-    .cta:hover span {
+    .cta:hover span,
+.cta--basic:hover span {
         color: #ffffff;
     }
 }
@@ -662,7 +678,8 @@
     }
 }
 
-.city-lite--b .cta {
+.city-lite--b .cta,
+.city-lite--b .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -686,7 +703,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b .cta:hover {
+    .city-lite--b .cta:hover,
+.city-lite--b .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -702,7 +720,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b .cta:focus, .city-lite--b .cta:active {
+.city-lite--b .cta:focus, .city-lite--b .cta:active,
+.city-lite--b .cta--basic:focus,
+.city-lite--b .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -717,33 +737,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b .cta:focus, .city-lite--b .cta:active {
+.city-lite--b .cta:focus, .city-lite--b .cta:active,
+.city-lite--b .cta--basic:focus,
+.city-lite--b .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b .cta:after {
+.city-lite--b .cta:after,
+.city-lite--b .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b .cta:visited {
+.city-lite--b .cta:visited,
+.city-lite--b .cta--basic:visited {
     border: 0.125rem solid #e30613;
 }
-.city-lite--b .cta, .city-lite--b .cta:focus, .city-lite--b .cta:active {
+.city-lite--b .cta, .city-lite--b .cta:focus, .city-lite--b .cta:active,
+.city-lite--b .cta--basic,
+.city-lite--b .cta--basic:focus,
+.city-lite--b .cta--basic:active {
     background-color: #e30613;
     color: #ffffff;
     border: 0.125rem solid #e30613;
 }
-.city-lite--b .cta span, .city-lite--b .cta:focus span, .city-lite--b .cta:active span {
+.city-lite--b .cta span, .city-lite--b .cta:focus span, .city-lite--b .cta:active span,
+.city-lite--b .cta--basic span,
+.city-lite--b .cta--basic:focus span,
+.city-lite--b .cta--basic:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--b .cta:hover {
+    .city-lite--b .cta:hover,
+.city-lite--b .cta--basic:hover {
         background-color: #c50511;
         color: #ffffff;
         border: 0.125rem solid #c50511;
     }
-    .city-lite--b .cta:hover span {
+    .city-lite--b .cta:hover span,
+.city-lite--b .cta--basic:hover span {
         color: #ffffff;
     }
 }
@@ -1003,7 +1035,8 @@
     }
 }
 
-.city-lite--b-ug .cta {
+.city-lite--b-ug .cta,
+.city-lite--b-ug .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -1027,7 +1060,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-ug .cta:hover {
+    .city-lite--b-ug .cta:hover,
+.city-lite--b-ug .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -1043,7 +1077,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active {
+.city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active,
+.city-lite--b-ug .cta--basic:focus,
+.city-lite--b-ug .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -1058,33 +1094,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active {
+.city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active,
+.city-lite--b-ug .cta--basic:focus,
+.city-lite--b-ug .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-ug .cta:after {
+.city-lite--b-ug .cta:after,
+.city-lite--b-ug .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-ug .cta:visited {
+.city-lite--b-ug .cta:visited,
+.city-lite--b-ug .cta--basic:visited {
     border: 0.125rem solid #f1b434;
 }
-.city-lite--b-ug .cta, .city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active {
+.city-lite--b-ug .cta, .city-lite--b-ug .cta:focus, .city-lite--b-ug .cta:active,
+.city-lite--b-ug .cta--basic,
+.city-lite--b-ug .cta--basic:focus,
+.city-lite--b-ug .cta--basic:active {
     background-color: #f1b434;
     color: #0c0c0e;
     border: 0.125rem solid #f1b434;
 }
-.city-lite--b-ug .cta span, .city-lite--b-ug .cta:focus span, .city-lite--b-ug .cta:active span {
+.city-lite--b-ug .cta span, .city-lite--b-ug .cta:focus span, .city-lite--b-ug .cta:active span,
+.city-lite--b-ug .cta--basic span,
+.city-lite--b-ug .cta--basic:focus span,
+.city-lite--b-ug .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-ug .cta:hover {
+    .city-lite--b-ug .cta:hover,
+.city-lite--b-ug .cta--basic:hover {
         background-color: #efa917;
         color: #0c0c0e;
         border: 0.125rem solid #efa917;
     }
-    .city-lite--b-ug .cta:hover span {
+    .city-lite--b-ug .cta:hover span,
+.city-lite--b-ug .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
@@ -1344,7 +1392,8 @@
     }
 }
 
-.city-lite--b-msc .cta {
+.city-lite--b-msc .cta,
+.city-lite--b-msc .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -1368,7 +1417,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-msc .cta:hover {
+    .city-lite--b-msc .cta:hover,
+.city-lite--b-msc .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -1384,7 +1434,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active {
+.city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active,
+.city-lite--b-msc .cta--basic:focus,
+.city-lite--b-msc .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -1399,33 +1451,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active {
+.city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active,
+.city-lite--b-msc .cta--basic:focus,
+.city-lite--b-msc .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-msc .cta:after {
+.city-lite--b-msc .cta:after,
+.city-lite--b-msc .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-msc .cta:visited {
+.city-lite--b-msc .cta:visited,
+.city-lite--b-msc .cta--basic:visited {
     border: 0.125rem solid #006699;
 }
-.city-lite--b-msc .cta, .city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active {
+.city-lite--b-msc .cta, .city-lite--b-msc .cta:focus, .city-lite--b-msc .cta:active,
+.city-lite--b-msc .cta--basic,
+.city-lite--b-msc .cta--basic:focus,
+.city-lite--b-msc .cta--basic:active {
     background-color: #006699;
     color: #ffffff;
     border: 0.125rem solid #006699;
 }
-.city-lite--b-msc .cta span, .city-lite--b-msc .cta:focus span, .city-lite--b-msc .cta:active span {
+.city-lite--b-msc .cta span, .city-lite--b-msc .cta:focus span, .city-lite--b-msc .cta:active span,
+.city-lite--b-msc .cta--basic span,
+.city-lite--b-msc .cta--basic:focus span,
+.city-lite--b-msc .cta--basic:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--b-msc .cta:hover {
+    .city-lite--b-msc .cta:hover,
+.city-lite--b-msc .cta--basic:hover {
         background-color: #00527a;
         color: #ffffff;
         border: 0.125rem solid #00527a;
     }
-    .city-lite--b-msc .cta:hover span {
+    .city-lite--b-msc .cta:hover span,
+.city-lite--b-msc .cta--basic:hover span {
         color: #ffffff;
     }
 }
@@ -1685,7 +1749,8 @@
     }
 }
 
-.city-lite--b-phd .cta {
+.city-lite--b-phd .cta,
+.city-lite--b-phd .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -1709,7 +1774,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-phd .cta:hover {
+    .city-lite--b-phd .cta:hover,
+.city-lite--b-phd .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -1725,7 +1791,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active {
+.city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active,
+.city-lite--b-phd .cta--basic:focus,
+.city-lite--b-phd .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -1740,33 +1808,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active {
+.city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active,
+.city-lite--b-phd .cta--basic:focus,
+.city-lite--b-phd .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-phd .cta:after {
+.city-lite--b-phd .cta:after,
+.city-lite--b-phd .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-phd .cta:visited {
+.city-lite--b-phd .cta:visited,
+.city-lite--b-phd .cta--basic:visited {
     border: 0.125rem solid #5bc2e7;
 }
-.city-lite--b-phd .cta, .city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active {
+.city-lite--b-phd .cta, .city-lite--b-phd .cta:focus, .city-lite--b-phd .cta:active,
+.city-lite--b-phd .cta--basic,
+.city-lite--b-phd .cta--basic:focus,
+.city-lite--b-phd .cta--basic:active {
     background-color: #5bc2e7;
     color: #0c0c0e;
     border: 0.125rem solid #5bc2e7;
 }
-.city-lite--b-phd .cta span, .city-lite--b-phd .cta:focus span, .city-lite--b-phd .cta:active span {
+.city-lite--b-phd .cta span, .city-lite--b-phd .cta:focus span, .city-lite--b-phd .cta:active span,
+.city-lite--b-phd .cta--basic span,
+.city-lite--b-phd .cta--basic:focus span,
+.city-lite--b-phd .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-phd .cta:hover {
+    .city-lite--b-phd .cta:hover,
+.city-lite--b-phd .cta--basic:hover {
         background-color: #40b8e3;
         color: #0c0c0e;
         border: 0.125rem solid #40b8e3;
     }
-    .city-lite--b-phd .cta:hover span {
+    .city-lite--b-phd .cta:hover span,
+.city-lite--b-phd .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
@@ -2026,7 +2106,8 @@
     }
 }
 
-.city-lite--b-mba .cta {
+.city-lite--b-mba .cta,
+.city-lite--b-mba .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -2050,7 +2131,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-mba .cta:hover {
+    .city-lite--b-mba .cta:hover,
+.city-lite--b-mba .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -2066,7 +2148,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active {
+.city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active,
+.city-lite--b-mba .cta--basic:focus,
+.city-lite--b-mba .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -2081,33 +2165,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active {
+.city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active,
+.city-lite--b-mba .cta--basic:focus,
+.city-lite--b-mba .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-mba .cta:after {
+.city-lite--b-mba .cta:after,
+.city-lite--b-mba .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-mba .cta:visited {
+.city-lite--b-mba .cta:visited,
+.city-lite--b-mba .cta--basic:visited {
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-mba .cta, .city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active {
+.city-lite--b-mba .cta, .city-lite--b-mba .cta:focus, .city-lite--b-mba .cta:active,
+.city-lite--b-mba .cta--basic,
+.city-lite--b-mba .cta--basic:focus,
+.city-lite--b-mba .cta--basic:active {
     background-color: #a3d5cd;
     color: #0c0c0e;
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-mba .cta span, .city-lite--b-mba .cta:focus span, .city-lite--b-mba .cta:active span {
+.city-lite--b-mba .cta span, .city-lite--b-mba .cta:focus span, .city-lite--b-mba .cta:active span,
+.city-lite--b-mba .cta--basic span,
+.city-lite--b-mba .cta--basic:focus span,
+.city-lite--b-mba .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-mba .cta:hover {
+    .city-lite--b-mba .cta:hover,
+.city-lite--b-mba .cta--basic:hover {
         background-color: #8ecbc2;
         color: #0c0c0e;
         border: 0.125rem solid #8ecbc2;
     }
-    .city-lite--b-mba .cta:hover span {
+    .city-lite--b-mba .cta:hover span,
+.city-lite--b-mba .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
@@ -2367,7 +2463,8 @@
     }
 }
 
-.city-lite--b-emba .cta {
+.city-lite--b-emba .cta,
+.city-lite--b-emba .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -2391,7 +2488,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-emba .cta:hover {
+    .city-lite--b-emba .cta:hover,
+.city-lite--b-emba .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -2407,7 +2505,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active {
+.city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active,
+.city-lite--b-emba .cta--basic:focus,
+.city-lite--b-emba .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -2422,33 +2522,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active {
+.city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active,
+.city-lite--b-emba .cta--basic:focus,
+.city-lite--b-emba .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-emba .cta:after {
+.city-lite--b-emba .cta:after,
+.city-lite--b-emba .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-emba .cta:visited {
+.city-lite--b-emba .cta:visited,
+.city-lite--b-emba .cta--basic:visited {
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-emba .cta, .city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active {
+.city-lite--b-emba .cta, .city-lite--b-emba .cta:focus, .city-lite--b-emba .cta:active,
+.city-lite--b-emba .cta--basic,
+.city-lite--b-emba .cta--basic:focus,
+.city-lite--b-emba .cta--basic:active {
     background-color: #a3d5cd;
     color: #0c0c0e;
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-emba .cta span, .city-lite--b-emba .cta:focus span, .city-lite--b-emba .cta:active span {
+.city-lite--b-emba .cta span, .city-lite--b-emba .cta:focus span, .city-lite--b-emba .cta:active span,
+.city-lite--b-emba .cta--basic span,
+.city-lite--b-emba .cta--basic:focus span,
+.city-lite--b-emba .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-emba .cta:hover {
+    .city-lite--b-emba .cta:hover,
+.city-lite--b-emba .cta--basic:hover {
         background-color: #8ecbc2;
         color: #0c0c0e;
         border: 0.125rem solid #8ecbc2;
     }
-    .city-lite--b-emba .cta:hover span {
+    .city-lite--b-emba .cta:hover span,
+.city-lite--b-emba .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
@@ -2708,7 +2820,8 @@
     }
 }
 
-.city-lite--b-demba .cta {
+.city-lite--b-demba .cta,
+.city-lite--b-demba .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -2732,7 +2845,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-demba .cta:hover {
+    .city-lite--b-demba .cta:hover,
+.city-lite--b-demba .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -2748,7 +2862,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active {
+.city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active,
+.city-lite--b-demba .cta--basic:focus,
+.city-lite--b-demba .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -2763,33 +2879,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active {
+.city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active,
+.city-lite--b-demba .cta--basic:focus,
+.city-lite--b-demba .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-demba .cta:after {
+.city-lite--b-demba .cta:after,
+.city-lite--b-demba .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-demba .cta:visited {
+.city-lite--b-demba .cta:visited,
+.city-lite--b-demba .cta--basic:visited {
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-demba .cta, .city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active {
+.city-lite--b-demba .cta, .city-lite--b-demba .cta:focus, .city-lite--b-demba .cta:active,
+.city-lite--b-demba .cta--basic,
+.city-lite--b-demba .cta--basic:focus,
+.city-lite--b-demba .cta--basic:active {
     background-color: #a3d5cd;
     color: #0c0c0e;
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-demba .cta span, .city-lite--b-demba .cta:focus span, .city-lite--b-demba .cta:active span {
+.city-lite--b-demba .cta span, .city-lite--b-demba .cta:focus span, .city-lite--b-demba .cta:active span,
+.city-lite--b-demba .cta--basic span,
+.city-lite--b-demba .cta--basic:focus span,
+.city-lite--b-demba .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-demba .cta:hover {
+    .city-lite--b-demba .cta:hover,
+.city-lite--b-demba .cta--basic:hover {
         background-color: #8ecbc2;
         color: #0c0c0e;
         border: 0.125rem solid #8ecbc2;
     }
-    .city-lite--b-demba .cta:hover span {
+    .city-lite--b-demba .cta:hover span,
+.city-lite--b-demba .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
@@ -3049,7 +3177,8 @@
     }
 }
 
-.city-lite--b-omba .cta {
+.city-lite--b-omba .cta,
+.city-lite--b-omba .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3073,7 +3202,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-omba .cta:hover {
+    .city-lite--b-omba .cta:hover,
+.city-lite--b-omba .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -3089,7 +3219,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active {
+.city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active,
+.city-lite--b-omba .cta--basic:focus,
+.city-lite--b-omba .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3104,33 +3236,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active {
+.city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active,
+.city-lite--b-omba .cta--basic:focus,
+.city-lite--b-omba .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-omba .cta:after {
+.city-lite--b-omba .cta:after,
+.city-lite--b-omba .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-omba .cta:visited {
+.city-lite--b-omba .cta:visited,
+.city-lite--b-omba .cta--basic:visited {
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-omba .cta, .city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active {
+.city-lite--b-omba .cta, .city-lite--b-omba .cta:focus, .city-lite--b-omba .cta:active,
+.city-lite--b-omba .cta--basic,
+.city-lite--b-omba .cta--basic:focus,
+.city-lite--b-omba .cta--basic:active {
     background-color: #a3d5cd;
     color: #0c0c0e;
     border: 0.125rem solid #a3d5cd;
 }
-.city-lite--b-omba .cta span, .city-lite--b-omba .cta:focus span, .city-lite--b-omba .cta:active span {
+.city-lite--b-omba .cta span, .city-lite--b-omba .cta:focus span, .city-lite--b-omba .cta:active span,
+.city-lite--b-omba .cta--basic span,
+.city-lite--b-omba .cta--basic:focus span,
+.city-lite--b-omba .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-omba .cta:hover {
+    .city-lite--b-omba .cta:hover,
+.city-lite--b-omba .cta--basic:hover {
         background-color: #8ecbc2;
         color: #0c0c0e;
         border: 0.125rem solid #8ecbc2;
     }
-    .city-lite--b-omba .cta:hover span {
+    .city-lite--b-omba .cta:hover span,
+.city-lite--b-omba .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
@@ -3390,7 +3534,8 @@
     }
 }
 
-.city-lite--b-exec .cta {
+.city-lite--b-exec .cta,
+.city-lite--b-exec .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3414,7 +3559,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-exec .cta:hover {
+    .city-lite--b-exec .cta:hover,
+.city-lite--b-exec .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -3430,7 +3576,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active {
+.city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active,
+.city-lite--b-exec .cta--basic:focus,
+.city-lite--b-exec .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3445,33 +3593,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active {
+.city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active,
+.city-lite--b-exec .cta--basic:focus,
+.city-lite--b-exec .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-exec .cta:after {
+.city-lite--b-exec .cta:after,
+.city-lite--b-exec .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-exec .cta:visited {
+.city-lite--b-exec .cta:visited,
+.city-lite--b-exec .cta--basic:visited {
     border: 0.125rem solid #e31c79;
 }
-.city-lite--b-exec .cta, .city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active {
+.city-lite--b-exec .cta, .city-lite--b-exec .cta:focus, .city-lite--b-exec .cta:active,
+.city-lite--b-exec .cta--basic,
+.city-lite--b-exec .cta--basic:focus,
+.city-lite--b-exec .cta--basic:active {
     background-color: #e31c79;
     color: #0c0c0e;
     border: 0.125rem solid #e31c79;
 }
-.city-lite--b-exec .cta span, .city-lite--b-exec .cta:focus span, .city-lite--b-exec .cta:active span {
+.city-lite--b-exec .cta span, .city-lite--b-exec .cta:focus span, .city-lite--b-exec .cta:active span,
+.city-lite--b-exec .cta--basic span,
+.city-lite--b-exec .cta--basic:focus span,
+.city-lite--b-exec .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-exec .cta:hover {
+    .city-lite--b-exec .cta:hover,
+.city-lite--b-exec .cta--basic:hover {
         background-color: #c8196a;
         color: #0c0c0e;
         border: 0.125rem solid #c8196a;
     }
-    .city-lite--b-exec .cta:hover span {
+    .city-lite--b-exec .cta:hover span,
+.city-lite--b-exec .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
@@ -3731,7 +3891,8 @@
     }
 }
 
-.city-lite--b-cce .cta {
+.city-lite--b-cce .cta,
+.city-lite--b-cce .cta--basic {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3755,7 +3916,8 @@
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .city-lite--b-cce .cta:hover {
+    .city-lite--b-cce .cta:hover,
+.city-lite--b-cce .cta--basic:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -3771,7 +3933,9 @@
         text-decoration: none;
     }
 }
-.city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active {
+.city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active,
+.city-lite--b-cce .cta--basic:focus,
+.city-lite--b-cce .cta--basic:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3786,33 +3950,45 @@
     outline-width: 0;
     text-decoration: none;
 }
-.city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active {
+.city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active,
+.city-lite--b-cce .cta--basic:focus,
+.city-lite--b-cce .cta--basic:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-cce .cta:after {
+.city-lite--b-cce .cta:after,
+.city-lite--b-cce .cta--basic:after {
     opacity: 0;
 }
-.city-lite--b-cce .cta:visited {
+.city-lite--b-cce .cta:visited,
+.city-lite--b-cce .cta--basic:visited {
     border: 0.125rem solid #a9a19c;
 }
-.city-lite--b-cce .cta, .city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active {
+.city-lite--b-cce .cta, .city-lite--b-cce .cta:focus, .city-lite--b-cce .cta:active,
+.city-lite--b-cce .cta--basic,
+.city-lite--b-cce .cta--basic:focus,
+.city-lite--b-cce .cta--basic:active {
     background-color: #a9a19c;
     color: #0c0c0e;
     border: 0.125rem solid #a9a19c;
 }
-.city-lite--b-cce .cta span, .city-lite--b-cce .cta:focus span, .city-lite--b-cce .cta:active span {
+.city-lite--b-cce .cta span, .city-lite--b-cce .cta:focus span, .city-lite--b-cce .cta:active span,
+.city-lite--b-cce .cta--basic span,
+.city-lite--b-cce .cta--basic:focus span,
+.city-lite--b-cce .cta--basic:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-cce .cta:hover {
+    .city-lite--b-cce .cta:hover,
+.city-lite--b-cce .cta--basic:hover {
         background-color: #9b918c;
         color: #0c0c0e;
         border: 0.125rem solid #9b918c;
     }
-    .city-lite--b-cce .cta:hover span {
+    .city-lite--b-cce .cta:hover span,
+.city-lite--b-cce .cta--basic:hover span {
         color: #0c0c0e;
     }
 }
