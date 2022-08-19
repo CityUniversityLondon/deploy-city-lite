@@ -4431,6 +4431,12 @@
     margin-right: 1rem;
 }
 
+.cta-block--centre {
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+}
+
 body[class^=city-lite] .cta-icon--arrow {
     display: inline-flex;
     position: relative;
