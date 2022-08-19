@@ -4434,7 +4434,7 @@
 .cta-block--centre {
     display: flex;
     flex-direction: column;
-    align-items: centre;
+    align-items: center;
 }
 
 body[class^=city-lite] .cta-icon--arrow {
