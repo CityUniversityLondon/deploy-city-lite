@@ -13636,6 +13636,11 @@ form:not([class]) .form__required-note--marker,
     }
 }
 
+.social-cards__wrapper {
+    grid-column: 1/-1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 .social-cards__wrapper h2 {
     text-align: center;
 }
