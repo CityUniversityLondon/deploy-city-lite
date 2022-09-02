@@ -17834,6 +17834,26 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     text-align: center;
 }
+@media (min-width: 1281px) {
+    .hallway-cards__wrapper .hallway-cards__card__img {
+        height: 200px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hallway-cards__wrapper .hallway-cards__card__img {
+        height: 155px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1024px) {
+    .hallway-cards__wrapper .hallway-cards__card__img {
+        height: 150px;
+    }
+}
+@media (min-width: 769px) and (max-width: 900px) {
+    .hallway-cards__wrapper .hallway-cards__card__img {
+        height: 130px;
+    }
+}
 @media (min-width: 769px) {
     .hallway-cards__wrapper .hallway-cards {
         display: grid;
@@ -17845,6 +17865,12 @@ main .yt-cta .yt-cta__text .cta-block {
     .hallway-cards__wrapper .wrapper--halves {
         grid-column: 1/-1;
         display: flex;
+    }
+}
+@media (max-width: 768px) {
+    .hallway-cards__wrapper .hallway-cards__card--linked:not(:first-of-type) .hallway-cards__card,
+.hallway-cards__wrapper .wrapper--halves .hallway-cards__card {
+        margin-top: 1.5rem;
     }
 }
 .hallway-cards__wrapper .hallway-cards {
