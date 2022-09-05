@@ -12993,9 +12993,11 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 .card--event .card__anchor {
     box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.15);
-    display: block;
     background-color: #ffffff;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
 }
 .card--event .card__anchor, .card--event .card__anchor:focus, .card--event .card__anchor:active, .card--event .card__anchor:visited {
     border: none;
@@ -13042,6 +13044,7 @@ body[class^=city-lite] .cta-icon--arrow span {
     font-size: 0.889rem;
     line-height: 1.625;
     letter-spacing: 0em;
+    text-align: center;
     align-self: flex-start;
     background-color: #d61726;
     color: #ffffff;
@@ -13049,7 +13052,7 @@ body[class^=city-lite] .cta-icon--arrow span {
     font-weight: 700;
     left: 0;
     margin-top: 0;
-    position: absolute;
+    position: relative;
     padding: 0.5rem;
     top: 2.5rem;
     transition: background-color 0.2s ease-in;
@@ -13081,24 +13084,17 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 .card--event .card__anchor .card--event__label--shortdate span {
     font-weight: 450;
+    display: block;
 }
 .card--event .card__anchor .card--event__label--shortdate:first-child {
     top: 0;
-}
-.card--event .card__anchor .card--event__label--shortdate:first-child + .card__details__text {
-    margin-top: 2.5rem;
 }
 @media (hover: hover) {
     .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #9e111c;
     }
 }
-.card--event .card__anchor .card--event__label--event + .card--event__label--shortdate,
-.card--event .card__anchor .card--event__label--shortdate + .card__thumbnail {
-    margin-top: 0.75rem;
-}
 .card--event .card__anchor .card__details__text {
-    margin-top: 3.25rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
@@ -13158,11 +13154,7 @@ body[class^=city-lite] .cta-icon--arrow span {
     margin-top: 3rem;
 }
 .card--event.card--landscape .card__details .card--event__label--event + .card__thumbnail + .card__details__text {
-    margin-top: 3rem;
     padding-top: 0;
-}
-.card--event.card--landscape .card--event__label--event + .card--event__label--shortdate + .card__details__text {
-    margin-top: 7rem;
 }
 @media (min-width: 433px) and (max-width: 1023px) {
     .card--event .card__details {
@@ -13178,11 +13170,7 @@ body[class^=city-lite] .cta-icon--arrow span {
         margin-top: 3rem;
     }
     .card--event .card__details .card--event__label--event + .card__thumbnail + .card__details__text {
-        margin-top: 3rem;
         padding-top: 0;
-    }
-    .card--event .card--event__label--event + .card--event__label--shortdate + .card__details__text {
-        margin-top: 7rem;
     }
 }
 
