@@ -14994,6 +14994,9 @@ figure figcaption a:active,
 .ksp-block[data-theme=purple] .ksp__item__icon {
     filter: invert(1);
 }
+.ksp-block[data-theme=purple] .cta:active, .ksp-block[data-theme=purple] .cta:focus {
+    outline-color: #ffffff;
+}
 .ksp-block .wrapper--ksp__item__icon {
     border-radius: 100%;
     display: inline-block;
@@ -16075,6 +16078,25 @@ figure figcaption a:active,
         visibility: visible;
         position: static;
     }
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] .slide:focus,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] .slide:focus {
+    outline-color: #ffffff;
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button {
+    background-color: transparent;
+    border: 0.0625rem solid #ffffff;
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button[aria-expanded=true],
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button[aria-expanded=true] {
+    background-color: #ffffff;
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button:focus, .js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button:active,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button:focus,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button:active {
+    outline-color: #ffffff;
+    background-color: transparent;
 }
 .js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls,
 .js .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls {
