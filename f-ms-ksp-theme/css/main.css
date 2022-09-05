@@ -14989,7 +14989,7 @@ figure figcaption a:active,
     color: #ffffff;
 }
 .ksp-block[data-theme=dark] .wrapper--ksp__item__icon {
-    background-color: #e5e5e5;
+    background-color: #ffffff;
 }
 .ksp-block[data-theme=dark] .ksp__item__icon {
     filter: invert(1);
