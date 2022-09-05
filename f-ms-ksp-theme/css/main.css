@@ -14981,20 +14981,20 @@ figure figcaption a:active,
     background: #f2f2f2;
     padding: 1rem 0;
 }
-.ksp-block[data-theme=grey] .wrapper--ksp__item__icon {
+.ksp-block[data-theme=light] .wrapper--ksp__item__icon {
     background-color: #3e1031;
 }
-.ksp-block[data-theme=purple] {
+.ksp-block[data-theme=dark] {
     background-color: #3e1031;
     color: #ffffff;
 }
-.ksp-block[data-theme=purple] .wrapper--ksp__item__icon {
+.ksp-block[data-theme=dark] .wrapper--ksp__item__icon {
     background-color: #e5e5e5;
 }
-.ksp-block[data-theme=purple] .ksp__item__icon {
+.ksp-block[data-theme=dark] .ksp__item__icon {
     filter: invert(1);
 }
-.ksp-block[data-theme=purple] .cta:active, .ksp-block[data-theme=purple] .cta:focus {
+.ksp-block[data-theme=dark] .cta:active, .ksp-block[data-theme=dark] .cta:focus {
     outline-color: #ffffff;
 }
 .ksp-block .wrapper--ksp__item__icon {
