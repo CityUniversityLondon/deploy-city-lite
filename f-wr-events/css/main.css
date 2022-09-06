@@ -12962,31 +12962,6 @@ body[class^=city-lite] .cta-icon--arrow span {
     margin-right: 0.5rem;
 }
 
-.events-cards__wrapper {
-    grid-column: 1/-1;
-    grid-template-columns: repeat(24, 1fr);
-    grid-column-gap: 0;
-    display: grid;
-}
-@media (min-width: 768px) {
-    .events-cards__wrapper {
-        grid-column-gap: 1rem;
-    }
-}
-@media (min-width: 901px) {
-    .events-cards__wrapper {
-        grid-column-gap: 1.5rem;
-    }
-}
-
-.events-cards__column:first-child {
-    grid-column: 1/9;
-}
-
-.events-cards__column {
-    grid-column: 10/-1;
-}
-
 .card--event {
     list-style-type: none;
     max-width: unset;
