@@ -14999,8 +14999,7 @@ figure figcaption a:active,
 }
 .ksp-block .wrapper--ksp__item__icon {
     border-radius: 100%;
-    display: inline-block;
-    writing-mode: vertical-lr;
+    display: inline-flex;
 }
 @media (max-width: 767px) {
     .ksp-block .ksp-block__heading,
