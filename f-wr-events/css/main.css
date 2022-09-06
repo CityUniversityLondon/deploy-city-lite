@@ -18636,6 +18636,52 @@ main .yt-cta .yt-cta__text .cta-block {
     background-color: #a9a19c;
 }
 
+.events-cards__wrapper {
+    grid-column: 1/-1;
+    grid-template-columns: repeat(24, 1fr);
+    grid-column-gap: 0;
+    display: grid;
+}
+@media (min-width: 768px) {
+    .events-cards__wrapper {
+        grid-column-gap: 1rem;
+    }
+}
+@media (min-width: 901px) {
+    .events-cards__wrapper {
+        grid-column-gap: 1.5rem;
+    }
+}
+@media (max-width: 899px) {
+    .events-cards__wrapper {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+@media (max-width: 899px) and (min-width: 901px) {
+    .events-cards__wrapper {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.events-cards__column:first-child {
+    grid-column: 2/9;
+}
+
+.events-cards {
+    margin-left: 0;
+}
+
+.events-cards__column {
+    grid-column: 10/-2;
+}
+
+@media (max-width: 899px) {
+    .events-cards__column:first-child, .events-cards__column {
+        grid-column: 1/-1;
+    }
+}
 @media (min-width: 1024px) {
     main > .campaign .wrapper--pathway,
 main > .campaign .ksp--pathway {
