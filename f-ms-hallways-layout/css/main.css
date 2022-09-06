@@ -17844,8 +17844,7 @@ main .yt-cta .yt-cta__text .cta-block {
     }
 }
 @media (max-width: 768px) {
-    .hallway-cards__wrapper .hallway-cards__card--linked:not(:first-of-type) .hallway-cards__card,
-.hallway-cards__wrapper .wrapper--halves .hallway-cards__card {
+    .hallway-cards__wrapper .hallway-cards__card--linked:not(:first-of-type) .hallway-cards__card {
         margin-top: 1.5rem;
     }
 }
