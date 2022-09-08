@@ -18862,316 +18862,1666 @@ main .yt-cta .yt-cta__text .cta-block {
     width: 1px;
 }
 
-.city-lite--b {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse--bg;
-                }
-            }
-
-
-            .city-lite--b {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+.city-lite--b .carousel-gallery-default {
+    background-color: #e30613;
+}
+.city-lite--b .carousel-gallery-default h2,
+.city-lite--b .carousel-gallery-default h3,
+.city-lite--b .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-ug .carousel-gallery-default {
+    background-color: #f1b434;
+}
+.city-lite--b-ug .carousel-gallery-default h2,
+.city-lite--b-ug .carousel-gallery-default h3,
+.city-lite--b-ug .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-ug {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-ug {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-ug .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-ug .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-ug .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-ug .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-ug .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-ug {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-msc .carousel-gallery-default {
+    background-color: #006699;
+}
+.city-lite--b-msc .carousel-gallery-default h2,
+.city-lite--b-msc .carousel-gallery-default h3,
+.city-lite--b-msc .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-msc {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse--bg;
-                }
-            }
-
-
-            .city-lite--b-msc {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-msc .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-msc .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-msc .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-msc .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-msc {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-phd .carousel-gallery-default {
+    background-color: #5bc2e7;
+}
+.city-lite--b-phd .carousel-gallery-default h2,
+.city-lite--b-phd .carousel-gallery-default h3,
+.city-lite--b-phd .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-phd {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-phd {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-phd .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-phd .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-phd .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-phd .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-phd .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-phd {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-mba .carousel-gallery-default {
+    background-color: #a3d5cd;
+}
+.city-lite--b-mba .carousel-gallery-default h2,
+.city-lite--b-mba .carousel-gallery-default h3,
+.city-lite--b-mba .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-mba {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-mba {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-mba .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-mba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-mba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-mba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-mba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-mba .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-mba {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-emba .carousel-gallery-default {
+    background-color: #a3d5cd;
+}
+.city-lite--b-emba .carousel-gallery-default h2,
+.city-lite--b-emba .carousel-gallery-default h3,
+.city-lite--b-emba .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-emba {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-emba {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-emba .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-emba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-emba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-emba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-emba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-emba .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-emba {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-demba .carousel-gallery-default {
+    background-color: #a3d5cd;
+}
+.city-lite--b-demba .carousel-gallery-default h2,
+.city-lite--b-demba .carousel-gallery-default h3,
+.city-lite--b-demba .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-demba {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-demba {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-demba .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-demba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-demba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-demba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-demba .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-demba {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-omba .carousel-gallery-default {
+    background-color: #a3d5cd;
+}
+.city-lite--b-omba .carousel-gallery-default h2,
+.city-lite--b-omba .carousel-gallery-default h3,
+.city-lite--b-omba .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-omba {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-omba {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-omba .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-omba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-omba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-omba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-omba .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-omba {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-exec .carousel-gallery-default {
+    background-color: #e31c79;
+}
+.city-lite--b-exec .carousel-gallery-default h2,
+.city-lite--b-exec .carousel-gallery-default h3,
+.city-lite--b-exec .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-exec {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-exec {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-exec .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-exec .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-exec .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-exec .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-exec .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-exec {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
+.city-lite--b-cce .carousel-gallery-default {
+    background-color: #a9a19c;
+}
+.city-lite--b-cce .carousel-gallery-default h2,
+.city-lite--b-cce .carousel-gallery-default h3,
+.city-lite--b-cce .carousel-gallery-default h4 {
+    color: #ffffff;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
     }
-    */
-.city-lite--b-cce {
-    /*
-            .ksp-block--solid {
-                background-color: $bgColor;
-                color: $textColor;
-                .ksp__item__icon {
-                    filter: $invert;
-                }
-                .cta--ksp {
-                    @extend .cta--inverse;
-                }
-            }
-
-
-            .city-lite--b-cce {
-                .carousel-gallery-default {
-                    background-color: $bgColor;
-                }
-            }
-    */
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active {
+    color: #3e1031;
+    background-color: #ffffff;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-cce .carousel-gallery-default .swiper-slide__image-wrapper {
+    background-color: #250020;
+}
+.city-lite--b-cce .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-cce .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .carousel-gallery-default .galleria-thumbnail input:active {
+    outline-color: #d61726;
+}
+.city-lite--b-cce .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-cce .carousel-gallery-default .galleria-thumbnail.active input:focus {
+    outline-color: #d61726;
 }
 
-/*
-    .js, .no-js {
-        .city-lite--b-cce {
-            .carousel-gallery-default {
-                background-color: $bgColor;
-            }
-        }
-    }
-    */
 @media (min-width: 1024px) {
     main > .campaign .wrapper--pathway,
 main > .campaign .ksp--pathway {
