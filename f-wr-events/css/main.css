@@ -8596,7 +8596,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     }
 }
 
-.cta--inverse, .city-lite--b-cce .ksp-block--solid .cta--ksp, .city-lite--b-omba .ksp-block--solid .cta--ksp, .city-lite--b-demba .ksp-block--solid .cta--ksp, .city-lite--b-ug .ksp-block--solid .cta--ksp {
+.cta--inverse, .city-lite--b-cce .ksp-block--solid .cta--ksp, .city-lite--b-exec .ksp-block--solid .cta--ksp, .city-lite--b-omba .ksp-block--solid .cta--ksp, .city-lite--b-demba .ksp-block--solid .cta--ksp, .city-lite--b-emba .ksp-block--solid .cta--ksp, .city-lite--b-mba .ksp-block--solid .cta--ksp, .city-lite--b-phd .ksp-block--solid .cta--ksp, .city-lite--b-ug .ksp-block--solid .cta--ksp {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -8620,7 +8620,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .cta--inverse:hover, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover {
+    .cta--inverse:hover, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -8636,7 +8636,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
         text-decoration: none;
     }
 }
-.cta--inverse:focus, .city-lite--b-cce .ksp-block--solid .cta--ksp:focus, .city-lite--b-omba .ksp-block--solid .cta--ksp:focus, .city-lite--b-demba .ksp-block--solid .cta--ksp:focus, .city-lite--b-ug .ksp-block--solid .cta--ksp:focus, .cta--inverse:active, .city-lite--b-cce .ksp-block--solid .cta--ksp:active, .city-lite--b-omba .ksp-block--solid .cta--ksp:active, .city-lite--b-demba .ksp-block--solid .cta--ksp:active, .city-lite--b-ug .ksp-block--solid .cta--ksp:active {
+.cta--inverse:focus, .city-lite--b-cce .ksp-block--solid .cta--ksp:focus, .city-lite--b-exec .ksp-block--solid .cta--ksp:focus, .city-lite--b-omba .ksp-block--solid .cta--ksp:focus, .city-lite--b-demba .ksp-block--solid .cta--ksp:focus, .city-lite--b-emba .ksp-block--solid .cta--ksp:focus, .city-lite--b-mba .ksp-block--solid .cta--ksp:focus, .city-lite--b-phd .ksp-block--solid .cta--ksp:focus, .city-lite--b-ug .ksp-block--solid .cta--ksp:focus, .cta--inverse:active, .city-lite--b-cce .ksp-block--solid .cta--ksp:active, .city-lite--b-exec .ksp-block--solid .cta--ksp:active, .city-lite--b-omba .ksp-block--solid .cta--ksp:active, .city-lite--b-demba .ksp-block--solid .cta--ksp:active, .city-lite--b-emba .ksp-block--solid .cta--ksp:active, .city-lite--b-mba .ksp-block--solid .cta--ksp:active, .city-lite--b-phd .ksp-block--solid .cta--ksp:active, .city-lite--b-ug .ksp-block--solid .cta--ksp:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -8651,38 +8651,38 @@ iframe[src*=issuu], iframe[src*=prezi] {
     outline-width: 0;
     text-decoration: none;
 }
-.cta--inverse:focus, .city-lite--b-cce .ksp-block--solid .cta--ksp:focus, .city-lite--b-omba .ksp-block--solid .cta--ksp:focus, .city-lite--b-demba .ksp-block--solid .cta--ksp:focus, .city-lite--b-ug .ksp-block--solid .cta--ksp:focus, .cta--inverse:active, .city-lite--b-cce .ksp-block--solid .cta--ksp:active, .city-lite--b-omba .ksp-block--solid .cta--ksp:active, .city-lite--b-demba .ksp-block--solid .cta--ksp:active, .city-lite--b-ug .ksp-block--solid .cta--ksp:active {
+.cta--inverse:focus, .city-lite--b-cce .ksp-block--solid .cta--ksp:focus, .city-lite--b-exec .ksp-block--solid .cta--ksp:focus, .city-lite--b-omba .ksp-block--solid .cta--ksp:focus, .city-lite--b-demba .ksp-block--solid .cta--ksp:focus, .city-lite--b-emba .ksp-block--solid .cta--ksp:focus, .city-lite--b-mba .ksp-block--solid .cta--ksp:focus, .city-lite--b-phd .ksp-block--solid .cta--ksp:focus, .city-lite--b-ug .ksp-block--solid .cta--ksp:focus, .cta--inverse:active, .city-lite--b-cce .ksp-block--solid .cta--ksp:active, .city-lite--b-exec .ksp-block--solid .cta--ksp:active, .city-lite--b-omba .ksp-block--solid .cta--ksp:active, .city-lite--b-demba .ksp-block--solid .cta--ksp:active, .city-lite--b-emba .ksp-block--solid .cta--ksp:active, .city-lite--b-mba .ksp-block--solid .cta--ksp:active, .city-lite--b-phd .ksp-block--solid .cta--ksp:active, .city-lite--b-ug .ksp-block--solid .cta--ksp:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.cta--inverse:after, .city-lite--b-cce .ksp-block--solid .cta--ksp:after, .city-lite--b-omba .ksp-block--solid .cta--ksp:after, .city-lite--b-demba .ksp-block--solid .cta--ksp:after, .city-lite--b-ug .ksp-block--solid .cta--ksp:after {
+.cta--inverse:after, .city-lite--b-cce .ksp-block--solid .cta--ksp:after, .city-lite--b-exec .ksp-block--solid .cta--ksp:after, .city-lite--b-omba .ksp-block--solid .cta--ksp:after, .city-lite--b-demba .ksp-block--solid .cta--ksp:after, .city-lite--b-emba .ksp-block--solid .cta--ksp:after, .city-lite--b-mba .ksp-block--solid .cta--ksp:after, .city-lite--b-phd .ksp-block--solid .cta--ksp:after, .city-lite--b-ug .ksp-block--solid .cta--ksp:after {
     opacity: 0;
 }
-.cta--inverse:visited, .city-lite--b-cce .ksp-block--solid .cta--ksp:visited, .city-lite--b-omba .ksp-block--solid .cta--ksp:visited, .city-lite--b-demba .ksp-block--solid .cta--ksp:visited, .city-lite--b-ug .ksp-block--solid .cta--ksp:visited {
+.cta--inverse:visited, .city-lite--b-cce .ksp-block--solid .cta--ksp:visited, .city-lite--b-exec .ksp-block--solid .cta--ksp:visited, .city-lite--b-omba .ksp-block--solid .cta--ksp:visited, .city-lite--b-demba .ksp-block--solid .cta--ksp:visited, .city-lite--b-emba .ksp-block--solid .cta--ksp:visited, .city-lite--b-mba .ksp-block--solid .cta--ksp:visited, .city-lite--b-phd .ksp-block--solid .cta--ksp:visited, .city-lite--b-ug .ksp-block--solid .cta--ksp:visited {
     border: 0.125rem solid #0c0c0e;
 }
-.cta--inverse, .city-lite--b-cce .ksp-block--solid .cta--ksp, .city-lite--b-omba .ksp-block--solid .cta--ksp, .city-lite--b-demba .ksp-block--solid .cta--ksp, .city-lite--b-ug .ksp-block--solid .cta--ksp, .cta--inverse:focus, .cta--inverse:active {
+.cta--inverse, .city-lite--b-cce .ksp-block--solid .cta--ksp, .city-lite--b-exec .ksp-block--solid .cta--ksp, .city-lite--b-omba .ksp-block--solid .cta--ksp, .city-lite--b-demba .ksp-block--solid .cta--ksp, .city-lite--b-emba .ksp-block--solid .cta--ksp, .city-lite--b-mba .ksp-block--solid .cta--ksp, .city-lite--b-phd .ksp-block--solid .cta--ksp, .city-lite--b-ug .ksp-block--solid .cta--ksp, .cta--inverse:focus, .cta--inverse:active {
     background-color: transparent;
     color: #0c0c0e;
     border: 0.125rem solid #0c0c0e;
 }
-.cta--inverse span, .city-lite--b-cce .ksp-block--solid .cta--ksp span, .city-lite--b-omba .ksp-block--solid .cta--ksp span, .city-lite--b-demba .ksp-block--solid .cta--ksp span, .city-lite--b-ug .ksp-block--solid .cta--ksp span, .cta--inverse:focus span, .cta--inverse:active span {
+.cta--inverse span, .city-lite--b-cce .ksp-block--solid .cta--ksp span, .city-lite--b-exec .ksp-block--solid .cta--ksp span, .city-lite--b-omba .ksp-block--solid .cta--ksp span, .city-lite--b-demba .ksp-block--solid .cta--ksp span, .city-lite--b-emba .ksp-block--solid .cta--ksp span, .city-lite--b-mba .ksp-block--solid .cta--ksp span, .city-lite--b-phd .ksp-block--solid .cta--ksp span, .city-lite--b-ug .ksp-block--solid .cta--ksp span, .cta--inverse:focus span, .cta--inverse:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .cta--inverse:hover, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover {
+    .cta--inverse:hover, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover {
         background-color: #0c0c0e;
         color: #ffffff;
         border: 0.125rem solid #0c0c0e;
     }
-    .cta--inverse:hover span, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover span, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover span {
+    .cta--inverse:hover span, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover span, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover span, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover span, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover span {
         color: #ffffff;
     }
 }
 
-.cta--inverse--bg, .city-lite--b-exec .ksp-block--solid .cta--ksp, .city-lite--b-emba .ksp-block--solid .cta--ksp, .city-lite--b-mba .ksp-block--solid .cta--ksp, .city-lite--b-phd .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp {
+.cta--inverse--bg, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -8706,7 +8706,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .cta--inverse--bg:hover, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
+    .cta--inverse--bg:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -8722,7 +8722,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
         text-decoration: none;
     }
 }
-.cta--inverse--bg:focus, .city-lite--b-exec .ksp-block--solid .cta--ksp:focus, .city-lite--b-emba .ksp-block--solid .cta--ksp:focus, .city-lite--b-mba .ksp-block--solid .cta--ksp:focus, .city-lite--b-phd .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .city-lite--b-exec .ksp-block--solid .cta--ksp:active, .city-lite--b-emba .ksp-block--solid .cta--ksp:active, .city-lite--b-mba .ksp-block--solid .cta--ksp:active, .city-lite--b-phd .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
+.cta--inverse--bg:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -8737,33 +8737,33 @@ iframe[src*=issuu], iframe[src*=prezi] {
     outline-width: 0;
     text-decoration: none;
 }
-.cta--inverse--bg:focus, .city-lite--b-exec .ksp-block--solid .cta--ksp:focus, .city-lite--b-emba .ksp-block--solid .cta--ksp:focus, .city-lite--b-mba .ksp-block--solid .cta--ksp:focus, .city-lite--b-phd .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .city-lite--b-exec .ksp-block--solid .cta--ksp:active, .city-lite--b-emba .ksp-block--solid .cta--ksp:active, .city-lite--b-mba .ksp-block--solid .cta--ksp:active, .city-lite--b-phd .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
+.cta--inverse--bg:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.cta--inverse--bg:after, .city-lite--b-exec .ksp-block--solid .cta--ksp:after, .city-lite--b-emba .ksp-block--solid .cta--ksp:after, .city-lite--b-mba .ksp-block--solid .cta--ksp:after, .city-lite--b-phd .ksp-block--solid .cta--ksp:after, .city-lite--b-msc .ksp-block--solid .cta--ksp:after, .city-lite--b .ksp-block--solid .cta--ksp:after {
+.cta--inverse--bg:after, .city-lite--b-msc .ksp-block--solid .cta--ksp:after, .city-lite--b .ksp-block--solid .cta--ksp:after {
     opacity: 0;
 }
-.cta--inverse--bg:visited, .city-lite--b-exec .ksp-block--solid .cta--ksp:visited, .city-lite--b-emba .ksp-block--solid .cta--ksp:visited, .city-lite--b-mba .ksp-block--solid .cta--ksp:visited, .city-lite--b-phd .ksp-block--solid .cta--ksp:visited, .city-lite--b-msc .ksp-block--solid .cta--ksp:visited, .city-lite--b .ksp-block--solid .cta--ksp:visited {
+.cta--inverse--bg:visited, .city-lite--b-msc .ksp-block--solid .cta--ksp:visited, .city-lite--b .ksp-block--solid .cta--ksp:visited {
     border: 0.125rem solid #ffffff;
 }
-.cta--inverse--bg, .city-lite--b-exec .ksp-block--solid .cta--ksp, .city-lite--b-emba .ksp-block--solid .cta--ksp, .city-lite--b-mba .ksp-block--solid .cta--ksp, .city-lite--b-phd .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp, .cta--inverse--bg:focus, .cta--inverse--bg:active {
+.cta--inverse--bg, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp, .cta--inverse--bg:focus, .cta--inverse--bg:active {
     background-color: transparent;
     color: #ffffff;
     border: 0.125rem solid #ffffff;
 }
-.cta--inverse--bg span, .city-lite--b-exec .ksp-block--solid .cta--ksp span, .city-lite--b-emba .ksp-block--solid .cta--ksp span, .city-lite--b-mba .ksp-block--solid .cta--ksp span, .city-lite--b-phd .ksp-block--solid .cta--ksp span, .city-lite--b-msc .ksp-block--solid .cta--ksp span, .city-lite--b .ksp-block--solid .cta--ksp span, .cta--inverse--bg:focus span, .cta--inverse--bg:active span {
+.cta--inverse--bg span, .city-lite--b-msc .ksp-block--solid .cta--ksp span, .city-lite--b .ksp-block--solid .cta--ksp span, .cta--inverse--bg:focus span, .cta--inverse--bg:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
-    .cta--inverse--bg:hover, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
+    .cta--inverse--bg:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
         background-color: #ffffff;
         color: #0c0c0e;
         border: 0.125rem solid #ffffff;
     }
-    .cta--inverse--bg:hover span, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover span, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover span, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover span, .city-lite--b .ksp-block--solid .cta--ksp:hover span {
+    .cta--inverse--bg:hover span, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover span, .city-lite--b .ksp-block--solid .cta--ksp:hover span {
         color: #0c0c0e;
     }
 }
@@ -13957,6 +13957,24 @@ form:not([class]) .form__required-note--marker,
 .accordion__wrapper .accordion .accordion__body {
     background: #ffffff;
 }
+.accordion__wrapper #accordion {
+    grid-column: 1/-1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 80rem;
+}
+@media (min-width: 901px) {
+    .accordion__wrapper #accordion {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+@media (min-width: 1024px) {
+    .accordion__wrapper #accordion {
+        margin: 0;
+        grid-column: 7/-7;
+    }
+}
 
 .city-lite--b .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
     background-color: #7e756d;
@@ -14244,12 +14262,16 @@ form:not([class]) .form__required-note--marker,
     align-self: auto;
 }
 
-.banner--highlight .banner__txt__padding {
+.banner--highlight .banner__txt__padding,
+.banner--sc-highlight .banner__txt__padding {
     padding: 0 0.5rem;
 }
 .banner--highlight .banner__txt__padding h1,
 .banner--highlight .banner__txt__padding p,
-.banner--highlight .banner__txt__padding span {
+.banner--highlight .banner__txt__padding span,
+.banner--sc-highlight .banner__txt__padding h1,
+.banner--sc-highlight .banner__txt__padding p,
+.banner--sc-highlight .banner__txt__padding span {
     color: #3e1031;
     background-color: #ffffff;
     box-shadow: 0.5rem 0 0 #ffffff, -0.5rem 0 0 #ffffff;
@@ -14260,7 +14282,10 @@ form:not([class]) .form__required-note--marker,
 @media (min-width: 768px) {
     .banner--highlight .banner__txt__padding h1,
 .banner--highlight .banner__txt__padding p,
-.banner--highlight .banner__txt__padding span {
+.banner--highlight .banner__txt__padding span,
+.banner--sc-highlight .banner__txt__padding h1,
+.banner--sc-highlight .banner__txt__padding p,
+.banner--sc-highlight .banner__txt__padding span {
         line-height: 3.5rem;
     }
 }
@@ -15465,6 +15490,26 @@ figure figcaption a:active,
     background: #f2f2f2;
     padding: 1rem 0;
 }
+.ksp-block[data-theme=light] .wrapper--ksp__item__icon {
+    background-color: #3e1031;
+}
+.ksp-block[data-theme=dark] {
+    background-color: #3e1031;
+    color: #ffffff;
+}
+.ksp-block[data-theme=dark] .wrapper--ksp__item__icon {
+    background-color: #ffffff;
+}
+.ksp-block[data-theme=dark] .ksp__item__icon {
+    filter: invert(1);
+}
+.ksp-block[data-theme=dark] .cta:active, .ksp-block[data-theme=dark] .cta:focus {
+    outline-color: #ffffff;
+}
+.ksp-block .wrapper--ksp__item__icon {
+    border-radius: 100%;
+    display: inline-flex;
+}
 @media (max-width: 767px) {
     .ksp-block .ksp-block__heading,
 .ksp-block .ksp-block__introduction,
@@ -16541,6 +16586,25 @@ figure figcaption a:active,
         visibility: visible;
         position: static;
     }
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] .slide:focus,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] .slide:focus {
+    outline-color: #ffffff;
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button {
+    background-color: transparent;
+    border: 0.0625rem solid #ffffff;
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button[aria-expanded=true],
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button[aria-expanded=true] {
+    background-color: #ffffff;
+}
+.js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button:focus, .js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"])[data-theme=dark] + .slider__controls button:active,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button:focus,
+.js .slider[data-style=dots][data-small=true]:not([data-count="0"])[data-theme=dark] + .slider__controls button:active {
+    outline-color: #ffffff;
+    background-color: transparent;
 }
 .js .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls,
 .js .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls {
@@ -18349,10 +18413,23 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     text-align: center;
 }
+@media (min-width: 769px) {
+    .hallway-cards__wrapper .hallway-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .hallway-cards__wrapper[data-card-count="2"] .hallway-cards, .hallway-cards__wrapper[data-card-count="4"] .hallway-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 768px) {
+    .hallway-cards__wrapper .hallway-cards__card--linked:not(:first-of-type) .hallway-cards__card {
+        margin-top: 1.5rem;
+    }
+}
 .hallway-cards__wrapper .hallway-cards {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    display: grid;
     padding-top: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -18360,12 +18437,6 @@ main .yt-cta .yt-cta__text .cta-block {
     .hallway-cards__wrapper .hallway-cards {
         padding-left: 2rem;
         padding-right: 2rem;
-    }
-}
-@media (max-width: 768px) {
-    .hallway-cards__wrapper .hallway-cards {
-        grid-template-columns: 1fr;
-        grid-row-gap: 1.5rem;
     }
 }
 .hallway-cards__wrapper .hallway-cards .hallway-cards__card {
