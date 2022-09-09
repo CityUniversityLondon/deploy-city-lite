@@ -18537,6 +18537,7 @@ main .yt-cta .yt-cta__text .cta-block {
 
 .carousel-gallery-default {
     background-color: #3e1031;
+    margin-bottom: 1.5rem;
 }
 .carousel-gallery-default h2,
 .carousel-gallery-default h3,
@@ -18862,19 +18863,22 @@ main .yt-cta .yt-cta__text .cta-block {
     width: 1px;
 }
 
-.city-lite--b .carousel-gallery-default {
+.city-lite--b .carousel-gallery--bayes-theme-primary {
+    background-color: #7e756d;
+}
+.city-lite--b .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
     background-color: #e30613;
 }
-.city-lite--b .carousel-gallery-default h2,
-.city-lite--b .carousel-gallery-default h3,
-.city-lite--b .carousel-gallery-default h4 {
-    color: #ffffff;
-}
-.city-lite--b .carousel-gallery-default .swiper-slide__text {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
     color: #ffffff;
 }
-.city-lite--b .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -18899,7 +18903,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -18915,7 +18919,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -18931,116 +18935,281 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b .carousel-gallery-default .swiper-slider-arrow {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
     background: #ffffff;
 }
-.city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #7e756d;
     background-color: #ffffff;
 }
-.city-lite--b .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
-.city-lite--b .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #e30613;
 }
-.city-lite--b .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #e30613;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary {
+    background-color: #e30613;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b .carousel-gallery--bayes-theme-secondary h4 {
+    color: #ffffff;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #7e756d;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #e30613;
+    background-color: #ffffff;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #7e756d;
+}
+.city-lite--b .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #7e756d;
 }
 
-.city-lite--b-ug .carousel-gallery-default {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary {
+    background-color: #e35205;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
     background-color: #f1b434;
 }
-.city-lite--b-ug .carousel-gallery-default h2,
-.city-lite--b-ug .carousel-gallery-default h3,
-.city-lite--b-ug .carousel-gallery-default h4 {
-    color: #ffffff;
-}
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
-    color: #ffffff;
+    color: #0c0c0e;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19065,7 +19234,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -19081,7 +19250,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19097,116 +19266,281 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow {
-    color: #ffffff;
-    border: 0.0625rem solid #ffffff;
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
-        background: #ffffff;
+        background: #0c0c0e;
     }
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
-    background: #ffffff;
+    background: #0c0c0e;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
-    background-color: #ffffff;
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #e35205;
+    background-color: #0c0c0e;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery-default .swiper-slider-arrow:active:active {
-    outline-color: #ffffff;
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
 }
-.city-lite--b-ug .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-ug .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-ug .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-ug .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #f1b434;
 }
-.city-lite--b-ug .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-ug .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-ug .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-ug .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #f1b434;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary {
+    background-color: #f1b434;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #e35205;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #f1b434;
+    background-color: #0c0c0e;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #e35205;
+}
+.city-lite--b-ug .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-ug .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #e35205;
 }
 
-.city-lite--b-msc .carousel-gallery-default {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary {
+    background-color: #002b49;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
     background-color: #006699;
 }
-.city-lite--b-msc .carousel-gallery-default h2,
-.city-lite--b-msc .carousel-gallery-default h3,
-.city-lite--b-msc .carousel-gallery-default h4 {
-    color: #ffffff;
-}
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
     color: #ffffff;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19231,7 +19565,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -19247,7 +19581,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19263,116 +19597,281 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
     background: #ffffff;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #002b49;
     background-color: #ffffff;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
-.city-lite--b-msc .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-msc .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-msc .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-msc .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #006699;
 }
-.city-lite--b-msc .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-msc .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-msc .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-msc .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #006699;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary {
+    background-color: #006699;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary h4 {
+    color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #002b49;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #ffffff;
+    border: 0.0625rem solid #ffffff;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #ffffff;
+    }
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #006699;
+    background-color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #002b49;
+}
+.city-lite--b-msc .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-msc .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #002b49;
 }
 
-.city-lite--b-phd .carousel-gallery-default {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary {
+    background-color: #006699;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
     background-color: #5bc2e7;
 }
-.city-lite--b-phd .carousel-gallery-default h2,
-.city-lite--b-phd .carousel-gallery-default h3,
-.city-lite--b-phd .carousel-gallery-default h4 {
-    color: #ffffff;
-}
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
     color: #ffffff;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19397,7 +19896,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -19413,7 +19912,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19429,116 +19928,281 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
     background: #ffffff;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #006699;
     background-color: #ffffff;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
-.city-lite--b-phd .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-phd .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-phd .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-phd .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #5bc2e7;
 }
-.city-lite--b-phd .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-phd .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-phd .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-phd .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #5bc2e7;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary {
+    background-color: #5bc2e7;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #006699;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #5bc2e7;
+    background-color: #0c0c0e;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #006699;
+}
+.city-lite--b-phd .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-phd .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #006699;
 }
 
-.city-lite--b-mba .carousel-gallery-default {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary {
+    background-color: #2e767a;
+}
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
     background-color: #a3d5cd;
 }
-.city-lite--b-mba .carousel-gallery-default h2,
-.city-lite--b-mba .carousel-gallery-default h3,
-.city-lite--b-mba .carousel-gallery-default h4 {
-    color: #ffffff;
-}
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
     color: #ffffff;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19563,7 +20227,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -19579,7 +20243,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19595,116 +20259,115 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
     background: #ffffff;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #2e767a;
     background-color: #ffffff;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
-.city-lite--b-mba .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-mba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-mba .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-mba .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #a3d5cd;
 }
-.city-lite--b-mba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-mba .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-mba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-mba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #a3d5cd;
 }
-
-.city-lite--b-emba .carousel-gallery-default {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary {
     background-color: #a3d5cd;
 }
-.city-lite--b-emba .carousel-gallery-default h2,
-.city-lite--b-emba .carousel-gallery-default h3,
-.city-lite--b-emba .carousel-gallery-default h4 {
-    color: #ffffff;
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #2e767a;
+}
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
     background-color: initial;
-    color: #ffffff;
+    color: #0c0c0e;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19729,7 +20392,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -19745,7 +20408,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19761,116 +20424,116 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow {
-    color: #ffffff;
-    border: 0.0625rem solid #ffffff;
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
         color: #ffffff;
-        background: #ffffff;
+        background: #0c0c0e;
     }
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
     color: #ffffff;
-    background: #ffffff;
+    background: #0c0c0e;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
-    background-color: #ffffff;
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #a3d5cd;
+    background-color: #0c0c0e;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery-default .swiper-slider-arrow:active:active {
-    outline-color: #ffffff;
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
 }
-.city-lite--b-emba .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-emba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-emba .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #ffffff;
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-emba .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #2e767a;
 }
-.city-lite--b-emba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-emba .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-mba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-mba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #2e767a;
 }
 
-.city-lite--b-demba .carousel-gallery-default {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary {
+    background-color: #496c60;
+}
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
     background-color: #a3d5cd;
 }
-.city-lite--b-demba .carousel-gallery-default h2,
-.city-lite--b-demba .carousel-gallery-default h3,
-.city-lite--b-demba .carousel-gallery-default h4 {
-    color: #ffffff;
-}
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
     color: #ffffff;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19895,7 +20558,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -19911,7 +20574,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -19927,116 +20590,115 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
     background: #ffffff;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #496c60;
     background-color: #ffffff;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
-.city-lite--b-demba .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-demba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-demba .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-demba .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #a3d5cd;
 }
-.city-lite--b-demba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-demba .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-emba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-emba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #a3d5cd;
 }
-
-.city-lite--b-omba .carousel-gallery-default {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary {
     background-color: #a3d5cd;
 }
-.city-lite--b-omba .carousel-gallery-default h2,
-.city-lite--b-omba .carousel-gallery-default h3,
-.city-lite--b-omba .carousel-gallery-default h4 {
-    color: #ffffff;
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #496c60;
+}
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
     background-color: initial;
-    color: #ffffff;
+    color: #0c0c0e;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -20061,7 +20723,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -20077,7 +20739,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -20093,116 +20755,778 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow {
-    color: #ffffff;
-    border: 0.0625rem solid #ffffff;
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
         color: #ffffff;
-        background: #ffffff;
+        background: #0c0c0e;
     }
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
     color: #ffffff;
-    background: #ffffff;
+    background: #0c0c0e;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
-    background-color: #ffffff;
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #a3d5cd;
+    background-color: #0c0c0e;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery-default .swiper-slider-arrow:active:active {
-    outline-color: #ffffff;
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
 }
-.city-lite--b-omba .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
 }
-.city-lite--b-omba .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-omba .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #496c60;
+}
+.city-lite--b-emba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-emba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #496c60;
+}
+
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary {
+    background-color: #91baa3;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
+    background-color: #a3d5cd;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-omba .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
 }
-.city-lite--b-omba .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-omba .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #91baa3;
+    background-color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #a3d5cd;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-demba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #a3d5cd;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary {
+    background-color: #a3d5cd;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #91baa3;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #a3d5cd;
+    background-color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #91baa3;
+}
+.city-lite--b-demba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-demba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #91baa3;
 }
 
-.city-lite--b-exec .carousel-gallery-default {
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary {
+    background-color: #189183;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
+    background-color: #a3d5cd;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #189183;
+    background-color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #a3d5cd;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-omba .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #a3d5cd;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary {
+    background-color: #a3d5cd;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #189183;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #a3d5cd;
+    background-color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #189183;
+}
+.city-lite--b-omba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-omba .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #189183;
+}
+
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary {
+    background-color: #93328e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary h4 {
+    color: #ffffff;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
     background-color: #e31c79;
 }
-.city-lite--b-exec .carousel-gallery-default h2,
-.city-lite--b-exec .carousel-gallery-default h3,
-.city-lite--b-exec .carousel-gallery-default h4 {
-    color: #ffffff;
-}
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
     color: #ffffff;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -20227,7 +21551,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -20243,7 +21567,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -20259,116 +21583,281 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
     background: #ffffff;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #93328e;
     background-color: #ffffff;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
-.city-lite--b-exec .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-exec .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-exec .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-exec .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #e31c79;
 }
-.city-lite--b-exec .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-exec .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-exec .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-exec .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #e31c79;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary {
+    background-color: #e31c79;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #93328e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #e31c79;
+    background-color: #0c0c0e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #93328e;
+}
+.city-lite--b-exec .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-exec .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #93328e;
 }
 
-.city-lite--b-cce .carousel-gallery-default {
-    background-color: #a9a19c;
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary {
+    background-color: #8b2433;
 }
-.city-lite--b-cce .carousel-gallery-default h2,
-.city-lite--b-cce .carousel-gallery-default h3,
-.city-lite--b-cce .carousel-gallery-default h4 {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary h2,
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary h3,
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary h4 {
     color: #ffffff;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__text {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__image-wrapper {
+    background-color: #a9a19c;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text {
     background-color: initial;
     color: #ffffff;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -20393,7 +21882,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -20409,7 +21898,7 @@ main .yt-cta .yt-cta__text .cta-block {
         text-decoration: none;
     }
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -20425,101 +21914,263 @@ main .yt-cta .yt-cta__text .cta-block {
     text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
-    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a {
         transition: none;
     }
 }
 @media (hover: hover) {
-    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         background-size: 100% 100%;
         background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
     }
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:visited {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:visited {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:focus {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:focus {
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #cbcbcb;
 }
 @media (hover: hover) {
-    .city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:hover {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:hover {
         border-bottom-color: #cbcbcb;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__text a:active {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slide__text a:active {
     background-color: #cbcbcb;
     border-bottom-color: #cbcbcb;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
     color: #0c0c0e;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow {
     color: #ffffff;
     border: 0.0625rem solid #ffffff;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
-    .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:hover {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover {
         color: #ffffff;
         background: #ffffff;
     }
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
     color: #ffffff;
     background: #ffffff;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus:active, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:active, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:disabled {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:disabled {
     color: #696969;
     background: #ffffff;
     border: none;
     opacity: 0.7;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus {
     background-color: transparent;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active {
+    color: #8b2433;
     background-color: #ffffff;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery-default .swiper-slider-arrow:active:active {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
-.city-lite--b-cce .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
-}
-.city-lite--b-cce .carousel-gallery-default .galleria-thumbnail input:focus, .city-lite--b-cce .carousel-gallery-default .galleria-thumbnail input:active {
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--b-cce .carousel-gallery-default .galleria-thumbnail input:active {
-    outline-color: #d61726;
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .galleria-thumbnail input:active {
+    outline-color: #a9a19c;
 }
-.city-lite--b-cce .carousel-gallery-default .galleria-thumbnail.active input, .city-lite--b-cce .carousel-gallery-default .galleria-thumbnail.active input:focus {
-    outline-color: #d61726;
+.city-lite--b-cce .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input, .city-lite--b-cce .carousel-gallery--bayes-theme-primary .galleria-thumbnail.active input:focus {
+    outline-color: #a9a19c;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary {
+    background-color: #a9a19c;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary h2,
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary h3,
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary h4 {
+    color: #0c0c0e;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__image-wrapper {
+    background-color: #8b2433;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text {
+    background-color: initial;
+    color: #0c0c0e;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+    transition: background-size 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 100%;
+    background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-color: initial;
+        background-image: initial;
+        background-size: initial;
+        border-bottom-color: initial;
+        border-bottom-style: none;
+        border-bottom-width: 0;
+        color: initial;
+        cursor: pointer;
+        outline-color: initial;
+        outline-offset: 0;
+        outline-style: none;
+        outline-width: 0;
+        text-decoration: none;
+    }
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: initial;
+    background-image: initial;
+    background-size: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: initial;
+    cursor: pointer;
+    outline-color: initial;
+    outline-offset: 0;
+    outline-style: none;
+    outline-width: 0;
+    text-decoration: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a {
+        transition: none;
+    }
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        background-size: 100% 100%;
+        background-image: linear-gradient(120deg, #cbcbcb 0%, #cbcbcb 100%);
+    }
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:visited {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:focus {
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #cbcbcb;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:hover {
+        border-bottom-color: #cbcbcb;
+        border-bottom-style: solid;
+        border-bottom-width: 0.125rem;
+        color: #0c0c0e;
+    }
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slide__text a:active {
+    background-color: #cbcbcb;
+    border-bottom-color: #cbcbcb;
+    border-bottom-style: solid;
+    border-bottom-width: 0.125rem;
+    color: #0c0c0e;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow {
+    color: #0c0c0e;
+    border: 0.0625rem solid #0c0c0e;
+    padding: 0.75rem;
+    font-weight: 400;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover {
+        color: #ffffff;
+        background: #0c0c0e;
+    }
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #ffffff;
+    background: #0c0c0e;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:active, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:disabled {
+    color: #696969;
+    background: #ffffff;
+    border: none;
+    opacity: 0.7;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus {
+    background-color: transparent;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active {
+    color: #a9a19c;
+    background-color: #0c0c0e;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:hover, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:focus:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .swiper-slider-arrow:active:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:focus, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .galleria-thumbnail input:active {
+    outline-color: #8b2433;
+}
+.city-lite--b-cce .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input, .city-lite--b-cce .carousel-gallery--bayes-theme-secondary .galleria-thumbnail.active input:focus {
+    outline-color: #8b2433;
 }
 
 @media (min-width: 1024px) {
