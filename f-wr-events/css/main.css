@@ -13149,6 +13149,136 @@ body[class^=city-lite] .cta-icon--arrow span {
     }
 }
 
+.city-lite--b .card--event .card--event__label--shortdate {
+    background-color: #e30613;
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b .card--event:hover .card--event__label--shortdate {
+        background-color: #7e756d;
+    }
+}
+.city-lite--b .card--event .card__tag .icon {
+    color: #e30613;
+}
+
+.city-lite--b-ug .card--event .card--event__label--shortdate {
+    background-color: #f1b434;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-ug .card--event:hover .card--event__label--shortdate {
+        background-color: #e35205;
+    }
+}
+.city-lite--b-ug .card--event .card__tag .icon {
+    color: #f1b434;
+}
+
+.city-lite--b-msc .card--event .card--event__label--shortdate {
+    background-color: #006699;
+    color: #ffffff;
+}
+@media (hover: hover) {
+    .city-lite--b-msc .card--event:hover .card--event__label--shortdate {
+        background-color: #002b49;
+    }
+}
+.city-lite--b-msc .card--event .card__tag .icon {
+    color: #006699;
+}
+
+.city-lite--b-phd .card--event .card--event__label--shortdate {
+    background-color: #5bc2e7;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-phd .card--event:hover .card--event__label--shortdate {
+        background-color: #006699;
+    }
+}
+.city-lite--b-phd .card--event .card__tag .icon {
+    color: #5bc2e7;
+}
+
+.city-lite--b-mba .card--event .card--event__label--shortdate {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-mba .card--event:hover .card--event__label--shortdate {
+        background-color: #2e767a;
+    }
+}
+.city-lite--b-mba .card--event .card__tag .icon {
+    color: #a3d5cd;
+}
+
+.city-lite--b-emba .card--event .card--event__label--shortdate {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-emba .card--event:hover .card--event__label--shortdate {
+        background-color: #496c60;
+    }
+}
+.city-lite--b-emba .card--event .card__tag .icon {
+    color: #a3d5cd;
+}
+
+.city-lite--b-demba .card--event .card--event__label--shortdate {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-demba .card--event:hover .card--event__label--shortdate {
+        background-color: #91baa3;
+    }
+}
+.city-lite--b-demba .card--event .card__tag .icon {
+    color: #a3d5cd;
+}
+
+.city-lite--b-omba .card--event .card--event__label--shortdate {
+    background-color: #a3d5cd;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-omba .card--event:hover .card--event__label--shortdate {
+        background-color: #189183;
+    }
+}
+.city-lite--b-omba .card--event .card__tag .icon {
+    color: #a3d5cd;
+}
+
+.city-lite--b-exec .card--event .card--event__label--shortdate {
+    background-color: #e31c79;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-exec .card--event:hover .card--event__label--shortdate {
+        background-color: #93328e;
+    }
+}
+.city-lite--b-exec .card--event .card__tag .icon {
+    color: #e31c79;
+}
+
+.city-lite--b-cce .card--event .card--event__label--shortdate {
+    background-color: #a9a19c;
+    color: #0c0c0e;
+}
+@media (hover: hover) {
+    .city-lite--b-cce .card--event:hover .card--event__label--shortdate {
+        background-color: #8b2433;
+    }
+}
+.city-lite--b-cce .card--event .card__tag .icon {
+    color: #a9a19c;
+}
+
 article a {
     background-color: initial;
     background-image: initial;
