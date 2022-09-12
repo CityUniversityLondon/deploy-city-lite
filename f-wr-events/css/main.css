@@ -12967,7 +12967,7 @@ body[class^=city-lite] .cta-icon--arrow span {
     max-width: unset;
 }
 .card--event .card__anchor {
-    box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
     position: relative;
     display: flex;
@@ -12979,7 +12979,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .card--event .card__anchor:hover {
-        box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.15);
         border: none;
     }
 }
@@ -13016,9 +13016,12 @@ body[class^=city-lite] .cta-icon--arrow span {
     margin-top: 0.75rem;
 }
 .card--event .card__anchor .card--event__label--shortdate {
-    font-size: 0.889rem;
-    line-height: 1.625;
-    letter-spacing: 0em;
+    font-size: 1.125rem;
+    line-height: 1.3333333333;
+    letter-spacing: -0.008em;
+    font-family: "Meta Sans", sans-serif;
+    font-feature-settings: "ss01" 1, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
+    line-height: 1.25rem;
     text-align: center;
     align-self: flex-start;
     background-color: #d61726;
@@ -13034,12 +13037,12 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (min-width: 1280px) and (max-width: 1919px) {
     .card--event .card__anchor .card--event__label--shortdate {
-        letter-spacing: -0.005em;
+        letter-spacing: -0.011em;
     }
 }
 @media (min-width: 1920px) and (max-width: 3839px) {
     .card--event .card__anchor .card--event__label--shortdate {
-        letter-spacing: -0.01em;
+        letter-spacing: -0.014em;
     }
 }
 @media (min-width: 3840px) and (max-width: 7679px) {
@@ -13051,6 +13054,21 @@ body[class^=city-lite] .cta-icon--arrow span {
     .card--event .card__anchor .card--event__label--shortdate {
         letter-spacing: -0.017em;
     }
+}
+.card--event .card__anchor .card--event__label--shortdate i,
+.card--event .card__anchor .card--event__label--shortdate em {
+    font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
+}
+.card--event .card__anchor .card--event__label--shortdate b,
+.card--event .card__anchor .card--event__label--shortdate strong {
+    font-weight: inherit;
+}
+.card--event .card__anchor .card--event__label--shortdate i,
+.card--event .card__anchor .card--event__label--shortdate em {
+    font-style: italic;
+}
+.card--event .card__anchor .card--event__label--shortdate u {
+    text-decoration: none;
 }
 @media (prefers-reduced-motion: reduce) {
     .card--event .card__anchor .card--event__label--shortdate {
@@ -13155,7 +13173,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b .card--event:hover .card--event__label--shortdate {
-        background-color: #7e756d;
+        background-color: #c50511;
     }
 }
 .city-lite--b .card--event .card__tag .icon {
@@ -13168,7 +13186,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-ug .card--event:hover .card--event__label--shortdate {
-        background-color: #e35205;
+        background-color: #efa917;
     }
 }
 .city-lite--b-ug .card--event .card__tag .icon {
@@ -13181,7 +13199,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-msc .card--event:hover .card--event__label--shortdate {
-        background-color: #002b49;
+        background-color: #00527a;
     }
 }
 .city-lite--b-msc .card--event .card__tag .icon {
@@ -13194,7 +13212,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-phd .card--event:hover .card--event__label--shortdate {
-        background-color: #006699;
+        background-color: #40b8e3;
     }
 }
 .city-lite--b-phd .card--event .card__tag .icon {
@@ -13207,7 +13225,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-mba .card--event:hover .card--event__label--shortdate {
-        background-color: #2e767a;
+        background-color: #8ecbc2;
     }
 }
 .city-lite--b-mba .card--event .card__tag .icon {
@@ -13220,7 +13238,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-emba .card--event:hover .card--event__label--shortdate {
-        background-color: #496c60;
+        background-color: #8ecbc2;
     }
 }
 .city-lite--b-emba .card--event .card__tag .icon {
@@ -13233,7 +13251,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-demba .card--event:hover .card--event__label--shortdate {
-        background-color: #91baa3;
+        background-color: #8ecbc2;
     }
 }
 .city-lite--b-demba .card--event .card__tag .icon {
@@ -13246,7 +13264,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-omba .card--event:hover .card--event__label--shortdate {
-        background-color: #189183;
+        background-color: #8ecbc2;
     }
 }
 .city-lite--b-omba .card--event .card__tag .icon {
@@ -13259,7 +13277,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-exec .card--event:hover .card--event__label--shortdate {
-        background-color: #93328e;
+        background-color: #c8196a;
     }
 }
 .city-lite--b-exec .card--event .card__tag .icon {
@@ -13272,7 +13290,7 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 @media (hover: hover) {
     .city-lite--b-cce .card--event:hover .card--event__label--shortdate {
-        background-color: #8b2433;
+        background-color: #9b918c;
     }
 }
 .city-lite--b-cce .card--event .card__tag .icon {
@@ -18817,6 +18835,8 @@ main .yt-cta .yt-cta__text .cta-block {
     grid-template-columns: repeat(24, 1fr);
     grid-column-gap: 0;
     display: grid;
+    background-color: #f2f2f2;
+    padding-bottom: 1.5rem;
 }
 @media (min-width: 768px) {
     .events-cards__wrapper {
