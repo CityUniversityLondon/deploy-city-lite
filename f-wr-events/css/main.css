@@ -12751,9 +12751,6 @@ body[class^=city-lite] .cta-icon--arrow span {
         border-style: solid;
         border-width: 0.0625rem;
     }
-    .card .card__anchor:hover .card__thumbnail {
-        transform: scale(1.02);
-    }
 }
 .card .card__anchor:after {
     font-family: "Font Awesome";
@@ -12775,16 +12772,6 @@ body[class^=city-lite] .cta-icon--arrow span {
         transition: none;
     }
 }
-.card .card__anchor .card__thumbnail {
-    align-self: flex-start;
-    transition: transform 0.2s ease-in-out;
-    width: 100%;
-}
-@media (prefers-reduced-motion: reduce) {
-    .card .card__anchor .card__thumbnail {
-        transition: none;
-    }
-}
 .card .card__anchor .card__heading {
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
@@ -12796,9 +12783,6 @@ body[class^=city-lite] .cta-icon--arrow span {
     padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 1rem;
-}
-.card .card__details .card__thumbnail + .card__details__text {
     padding-top: 1rem;
 }
 .card .card__details .card__heading {
@@ -13148,23 +13132,6 @@ body[class^=city-lite] .cta-icon--arrow span {
 }
 .card--event.card--landscape .card__details .card--event__label--event + .card__thumbnail + .card__details__text {
     padding-top: 0;
-}
-@media (min-width: 433px) and (max-width: 1023px) {
-    .card--event .card__details {
-        flex-direction: row;
-    }
-    .card--event .card__details .card__thumbnail {
-        width: 10rem;
-    }
-    .card--event .card__details .card--event__label--event {
-        position: absolute;
-    }
-    .card--event .card__details .card--event__label--event + .card__thumbnail {
-        margin-top: 3rem;
-    }
-    .card--event .card__details .card--event__label--event + .card__thumbnail + .card__details__text {
-        padding-top: 0;
-    }
 }
 
 .city-lite--b .card--event .card--event__label--shortdate {
