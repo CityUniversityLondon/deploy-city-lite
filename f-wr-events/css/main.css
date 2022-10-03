@@ -12776,9 +12776,6 @@ body[class^=city-lite] .cta-icon--arrow span {
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
 }
-.card .card__anchor .card__heading .icon {
-    margin-left: 0.5rem;
-}
 .card .card__details .card__details__text {
     padding-bottom: 3rem;
     padding-left: 1rem;
@@ -13111,27 +13108,9 @@ body[class^=city-lite] .cta-icon--arrow span {
         letter-spacing: -0.017em;
     }
 }
-.card--event .card__anchor .card--event__divider {
-    color: #d61726;
-}
 .card--event .card__anchor:after {
     content: unset;
     display: none;
-}
-.card--event.card--landscape .card__details {
-    flex-direction: row;
-}
-.card--event.card--landscape .card__details .card__thumbnail {
-    width: 10rem;
-}
-.card--event.card--landscape .card__details .card--event__label--event {
-    position: absolute;
-}
-.card--event.card--landscape .card__details .card--event__label--event + .card__thumbnail {
-    margin-top: 3rem;
-}
-.card--event.card--landscape .card__details .card--event__label--event + .card__thumbnail + .card__details__text {
-    padding-top: 0;
 }
 
 .city-lite--b .card--event .card--event__label--shortdate {
