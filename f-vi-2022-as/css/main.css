@@ -8587,9 +8587,9 @@ iframe[src*=issuu], iframe[src*=prezi] {
 }
 @media (hover: hover) {
     .cta--t2:hover {
-        background-color: #7c2062;
+        background-color: #5d184a;
         color: #ffffff;
-        border: 0.125rem solid #7c2062;
+        border: 0.125rem solid #5d184a;
     }
     .cta--t2:hover span {
         color: #ffffff;
