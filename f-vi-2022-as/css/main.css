@@ -40,7 +40,7 @@
     width: 2.5rem;
     height: 0.25rem;
     display: block;
-    background: #d61726;
+    background: #1e1e1e;
     margin: 0.25rem auto 1rem auto;
 }
 
@@ -8257,7 +8257,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     transition: background-color 0.6s, transform 0.6s;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
@@ -8309,15 +8309,15 @@ iframe[src*=issuu], iframe[src*=prezi] {
 }
 .cta:visited,
 .cta--basic:visited {
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta, .cta:focus, .cta:active,
 .cta--basic,
 .cta--basic:focus,
 .cta--basic:active {
-    background-color: #d61726;
+    background-color: #1e1e1e;
     color: #ffffff;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta span, .cta:focus span, .cta:active span,
 .cta--basic span,
@@ -8328,9 +8328,9 @@ iframe[src*=issuu], iframe[src*=prezi] {
 @media (hover: hover) {
     .cta:hover,
 .cta--basic:hover {
-        background-color: #ba1421;
+        background-color: #0f0f0f;
         color: #ffffff;
-        border: 0.125rem solid #ba1421;
+        border: 0.125rem solid #0f0f0f;
     }
     .cta:hover span,
 .cta--basic:hover span {
@@ -8358,7 +8358,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     transition: background-color 0.6s, transform 0.6s;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
@@ -8403,12 +8403,12 @@ iframe[src*=issuu], iframe[src*=prezi] {
     opacity: 0;
 }
 .cta--outline:visited {
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta--outline, .cta--outline:focus, .cta--outline:active {
-    background-color: #d61726;
+    background-color: #1e1e1e;
     color: #ffffff;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta--outline span, .cta--outline:focus span, .cta--outline:active span {
     color: #ffffff;
@@ -8416,11 +8416,11 @@ iframe[src*=issuu], iframe[src*=prezi] {
 @media (hover: hover) {
     .cta--outline:hover {
         background-color: #ffffff;
-        color: #d61726;
-        border: 0.125rem solid #d61726;
+        color: #1e1e1e;
+        border: 0.125rem solid #1e1e1e;
     }
     .cta--outline:hover span {
-        color: #d61726;
+        color: #1e1e1e;
     }
 }
 
@@ -8444,7 +8444,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     transition: background-color 0.6s, transform 0.6s;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
@@ -8489,21 +8489,21 @@ iframe[src*=issuu], iframe[src*=prezi] {
     opacity: 0;
 }
 .cta--bg:visited {
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta--bg, .cta--bg:focus, .cta--bg:active {
-    background-color: #d61726;
+    background-color: #1e1e1e;
     color: #ffffff;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta--bg span, .cta--bg:focus span, .cta--bg:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
     .cta--bg:hover {
-        background-color: #9e111c;
+        background-color: #0c0c0e;
         color: #ffffff;
-        border: 0.125rem solid #9e111c;
+        border: 0.125rem solid #0c0c0e;
     }
     .cta--bg:hover span {
         color: #ffffff;
@@ -8530,7 +8530,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     transition: background-color 0.6s, transform 0.6s;
-    border: 0.125rem solid #3e1031;
+    border: 0.125rem solid #d61726;
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
@@ -8575,21 +8575,21 @@ iframe[src*=issuu], iframe[src*=prezi] {
     opacity: 0;
 }
 .cta--t2:visited {
-    border: 0.125rem solid #3e1031;
+    border: 0.125rem solid #d61726;
 }
 .cta--t2, .cta--t2:focus, .cta--t2:active {
-    background-color: #3e1031;
+    background-color: #d61726;
     color: #ffffff;
-    border: 0.125rem solid #3e1031;
+    border: 0.125rem solid #d61726;
 }
 .cta--t2 span, .cta--t2:focus span, .cta--t2:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
     .cta--t2:hover {
-        background-color: #5d184a;
+        background-color: #9e111c;
         color: #ffffff;
-        border: 0.125rem solid #5d184a;
+        border: 0.125rem solid #9e111c;
     }
     .cta--t2:hover span {
         color: #ffffff;
@@ -8788,7 +8788,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     transition: background-color 0.6s, transform 0.6s;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
@@ -8833,21 +8833,21 @@ iframe[src*=issuu], iframe[src*=prezi] {
     opacity: 0;
 }
 .cta--duotone:visited {
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta--duotone, .cta--duotone:focus, .cta--duotone:active {
     background-color: #ffffff;
     color: #0c0c0e;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 .cta--duotone span, .cta--duotone:focus span, .cta--duotone:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
     .cta--duotone:hover {
-        background-color: #d61726;
+        background-color: #1e1e1e;
         color: #ffffff;
-        border: 0.125rem solid #d61726;
+        border: 0.125rem solid #1e1e1e;
     }
     .cta--duotone:hover span {
         color: #ffffff;
@@ -12979,7 +12979,7 @@ form:not([class]) textarea[type=submit],
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     transition: background-color 0.6s, transform 0.6s;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
     -webkit-appearance: none;
     appearance: none;
     border: 0;
@@ -13048,7 +13048,7 @@ form:not([class]) input[type=submit]:visited,
 form:not([class]) textarea[type=submit]:visited,
 .form input[type=submit]:visited,
 .form textarea[type=submit]:visited {
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 form:not([class]) input[type=submit], form:not([class]) input[type=submit]:focus, form:not([class]) input[type=submit]:active,
 form:not([class]) textarea[type=submit],
@@ -13060,9 +13060,9 @@ form:not([class]) textarea[type=submit]:active,
 .form textarea[type=submit],
 .form textarea[type=submit]:focus,
 .form textarea[type=submit]:active {
-    background-color: #d61726;
+    background-color: #1e1e1e;
     color: #ffffff;
-    border: 0.125rem solid #d61726;
+    border: 0.125rem solid #1e1e1e;
 }
 form:not([class]) input[type=submit] span, form:not([class]) input[type=submit]:focus span, form:not([class]) input[type=submit]:active span,
 form:not([class]) textarea[type=submit] span,
@@ -13081,9 +13081,9 @@ form:not([class]) textarea[type=submit]:active span,
 form:not([class]) textarea[type=submit]:hover,
 .form input[type=submit]:hover,
 .form textarea[type=submit]:hover {
-        background-color: #9e111c;
+        background-color: #0c0c0e;
         color: #ffffff;
-        border: 0.125rem solid #9e111c;
+        border: 0.125rem solid #0c0c0e;
     }
     form:not([class]) input[type=submit]:hover span,
 form:not([class]) textarea[type=submit]:hover span,
@@ -13133,29 +13133,29 @@ form:not([class]) .form__required-note--marker,
 #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll,
 #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
     border: 1px solid transparent;
-    color: #d61726;
+    color: #1e1e1e;
     background-color: transparent;
     transition: border 0.4s;
 }
 @media (hover: hover) {
     #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:hover,
 #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:hover {
-        border: 1px solid #d61726;
+        border: 1px solid #1e1e1e;
     }
 }
 #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:focus, #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll:active,
 #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:focus,
 #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection:active {
-    border: 1px solid #d61726;
+    border: 1px solid #1e1e1e;
 }
 #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
-    background-color: #d61726;
+    background-color: #1e1e1e;
     transition: background-color 0.4s;
     border: 2px dotted transparent;
 }
 @media (hover: hover) {
     #CybotCookiebotDialog #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll:hover {
-        background-color: #a8121e;
+        background-color: #050505;
         border: 2px dotted transparent;
     }
 }
@@ -13416,11 +13416,11 @@ form:not([class]) .form__required-note--marker,
     margin-top: 0;
 }
 .accordion__wrapper .accordion .accordion__heading[data-open=true] button {
-    background-color: #3e1031;
+    background-color: #d61726;
     color: #ffffff;
 }
 .accordion__wrapper .accordion .accordion__heading[data-open=true] button:hover {
-    background-color: #3e1031;
+    background-color: #d61726;
     color: #ffffff;
 }
 .accordion__wrapper .accordion .accordion__heading button {
@@ -13432,7 +13432,7 @@ form:not([class]) .form__required-note--marker,
     padding: 1rem;
 }
 .accordion__wrapper .accordion .accordion__heading button .accordion__heading__indicator {
-    background-color: #3e1031;
+    background-color: #d61726;
     color: #ffffff;
     align-self: normal;
     padding: 1rem;
@@ -13601,7 +13601,7 @@ form:not([class]) .form__required-note--marker,
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    background-color: #3e1031;
+    background-color: #d61726;
     color: #ffffff;
 }
 .banner:before {
@@ -13763,7 +13763,7 @@ form:not([class]) .form__required-note--marker,
 .banner--sc-highlight .banner__txt__padding h1,
 .banner--sc-highlight .banner__txt__padding p,
 .banner--sc-highlight .banner__txt__padding span {
-    color: #3e1031;
+    color: #d61726;
     background-color: #ffffff;
     box-shadow: 0.5rem 0 0 #ffffff, -0.5rem 0 0 #ffffff;
     box-decoration-break: clone;
@@ -14095,7 +14095,7 @@ figure figcaption a:focus, figure figcaption a:active,
 }
 figure figcaption a:before,
 .figcaption-like a:before {
-    background: #d61726;
+    background: #1e1e1e;
     bottom: -0.125rem;
     content: "";
     display: block;
@@ -14335,10 +14335,10 @@ figure figcaption a:active,
 }
 @media (hover: hover) {
     .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:hover {
-        border-color: #d61726;
+        border-color: #1e1e1e;
     }
     .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:hover .icon {
-        color: #d61726;
+        color: #1e1e1e;
     }
 }
 .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:active, .global-footer .global-footer__container .global-footer__social-media__wrap .global-footer__social-media li a:focus {
@@ -15012,17 +15012,17 @@ figure figcaption a:active,
     padding: 1rem 0;
 }
 .ksp-block[data-theme=light] .wrapper--ksp__item__icon {
-    background-color: #3e1031;
+    background-color: #d61726;
 }
 .ksp-block[data-theme=dark] {
-    background-color: #3e1031;
+    background-color: #d61726;
     color: #ffffff;
 }
 .ksp-block[data-theme=dark] .wrapper--ksp__item__icon {
-    background-color: #ffffff;
+    background-color: #d61726;
 }
 .ksp-block[data-theme=dark] .ksp__item__icon {
-    filter: invert(1);
+    filter: invert(0);
 }
 .ksp-block[data-theme=dark] .cta:active, .ksp-block[data-theme=dark] .cta:focus {
     outline-color: #ffffff;
@@ -15256,7 +15256,7 @@ figure figcaption a:active,
     border-bottom-color: #0c0c0e;
 }
 .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
-    border-top: 0.5rem solid #d61726;
+    border-top: 0.5rem solid #1e1e1e;
 }
 .pathway .pathway__cards .card--pathway button {
     background-color: initial;
@@ -15392,7 +15392,7 @@ figure figcaption a:active,
     border-bottom-color: #0c0c0e;
 }
 .pathway .pathway__cards .card--pathway button.card--pathway__content--border {
-    border-top: 0.5rem solid #d61726;
+    border-top: 0.5rem solid #1e1e1e;
 }
 .pathway .pathway__cards .card--pathway button .card--pathway__content__img {
     position: relative;
@@ -15925,17 +15925,17 @@ figure figcaption a:active,
 }
 .js .slider[data-style=arrows] + .slider__controls .slider__indicator .slider__indicator__total,
 .js .slider[data-style=responsive] + .slider__controls .slider__indicator .slider__indicator__total {
-    color: #d61726;
+    color: #1e1e1e;
 }
 .js .slider[data-style=arrows] + .slider__controls .slider__controls__prev,
 .js .slider[data-style=arrows] + .slider__controls .slider__controls__next,
 .js .slider[data-style=responsive] + .slider__controls .slider__controls__prev,
 .js .slider[data-style=responsive] + .slider__controls .slider__controls__next {
     background-color: transparent;
-    border-color: #d61726;
+    border-color: #1e1e1e;
     border-style: solid;
     border-width: 0.0625rem;
-    color: #d61726;
+    color: #1e1e1e;
     padding: 0.75rem;
     transition: background-color 0.2s ease-in, border-color 0.2s ease-in, color 0.2s ease-in;
 }
@@ -15965,7 +15965,7 @@ figure figcaption a:active,
 .js .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover:not(:disabled),
 .js .slider[data-style=responsive] + .slider__controls .slider__controls__prev:hover:not(:disabled),
 .js .slider[data-style=responsive] + .slider__controls .slider__controls__next:hover:not(:disabled) {
-        background-color: #d61726;
+        background-color: #1e1e1e;
         color: #ffffff;
     }
 }
@@ -16614,7 +16614,7 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 
 .promo__wrapper {
-    background-color: #3e1031;
+    background-color: #d61726;
 }
 .promo__wrapper .promo__heading {
     color: #ffffff;
@@ -17304,7 +17304,7 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 
 .dialog__strapline {
-    color: #d61726;
+    color: #1e1e1e;
     font-size: 0.889rem;
     line-height: 1.625;
     letter-spacing: 0em;
@@ -17594,14 +17594,14 @@ main .yt-cta .yt-cta__text .cta-block {
 @media (hover: hover) {
     .dialog__underline-transition:hover {
         background-image: none;
-        border-bottom-color: #d61726;
+        border-bottom-color: #1e1e1e;
         border-bottom-style: solid;
         border-bottom-width: 0.125rem;
         color: #0c0c0e;
     }
 }
 .dialog__underline-transition:active {
-    border-bottom-color: #d61726;
+    border-bottom-color: #1e1e1e;
     border-bottom-style: solid;
     border-bottom-width: 0.125rem;
 }
@@ -17663,7 +17663,7 @@ main .yt-cta .yt-cta__text .cta-block {
     }
 }
 .dialog__slider-control button:first-of-type {
-    border-right: 0.125rem solid #d61726;
+    border-right: 0.125rem solid #1e1e1e;
     flex-direction: row;
     padding-right: 1.25rem;
 }
@@ -17927,7 +17927,7 @@ main .yt-cta .yt-cta__text .cta-block {
 
 .hallway-cards__wrapper {
     grid-column: 1/-1;
-    background-color: #3e1031;
+    background-color: #d61726;
     padding-bottom: 2rem;
 }
 .hallway-cards__wrapper .hallway-cards__heading {
@@ -18091,7 +18091,7 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 
 .hallway-cards__card__details__seperator {
-    background-color: #d61726;
+    background-color: #999999;
     content: "";
     display: block;
     height: 0.125rem;
@@ -18557,7 +18557,7 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 
 .swiper-indicator__active-slider {
-    color: #d61726;
+    color: #1e1e1e;
 }
 
 .swiper-indicator__slider-length {
@@ -18579,20 +18579,20 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 
 .swiper-slider-arrow {
-    color: #d61726;
-    border: 0.0625rem solid #d61726;
+    color: #1e1e1e;
+    border: 0.0625rem solid #1e1e1e;
     padding: 0.75rem;
     font-weight: 400;
 }
 @media (hover: hover) {
     .swiper-slider-arrow:hover {
         color: #ffffff;
-        background: #d61726;
+        background: #1e1e1e;
     }
 }
 .swiper-slider-arrow:focus, .swiper-slider-arrow:active {
     color: #ffffff;
-    background: #d61726;
+    background: #1e1e1e;
 }
 .swiper-slider-arrow:focus:focus, .swiper-slider-arrow:focus:active, .swiper-slider-arrow:active:focus, .swiper-slider-arrow:active:active {
     outline-color: #0c0c0e;
@@ -18616,7 +18616,7 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 
 .carousel-gallery-default {
-    background-color: #3e1031;
+    background-color: #d61726;
     margin-bottom: 1.5rem;
 }
 .carousel-gallery-default h2,
@@ -18760,14 +18760,14 @@ main .yt-cta .yt-cta__text .cta-block {
     background-color: transparent;
 }
 .carousel-gallery-default .swiper-slider-arrow:hover, .carousel-gallery-default .swiper-slider-arrow:active {
-    color: #3e1031;
+    color: #d61726;
     background-color: #ffffff;
 }
 .carousel-gallery-default .swiper-slider-arrow:hover, .carousel-gallery-default .swiper-slider-arrow:focus:focus, .carousel-gallery-default .swiper-slider-arrow:active:active {
     outline-color: #ffffff;
 }
 .carousel-gallery-default .swiper-slide__image-wrapper {
-    background-color: #250020;
+    background-color: #9e111c;
 }
 .carousel-gallery-default .galleria-thumbnail input:focus, .carousel-gallery-default .galleria-thumbnail input:active {
     outline-color: #ffffff;
@@ -22329,7 +22329,7 @@ main .yt-cta .yt-cta__text .cta-block {
         color: #0c0c0e;
     }
     .card .card__anchor:hover:after {
-        background-color: #d61726;
+        background-color: #1e1e1e;
         color: #ffffff;
     }
 }
@@ -22342,14 +22342,14 @@ main .yt-cta .yt-cta__text .cta-block {
         background-color: #f2f2f2;
     }
     .card .card__anchor:after {
-        background-color: #d61726;
+        background-color: #1e1e1e;
     }
 }
 .card .card__anchor .card__type {
-    color: #d61726;
+    color: #1e1e1e;
 }
 .card .card__anchor .card__tag .icon {
-    color: #d61726;
+    color: #1e1e1e;
 }
 @media (prefers-reduced-motion: reduce) {
     .card .card__anchor {
@@ -22619,7 +22619,7 @@ main .yt-cta .yt-cta__text .cta-block {
     line-height: 1.25rem;
     text-align: center;
     align-self: flex-start;
-    background-color: #d61726;
+    background-color: #1e1e1e;
     color: #ffffff;
     display: inline-block;
     font-weight: 700;
@@ -22679,7 +22679,7 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 @media (hover: hover) {
     .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
-        background-color: #9e111c;
+        background-color: #0c0c0e;
     }
 }
 .events-cards .card--event .card__anchor .card__details__text {
@@ -22868,14 +22868,14 @@ main .yt-cta .yt-cta__text .cta-block {
         border: none;
     }
     .card--socialmedia .card__anchor:hover .card--socialmedia__label--source {
-        background-color: #d61726;
+        background-color: #1e1e1e;
         color: #ffffff;
     }
 }
 .card--socialmedia .card__anchor .card--socialmedia__label--source {
     align-items: center;
     background-color: #ffffff;
-    border-color: #d61726;
+    border-color: #1e1e1e;
     border-radius: 50%;
     border-style: solid;
     border-width: 0.125rem;
@@ -22930,7 +22930,7 @@ main .yt-cta .yt-cta__text .cta-block {
     }
 }
 .card--socialmedia .card__anchor .card--socialmedia__url {
-    color: #d61726;
+    color: #1e1e1e;
 }
 .card--socialmedia .card__anchor .card--socialmedia__label--socialmedia {
     font-size: 0.889rem;
