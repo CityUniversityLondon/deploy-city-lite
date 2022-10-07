@@ -14209,10 +14209,9 @@ figure figcaption a:active,
     }
 }
 .global-footer .global-footer__ribbon {
-    background-color: #3e1031;
+    background-color: #d61726;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    background: linear-gradient(90deg, #b91924 0%, #5d184a 70%, #3e1031 100%);
 }
 .global-footer .global-footer__container {
     background-color: #ffffff;
