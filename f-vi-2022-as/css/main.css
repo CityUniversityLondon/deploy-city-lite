@@ -12979,7 +12979,7 @@ form:not([class]) textarea[type=submit],
     padding-right: 1.5rem;
     padding-top: 0.5rem;
     transition: background-color 0.6s, transform 0.6s;
-    border: 0.125rem solid #1e1e1e;
+    border: 0.125rem solid #d61726;
     -webkit-appearance: none;
     appearance: none;
     border: 0;
@@ -13048,7 +13048,7 @@ form:not([class]) input[type=submit]:visited,
 form:not([class]) textarea[type=submit]:visited,
 .form input[type=submit]:visited,
 .form textarea[type=submit]:visited {
-    border: 0.125rem solid #1e1e1e;
+    border: 0.125rem solid #d61726;
 }
 form:not([class]) input[type=submit], form:not([class]) input[type=submit]:focus, form:not([class]) input[type=submit]:active,
 form:not([class]) textarea[type=submit],
@@ -13060,9 +13060,9 @@ form:not([class]) textarea[type=submit]:active,
 .form textarea[type=submit],
 .form textarea[type=submit]:focus,
 .form textarea[type=submit]:active {
-    background-color: #1e1e1e;
+    background-color: #d61726;
     color: #ffffff;
-    border: 0.125rem solid #1e1e1e;
+    border: 0.125rem solid #d61726;
 }
 form:not([class]) input[type=submit] span, form:not([class]) input[type=submit]:focus span, form:not([class]) input[type=submit]:active span,
 form:not([class]) textarea[type=submit] span,
@@ -13081,9 +13081,9 @@ form:not([class]) textarea[type=submit]:active span,
 form:not([class]) textarea[type=submit]:hover,
 .form input[type=submit]:hover,
 .form textarea[type=submit]:hover {
-        background-color: #0c0c0e;
+        background-color: #9e111c;
         color: #ffffff;
-        border: 0.125rem solid #0c0c0e;
+        border: 0.125rem solid #9e111c;
     }
     form:not([class]) input[type=submit]:hover span,
 form:not([class]) textarea[type=submit]:hover span,
