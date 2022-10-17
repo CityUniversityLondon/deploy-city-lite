@@ -15394,6 +15394,7 @@ figure figcaption a:active,
 }
 .ksp-block .ksp__items .ksp__item__icon {
     width: 4rem;
+    height: 4rem;
 }
 
 .js .ksp-block .slider[data-cardsperrow="1"]:not([data-small=true]) .slide, .js .ksp-block .slider[data-cardsperrow="2"]:not([data-small=true]) .slide, .js .ksp-block .slider[data-cardsperrow="3"]:not([data-small=true]) .slide {
