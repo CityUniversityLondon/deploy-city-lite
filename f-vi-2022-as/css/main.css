@@ -13828,7 +13828,7 @@ form:not([class]) .form__required-note--marker,
 .banner--sc-highlight .banner__txt__padding h1,
 .banner--sc-highlight .banner__txt__padding p,
 .banner--sc-highlight .banner__txt__padding span {
-    color: #d61726;
+    color: #0c0c0e;
     background-color: #ffffff;
     box-shadow: 0.5rem 0 0 #ffffff, -0.5rem 0 0 #ffffff;
     box-decoration-break: clone;
@@ -17177,37 +17177,44 @@ main .yt-cta .yt-cta__text .cta-block {
 .promo__wrapper .promo__heading {
     text-align: center;
 }
-.promo__wrapper .promo {
+
+.promo {
     margin-top: 0.5rem;
 }
-.promo__wrapper .promo .slider, .promo__wrapper .promo .related-content {
+.promo .slider,
+.promo .related-content {
     max-width: inherit;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 @media (max-width: 767px) {
-    .promo__wrapper .promo .slider, .promo__wrapper .promo .related-content {
+    .promo .slider,
+.promo .related-content {
         margin-left: 0;
         margin-right: 0;
     }
 }
-.promo__wrapper .promo .slider .card:focus, .promo__wrapper .promo .related-content .card:focus {
+.promo .slider .card:focus,
+.promo .related-content .card:focus {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
     outline-offset: -0.1875rem;
 }
-.promo__wrapper .promo .slider .card .card__details, .promo__wrapper .promo .related-content .card .card__details {
+.promo .slider .card .card__details,
+.promo .related-content .card .card__details {
     display: flex;
     flex-direction: row;
 }
 @media (max-width: 767px) {
-    .promo__wrapper .promo .slider .card .card__details, .promo__wrapper .promo .related-content .card .card__details {
+    .promo .slider .card .card__details,
+.promo .related-content .card .card__details {
         flex-direction: column;
     }
 }
-.promo__wrapper .promo .slider .card .card__details .card__thumbnail, .promo__wrapper .promo .related-content .card .card__details .card__thumbnail {
+.promo .slider .card .card__details .card__thumbnail,
+.promo .related-content .card .card__details .card__thumbnail {
     overflow: hidden;
     position: relative;
     padding-bottom: 2rem;
@@ -17215,20 +17222,24 @@ main .yt-cta .yt-cta__text .cta-block {
     flex-basis: 50%;
 }
 @media (max-width: 767px) {
-    .promo__wrapper .promo .slider .card .card__details .card__thumbnail, .promo__wrapper .promo .related-content .card .card__details .card__thumbnail {
+    .promo .slider .card .card__details .card__thumbnail,
+.promo .related-content .card .card__details .card__thumbnail {
         padding-bottom: 0;
     }
 }
-.promo__wrapper .promo .slider .card .card__details .card__thumbnail img, .promo__wrapper .promo .related-content .card .card__details .card__thumbnail img {
+.promo .slider .card .card__details .card__thumbnail img,
+.promo .related-content .card .card__details .card__thumbnail img {
     z-index: 1;
     position: relative;
 }
 @media (max-width: 767px) {
-    .promo__wrapper .promo .slider .card .card__details .card__thumbnail img, .promo__wrapper .promo .related-content .card .card__details .card__thumbnail img {
+    .promo .slider .card .card__details .card__thumbnail img,
+.promo .related-content .card .card__details .card__thumbnail img {
         margin-left: 1.75rem;
     }
 }
-.promo__wrapper .promo .slider .card .card__details .card__thumbnail::after, .promo__wrapper .promo .related-content .card .card__details .card__thumbnail::after {
+.promo .slider .card .card__details .card__thumbnail::after,
+.promo .related-content .card .card__details .card__thumbnail::after {
     background-color: #ffffff;
     position: absolute;
     width: 100%;
@@ -17239,13 +17250,15 @@ main .yt-cta .yt-cta__text .cta-block {
     left: 0;
 }
 @media (max-width: 767px) {
-    .promo__wrapper .promo .slider .card .card__details .card__thumbnail::after, .promo__wrapper .promo .related-content .card .card__details .card__thumbnail::after {
+    .promo .slider .card .card__details .card__thumbnail::after,
+.promo .related-content .card .card__details .card__thumbnail::after {
         margin-left: 0;
         margin-top: 1.75rem;
         top: 0;
     }
 }
-.promo__wrapper .promo .slider .card .card__details .card__details__container, .promo__wrapper .promo .related-content .card .card__details .card__details__container {
+.promo .slider .card .card__details .card__details__container,
+.promo .related-content .card .card__details .card__details__container {
     overflow: hidden;
     align-self: stretch;
     flex-basis: 50%;
@@ -17253,26 +17266,32 @@ main .yt-cta .yt-cta__text .cta-block {
     padding-top: 2rem;
 }
 @media (max-width: 767px) {
-    .promo__wrapper .promo .slider .card .card__details .card__details__container, .promo__wrapper .promo .related-content .card .card__details .card__details__container {
+    .promo .slider .card .card__details .card__details__container,
+.promo .related-content .card .card__details .card__details__container {
         padding-top: 0;
     }
 }
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text {
+.promo .slider .card .card__details .card__details__container .card__details__text,
+.promo .related-content .card .card__details .card__details__container .card__details__text {
     height: 100%;
     padding: 1.5rem;
     width: 100%;
 }
 @media (max-width: 767px) {
-    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text {
+    .promo .slider .card .card__details .card__details__container .card__details__text,
+.promo .related-content .card .card__details .card__details__container .card__details__text {
         width: 100%;
         padding-top: 0;
     }
 }
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote {
+.promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote {
     position: relative;
     padding-left: 0.75rem;
 }
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+.promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
     font-size: 1.266rem;
     line-height: 1.3333333333;
     letter-spacing: -0.011em;
@@ -17291,49 +17310,62 @@ main .yt-cta .yt-cta__text .cta-block {
     line-height: 1;
 }
 @media (min-width: 1280px) and (max-width: 1919px) {
-    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.013em;
     }
 }
 @media (min-width: 1920px) and (max-width: 3839px) {
-    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.015em;
     }
 }
 @media (min-width: 3840px) and (max-width: 7679px) {
-    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.017em;
     }
 }
 @media (min-width: 7680px) {
-    .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+    .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
         letter-spacing: -0.017em;
     }
 }
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em, .promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
-.promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
-.promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em {
+.promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
+.promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em, .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
+.promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before i,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before em,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after i,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after em {
     font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
 }
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before {
+.promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:before {
     content: "“";
 }
-.promo__wrapper .promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after, .promo__wrapper .promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
+.promo .slider .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after,
+.promo .related-content .card .card__details .card__details__container .card__details__text .card--testimonial__quote p:after {
     content: "”";
 }
-.promo__wrapper .promo .slider + .slider__controls, .promo__wrapper .promo .related-content + .slider__controls {
+.promo .slider + .slider__controls,
+.promo .related-content + .slider__controls {
     margin-right: 2rem;
     max-width: inherit;
 }
-.promo__wrapper .promo .related-content:not(.slider) {
+.promo .related-content:not(.slider) {
     list-style-type: none;
 }
-.promo__wrapper .promo .related-content:not(.slider) li:only-child {
+.promo .related-content:not(.slider) li:only-child {
     grid-column: 1/-1;
 }
-.promo__wrapper .promo .related-content:not(.slider) .card__details__text {
+.promo .related-content:not(.slider) .card__details__text {
     background-color: #ffffff;
 }
 
@@ -17384,7 +17416,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #ffffff;
 }
-.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .promo__wrapper .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17395,6 +17427,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--b .card--testimonial:focus, .city-lite--b .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--b .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--b .promo .slider[data-style=arrows] .card__details__text {
@@ -17438,7 +17473,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #7e756d;
 }
-.city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17449,6 +17484,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
 }
 .city-lite--b-ug .card--testimonial:focus, .city-lite--b-ug .card--testimonial:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-ug .promo .slider .card:focus {
     outline-color: #0c0c0e;
 }
 .city-lite--b-ug .promo .slider[data-style=arrows] .card__details__text {
@@ -17492,7 +17530,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
     background-color: #e35205;
 }
-.city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-ug .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #0c0c0e;
 }
 
@@ -17503,6 +17541,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--b-msc .card--testimonial:focus, .city-lite--b-msc .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-msc .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--b-msc .promo .slider[data-style=arrows] .card__details__text {
@@ -17546,7 +17587,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #002b49;
 }
-.city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-msc .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17557,6 +17598,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--b-phd .card--testimonial:focus, .city-lite--b-phd .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-phd .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--b-phd .promo .slider[data-style=arrows] .card__details__text {
@@ -17600,7 +17644,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #006699;
 }
-.city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-phd .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17611,6 +17655,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--b-mba .card--testimonial:focus, .city-lite--b-mba .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-mba .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--b-mba .promo .slider[data-style=arrows] .card__details__text {
@@ -17654,7 +17701,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #2e767a;
 }
-.city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-mba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17665,6 +17712,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--b-emba .card--testimonial:focus, .city-lite--b-emba .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-emba .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--b-emba .promo .slider[data-style=arrows] .card__details__text {
@@ -17708,7 +17758,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #496c60;
 }
-.city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-emba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17719,6 +17769,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
 }
 .city-lite--b-demba .card--testimonial:focus, .city-lite--b-demba .card--testimonial:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-demba .promo .slider .card:focus {
     outline-color: #0c0c0e;
 }
 .city-lite--b-demba .promo .slider[data-style=arrows] .card__details__text {
@@ -17762,7 +17815,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
     background-color: #91baa3;
 }
-.city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-demba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #0c0c0e;
 }
 
@@ -17773,6 +17826,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
 }
 .city-lite--b-omba .card--testimonial:focus, .city-lite--b-omba .card--testimonial:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--b-omba .promo .slider .card:focus {
     outline-color: #0c0c0e;
 }
 .city-lite--b-omba .promo .slider[data-style=arrows] .card__details__text {
@@ -17816,7 +17872,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
     background-color: #189183;
 }
-.city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-omba .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #0c0c0e;
 }
 
@@ -17827,6 +17883,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--b-exec .card--testimonial:focus, .city-lite--b-exec .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-exec .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--b-exec .promo .slider[data-style=arrows] .card__details__text {
@@ -17870,7 +17929,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #93328e;
 }
-.city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-exec .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17881,6 +17940,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--b-cce .card--testimonial:focus, .city-lite--b-cce .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--b-cce .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--b-cce .promo .slider[data-style=arrows] .card__details__text {
@@ -17924,7 +17986,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #8b2433;
 }
-.city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--b-cce .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -17935,6 +17997,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
 }
 .city-lite--c-health .card--testimonial:focus, .city-lite--c-health .card--testimonial:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--c-health .promo .slider .card:focus {
     outline-color: #0c0c0e;
 }
 .city-lite--c-health .promo .slider[data-style=arrows] .card__details__text {
@@ -17978,7 +18043,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
     background-color: #14cef5;
 }
-.city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--c-health .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #0c0c0e;
 }
 
@@ -17989,6 +18054,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
 }
 .city-lite--c-science .card--testimonial:focus, .city-lite--c-science .card--testimonial:active {
+    outline-color: #0c0c0e;
+}
+.city-lite--c-science .promo .slider .card:focus {
     outline-color: #0c0c0e;
 }
 .city-lite--c-science .promo .slider[data-style=arrows] .card__details__text {
@@ -18032,7 +18100,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #0c0c0e;
     background-color: #10cf53;
 }
-.city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--c-science .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #0c0c0e;
 }
 
@@ -18043,6 +18111,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--c-policy .card--testimonial:focus, .city-lite--c-policy .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--c-policy .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--c-policy .promo .slider[data-style=arrows] .card__details__text {
@@ -18086,7 +18157,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #0023ef;
 }
-.city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--c-policy .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -18097,6 +18168,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--c-creativity .card--testimonial:focus, .city-lite--c-creativity .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--c-creativity .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--c-creativity .promo .slider[data-style=arrows] .card__details__text {
@@ -18140,7 +18214,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #e50467;
 }
-.city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--c-creativity .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
@@ -18151,6 +18225,9 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
 }
 .city-lite--c-law .card--testimonial:focus, .city-lite--c-law .card--testimonial:active {
+    outline-color: #ffffff;
+}
+.city-lite--c-law .promo .slider .card:focus {
     outline-color: #ffffff;
 }
 .city-lite--c-law .promo .slider[data-style=arrows] .card__details__text {
@@ -18194,7 +18271,7 @@ main .yt-cta .yt-cta__text .cta-block {
     color: #ffffff;
     background-color: #9b25c4;
 }
-.city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:hover, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus:focus, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active:active, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:hover, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus:focus, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active:active {
+.city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:focus, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__next:active, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:focus, .city-lite--c-law .promo .slider[data-style=arrows] + .slider__controls .slider__controls__prev:active {
     outline-color: #ffffff;
 }
 
