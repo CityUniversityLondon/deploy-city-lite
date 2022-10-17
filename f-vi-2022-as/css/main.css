@@ -17394,6 +17394,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--b .promo__heading {
     color: #ffffff;
 }
+.city-lite--b .card--testimonial:focus, .city-lite--b .card--testimonial:active {
+    outline-color: #ffffff;
+}
 .city-lite--b .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -17444,6 +17447,9 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 .city-lite--b-ug .promo__heading {
     color: #0c0c0e;
+}
+.city-lite--b-ug .card--testimonial:focus, .city-lite--b-ug .card--testimonial:active {
+    outline-color: #0c0c0e;
 }
 .city-lite--b-ug .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
@@ -17496,6 +17502,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--b-msc .promo__heading {
     color: #ffffff;
 }
+.city-lite--b-msc .card--testimonial:focus, .city-lite--b-msc .card--testimonial:active {
+    outline-color: #ffffff;
+}
 .city-lite--b-msc .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -17546,6 +17555,9 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 .city-lite--b-phd .promo__heading {
     color: #ffffff;
+}
+.city-lite--b-phd .card--testimonial:focus, .city-lite--b-phd .card--testimonial:active {
+    outline-color: #ffffff;
 }
 .city-lite--b-phd .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
@@ -17598,6 +17610,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--b-mba .promo__heading {
     color: #ffffff;
 }
+.city-lite--b-mba .card--testimonial:focus, .city-lite--b-mba .card--testimonial:active {
+    outline-color: #ffffff;
+}
 .city-lite--b-mba .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -17648,6 +17663,9 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 .city-lite--b-emba .promo__heading {
     color: #ffffff;
+}
+.city-lite--b-emba .card--testimonial:focus, .city-lite--b-emba .card--testimonial:active {
+    outline-color: #ffffff;
 }
 .city-lite--b-emba .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
@@ -17700,6 +17718,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--b-demba .promo__heading {
     color: #0c0c0e;
 }
+.city-lite--b-demba .card--testimonial:focus, .city-lite--b-demba .card--testimonial:active {
+    outline-color: #0c0c0e;
+}
 .city-lite--b-demba .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -17750,6 +17771,9 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 .city-lite--b-omba .promo__heading {
     color: #0c0c0e;
+}
+.city-lite--b-omba .card--testimonial:focus, .city-lite--b-omba .card--testimonial:active {
+    outline-color: #0c0c0e;
 }
 .city-lite--b-omba .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
@@ -17802,6 +17826,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--b-exec .promo__heading {
     color: #ffffff;
 }
+.city-lite--b-exec .card--testimonial:focus, .city-lite--b-exec .card--testimonial:active {
+    outline-color: #ffffff;
+}
 .city-lite--b-exec .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -17852,6 +17879,9 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 .city-lite--b-cce .promo__heading {
     color: #ffffff;
+}
+.city-lite--b-cce .card--testimonial:focus, .city-lite--b-cce .card--testimonial:active {
+    outline-color: #ffffff;
 }
 .city-lite--b-cce .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
@@ -17904,6 +17934,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--c-health .promo__heading {
     color: #0c0c0e;
 }
+.city-lite--c-health .card--testimonial:focus, .city-lite--c-health .card--testimonial:active {
+    outline-color: #0c0c0e;
+}
 .city-lite--c-health .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -17954,6 +17987,9 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 .city-lite--c-science .promo__heading {
     color: #0c0c0e;
+}
+.city-lite--c-science .card--testimonial:focus, .city-lite--c-science .card--testimonial:active {
+    outline-color: #0c0c0e;
 }
 .city-lite--c-science .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
@@ -18006,6 +18042,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--c-policy .promo__heading {
     color: #ffffff;
 }
+.city-lite--c-policy .card--testimonial:focus, .city-lite--c-policy .card--testimonial:active {
+    outline-color: #ffffff;
+}
 .city-lite--c-policy .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -18057,6 +18096,9 @@ main .yt-cta .yt-cta__text .cta-block {
 .city-lite--c-creativity .promo__heading {
     color: #ffffff;
 }
+.city-lite--c-creativity .card--testimonial:focus, .city-lite--c-creativity .card--testimonial:active {
+    outline-color: #ffffff;
+}
 .city-lite--c-creativity .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
 }
@@ -18107,6 +18149,9 @@ main .yt-cta .yt-cta__text .cta-block {
 }
 .city-lite--c-law .promo__heading {
     color: #ffffff;
+}
+.city-lite--c-law .card--testimonial:focus, .city-lite--c-law .card--testimonial:active {
+    outline-color: #ffffff;
 }
 .city-lite--c-law .promo .slider[data-style=arrows] .card__details__text {
     background-color: #ffffff;
