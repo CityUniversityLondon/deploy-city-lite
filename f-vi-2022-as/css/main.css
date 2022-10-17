@@ -15961,7 +15961,7 @@ figure figcaption a:active,
     border-bottom-color: #0c0c0e;
 }
 .pathway .pathway__cards .card--pathway a.card--pathway__content--border {
-    border-top: 0.5rem solid #1e1e1e;
+    border-top: 0.5rem solid #d61726;
 }
 .pathway .pathway__cards .card--pathway button {
     background-color: initial;
@@ -16097,7 +16097,7 @@ figure figcaption a:active,
     border-bottom-color: #0c0c0e;
 }
 .pathway .pathway__cards .card--pathway button.card--pathway__content--border {
-    border-top: 0.5rem solid #1e1e1e;
+    border-top: 0.5rem solid #d61726;
 }
 .pathway .pathway__cards .card--pathway button .card--pathway__content__img {
     position: relative;
