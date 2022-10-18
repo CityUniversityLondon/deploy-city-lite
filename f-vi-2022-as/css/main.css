@@ -8682,7 +8682,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     }
 }
 
-.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-law .ksp-block--solid .cta--ksp, .city-lite--c-creativity .ksp-block--solid .cta--ksp, .city-lite--c-policy .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp {
+.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-law .ksp-block--solid .cta--ksp, .city-lite--c-creativity .ksp-block--solid .cta--ksp, .city-lite--c-policy .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -8706,7 +8706,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .cta--inverse--bg:hover, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-law .ksp-block--solid .cta--ksp:hover, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
+    .cta--inverse--bg:hover, .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-law .ksp-block--solid .cta--ksp:hover, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -8722,7 +8722,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
         text-decoration: none;
     }
 }
-.cta--inverse--bg:focus, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-law .ksp-block--solid .cta--ksp:focus, .city-lite--c-creativity .ksp-block--solid .cta--ksp:focus, .city-lite--c-policy .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-law .ksp-block--solid .cta--ksp:active, .city-lite--c-creativity .ksp-block--solid .cta--ksp:active, .city-lite--c-policy .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
+.cta--inverse--bg:focus, .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-law .ksp-block--solid .cta--ksp:focus, .city-lite--c-creativity .ksp-block--solid .cta--ksp:focus, .city-lite--c-policy .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-law .ksp-block--solid .cta--ksp:active, .city-lite--c-creativity .ksp-block--solid .cta--ksp:active, .city-lite--c-policy .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -8737,33 +8737,33 @@ iframe[src*=issuu], iframe[src*=prezi] {
     outline-width: 0;
     text-decoration: none;
 }
-.cta--inverse--bg:focus, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-law .ksp-block--solid .cta--ksp:focus, .city-lite--c-creativity .ksp-block--solid .cta--ksp:focus, .city-lite--c-policy .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-law .ksp-block--solid .cta--ksp:active, .city-lite--c-creativity .ksp-block--solid .cta--ksp:active, .city-lite--c-policy .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
+.cta--inverse--bg:focus, .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-law .ksp-block--solid .cta--ksp:focus, .city-lite--c-creativity .ksp-block--solid .cta--ksp:focus, .city-lite--c-policy .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .cta--inverse--bg:active, .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-law .ksp-block--solid .cta--ksp:active, .city-lite--c-creativity .ksp-block--solid .cta--ksp:active, .city-lite--c-policy .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.cta--inverse--bg:after, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-law .ksp-block--solid .cta--ksp:after, .city-lite--c-creativity .ksp-block--solid .cta--ksp:after, .city-lite--c-policy .ksp-block--solid .cta--ksp:after, .city-lite--b-msc .ksp-block--solid .cta--ksp:after, .city-lite--b .ksp-block--solid .cta--ksp:after {
+.cta--inverse--bg:after, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:after, .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-law .ksp-block--solid .cta--ksp:after, .city-lite--c-creativity .ksp-block--solid .cta--ksp:after, .city-lite--c-policy .ksp-block--solid .cta--ksp:after, .city-lite--b-msc .ksp-block--solid .cta--ksp:after, .city-lite--b .ksp-block--solid .cta--ksp:after {
     opacity: 0;
 }
-.cta--inverse--bg:visited, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-law .ksp-block--solid .cta--ksp:visited, .city-lite--c-creativity .ksp-block--solid .cta--ksp:visited, .city-lite--c-policy .ksp-block--solid .cta--ksp:visited, .city-lite--b-msc .ksp-block--solid .cta--ksp:visited, .city-lite--b .ksp-block--solid .cta--ksp:visited {
+.cta--inverse--bg:visited, .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-law .ksp-block--solid .cta--ksp:visited, .city-lite--c-creativity .ksp-block--solid .cta--ksp:visited, .city-lite--c-policy .ksp-block--solid .cta--ksp:visited, .city-lite--b-msc .ksp-block--solid .cta--ksp:visited, .city-lite--b .ksp-block--solid .cta--ksp:visited {
     border: 0.125rem solid #ffffff;
 }
-.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-law .ksp-block--solid .cta--ksp, .city-lite--c-creativity .ksp-block--solid .cta--ksp, .city-lite--c-policy .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp, .cta--inverse--bg:focus, .cta--inverse--bg:active {
+.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-law .ksp-block--solid .cta--ksp, .city-lite--c-creativity .ksp-block--solid .cta--ksp, .city-lite--c-policy .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp, .cta--inverse--bg:focus, .cta--inverse--bg:active {
     background-color: transparent;
     color: #ffffff;
     border: 0.125rem solid #ffffff;
 }
-.cta--inverse--bg span, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-law .ksp-block--solid .cta--ksp span, .city-lite--c-creativity .ksp-block--solid .cta--ksp span, .city-lite--c-policy .ksp-block--solid .cta--ksp span, .city-lite--b-msc .ksp-block--solid .cta--ksp span, .city-lite--b .ksp-block--solid .cta--ksp span, .cta--inverse--bg:focus span, .cta--inverse--bg:active span {
+.cta--inverse--bg span, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta] span, .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-law .ksp-block--solid .cta--ksp span, .city-lite--c-creativity .ksp-block--solid .cta--ksp span, .city-lite--c-policy .ksp-block--solid .cta--ksp span, .city-lite--b-msc .ksp-block--solid .cta--ksp span, .city-lite--b .ksp-block--solid .cta--ksp span, .cta--inverse--bg:focus span, .cta--inverse--bg:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
-    .cta--inverse--bg:hover, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-law .ksp-block--solid .cta--ksp:hover, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
+    .cta--inverse--bg:hover, .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-law .ksp-block--solid .cta--ksp:hover, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover {
         background-color: #ffffff;
         color: #0c0c0e;
         border: 0.125rem solid #ffffff;
     }
-    .cta--inverse--bg:hover span, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-law .ksp-block--solid .cta--ksp:hover span, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover span, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover span, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover span, .city-lite--b .ksp-block--solid .cta--ksp:hover span {
+    .cta--inverse--bg:hover span, .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-law .ksp-block--solid .cta--ksp:hover span, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover span, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover span, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover span, .city-lite--b .ksp-block--solid .cta--ksp:hover span {
         color: #0c0c0e;
     }
 }
@@ -17108,8 +17108,15 @@ figure figcaption a:active,
 .ksp-block[data-theme=dark] .ksp__item__icon {
     filter: invert(0);
 }
+.ksp-block[data-theme=dark] a[class*=cta] {
+    border-bottom: 0.125rem solid #ffffff;
+}
+.ksp-block[data-theme=dark] a[class*=cta]:visited {
+    border-bottom: 0.125rem solid #ffffff;
+}
 .ksp-block[data-theme=dark] a[class*=cta]:active, .ksp-block[data-theme=dark] a[class*=cta]:focus {
     outline-color: #ffffff;
+    border-bottom: 0.125rem solid #ffffff;
 }
 .ksp-block .wrapper--ksp__item__icon {
     border-radius: 100%;
