@@ -27323,199 +27323,154 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
     display: none;
 }
 
-.city-lite--b .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #e30613;
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--b .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #c50511;
     }
 }
-.city-lite--b .events-cards .card--event .card__tag .icon {
-    color: #e30613;
-}
 
-.city-lite--b-ug .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-ug .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #f1b434;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-ug .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-ug .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #efa917;
     }
 }
-.city-lite--b-ug .events-cards .card--event .card__tag .icon {
-    color: #f1b434;
-}
 
-.city-lite--b-msc .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-msc .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #006699;
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--b-msc .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-msc .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #00527a;
     }
 }
-.city-lite--b-msc .events-cards .card--event .card__tag .icon {
-    color: #006699;
-}
 
-.city-lite--b-phd .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-phd .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #5bc2e7;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-phd .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-phd .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #40b8e3;
     }
 }
-.city-lite--b-phd .events-cards .card--event .card__tag .icon {
-    color: #5bc2e7;
-}
 
-.city-lite--b-mba .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-mba .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #a3d5cd;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-mba .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-mba .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #8ecbc2;
     }
 }
-.city-lite--b-mba .events-cards .card--event .card__tag .icon {
-    color: #a3d5cd;
-}
 
-.city-lite--b-emba .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-emba .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #a3d5cd;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-emba .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-emba .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #8ecbc2;
     }
 }
-.city-lite--b-emba .events-cards .card--event .card__tag .icon {
-    color: #a3d5cd;
-}
 
-.city-lite--b-demba .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-demba .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #a3d5cd;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-demba .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-demba .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #8ecbc2;
     }
 }
-.city-lite--b-demba .events-cards .card--event .card__tag .icon {
-    color: #a3d5cd;
-}
 
-.city-lite--b-omba .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-omba .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #a3d5cd;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-omba .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-omba .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #8ecbc2;
     }
 }
-.city-lite--b-omba .events-cards .card--event .card__tag .icon {
-    color: #a3d5cd;
-}
 
-.city-lite--b-exec .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-exec .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #e31c79;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-exec .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-exec .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #c8196a;
     }
 }
-.city-lite--b-exec .events-cards .card--event .card__tag .icon {
-    color: #e31c79;
-}
 
-.city-lite--b-cce .events-cards .card--event .card--event__label--shortdate {
+.city-lite--b-cce .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #a9a19c;
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .city-lite--b-cce .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--b-cce .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #9b918c;
     }
 }
-.city-lite--b-cce .events-cards .card--event .card__tag .icon {
-    color: #a9a19c;
-}
 
-.city-lite--c-health .events-cards .card--event .card--event__label--shortdate {
+.city-lite--c-health .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #1e1e1e;
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--c-health .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--c-health .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #0f0f0f;
     }
 }
-.city-lite--c-health .events-cards .card--event .card__tag .icon {
-    color: #1e1e1e;
-}
 
-.city-lite--c-science .events-cards .card--event .card--event__label--shortdate {
+.city-lite--c-science .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #1e1e1e;
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--c-science .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--c-science .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #0f0f0f;
     }
 }
-.city-lite--c-science .events-cards .card--event .card__tag .icon {
-    color: #1e1e1e;
-}
 
-.city-lite--c-policy .events-cards .card--event .card--event__label--shortdate {
+.city-lite--c-policy .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #1e1e1e;
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--c-policy .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--c-policy .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #0f0f0f;
     }
 }
-.city-lite--c-policy .events-cards .card--event .card__tag .icon {
-    color: #1e1e1e;
-}
 
-.city-lite--c-creativity .events-cards .card--event .card--event__label--shortdate {
+.city-lite--c-creativity .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #1e1e1e;
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--c-creativity .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--c-creativity .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #0f0f0f;
     }
 }
-.city-lite--c-creativity .events-cards .card--event .card__tag .icon {
-    color: #1e1e1e;
-}
 
-.city-lite--c-law .events-cards .card--event .card--event__label--shortdate {
+.city-lite--c-law .events-cards .card--event .card__anchor .card--event__label--shortdate {
     background-color: #1e1e1e;
     color: #ffffff;
 }
 @media (hover: hover) {
-    .city-lite--c-law .events-cards .card--event:hover .card--event__label--shortdate {
+    .city-lite--c-law .events-cards .card--event .card__anchor:hover .card--event__label--shortdate {
         background-color: #0f0f0f;
     }
-}
-.city-lite--c-law .events-cards .card--event .card__tag .icon {
-    color: #1e1e1e;
 }
 
 .card--socialmedia .card__anchor {
