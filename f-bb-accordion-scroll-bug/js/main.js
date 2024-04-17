@@ -449,6 +449,7 @@ function buttonClick(button, headings, toggleOpen) {
   } // updates URL hash with clicked accordion heading
 
 
+  console.log('Adding HASH');
   window.location.hash = event.currentTarget.parentElement.id;
 }
 /**
