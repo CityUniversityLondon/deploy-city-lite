@@ -15573,7 +15573,7 @@ form:not([class]) .form__required-note--marker,
     padding: 0 0.5rem;
 }
 
-.banner--pg .banner__txt__highlight {
+.city-lite--c-pg .banner__txt__highlight {
     background-color: #d61726;
     color: #ffffff;
 }
