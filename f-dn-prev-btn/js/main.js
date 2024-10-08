@@ -277,7 +277,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patterns/slider/slider */ "./src/patterns/slider/slider.js");
 /* harmony import */ var _patterns_modal_modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./patterns/modal/modal */ "./src/patterns/modal/modal.js");
 /* harmony import */ var _patterns_image_carousel_default_carousel_default_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./patterns/image-carousel/default-carousel/default-carousel */ "./src/patterns/image-carousel/default-carousel/default-carousel.js");
-/* harmony import */ var _patterns_qualtrics_qualtrics__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./patterns/qualtrics/qualtrics */ "./src/patterns/qualtrics/qualtrics.js");
 
 
 /**
@@ -293,8 +292,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__["default"], _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__["default"], _patterns_modal_modal__WEBPACK_IMPORTED_MODULE_2__["default"], _patterns_image_carousel_default_carousel_default_carousel__WEBPACK_IMPORTED_MODULE_3__["default"], _patterns_qualtrics_qualtrics__WEBPACK_IMPORTED_MODULE_4__["default"]]);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([_patterns_accordion_accordion__WEBPACK_IMPORTED_MODULE_0__["default"], _patterns_slider_slider__WEBPACK_IMPORTED_MODULE_1__["default"], _patterns_modal_modal__WEBPACK_IMPORTED_MODULE_2__["default"], _patterns_image_carousel_default_carousel_default_carousel__WEBPACK_IMPORTED_MODULE_3__["default"]]);
 
 /***/ }),
 
@@ -1734,32 +1732,6 @@ function trapFocus(modal) {
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   launchFn: launchModal,
-  launchQuery: `.${className}`
-});
-
-/***/ }),
-
-/***/ "./src/patterns/qualtrics/qualtrics.js":
-/*!*********************************************!*\
-  !*** ./src/patterns/qualtrics/qualtrics.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-
-
-const className = 'qualtrics_form';
-
-function initalize(element) {
-  console.log(document.getElementsByClassName('qualtrics_form').contentWindow.document.body.scrollHeight);
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  launchFn: initalize,
   launchQuery: `.${className}`
 });
 
