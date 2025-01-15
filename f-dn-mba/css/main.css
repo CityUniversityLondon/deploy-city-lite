@@ -12150,7 +12150,8 @@ figure figcaption a:active,
     padding: 1rem 0;
 }
 .ksp-block[data-theme=dark-green] {
-    background: #12E97A;
+    background: #2e767a;
+    color: #ffffff;
 }
 .ksp-block[data-theme=dark-green] .cta {
     background-color: initial;
