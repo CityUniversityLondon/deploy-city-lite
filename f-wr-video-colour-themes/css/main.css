@@ -14106,19 +14106,19 @@ main .yt-cta .yt-cta__text .cta-block {
     }
 }
 
-[class="city-lite city-lite"] .yt-cta.yt-cta--colour-theme {
+[class="city-lite city-lite--b-corporate"] .yt-cta.yt-cta--colour-theme {
     background-color: #d61726;
 }
-[class="city-lite city-lite"] .yt-cta.yt-cta--colour-theme .yt-cta__heading {
+[class="city-lite city-lite--b-corporate"] .yt-cta.yt-cta--colour-theme .yt-cta__heading {
     color: #ffffff;
 }
-[class="city-lite city-lite"] .yt-cta.yt-cta--colour-theme .yt-cta__video:after {
+[class="city-lite city-lite--b-corporate"] .yt-cta.yt-cta--colour-theme .yt-cta__video:after {
     background-color: #ffffff;
 }
-[class="city-lite city-lite"] .yt-cta.yt-cta--colour-theme .yt-cta__text {
+[class="city-lite city-lite--b-corporate"] .yt-cta.yt-cta--colour-theme .yt-cta__text {
     background-color: #ffffff;
 }
-[class="city-lite city-lite"] .yt-cta.yt-cta--colour-theme .yt-cta__text:focus {
+[class="city-lite city-lite--b-corporate"] .yt-cta.yt-cta--colour-theme .yt-cta__text:focus {
     outline-color: #ffffff;
 }
 
