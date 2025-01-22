@@ -9,6 +9,9 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 /* harmony import */ var _patterns_accordion_library_accordion_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patterns/accordion/library/accordion-library */ "./src/patterns/accordion/library/accordion-library.js");
 
 
@@ -27,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 // opening-times 
 // primary nav - mobile
 
-/* harmony default export */ __webpack_exports__["default"] = ([_patterns_accordion_library_accordion_library__WEBPACK_IMPORTED_MODULE_0__["default"]]);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([_patterns_accordion_library_accordion_library__WEBPACK_IMPORTED_MODULE_0__["default"]]);
 
 /***/ }),
 
@@ -38,6 +41,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
 
 
 /**
@@ -50,7 +56,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 const className = 'accordion';
 console.log('foo');
-/* harmony default export */ __webpack_exports__["default"] = ({
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   launchFn: launchAccordion,
   launchQuery: `.${className}`
 });
