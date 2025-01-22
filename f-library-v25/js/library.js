@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _patterns_accordion_library_accordion_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patterns/accordion/library/accordion-library */ "./src/patterns/accordion/library/accordion-library.js");
+/* harmony import */ var _patterns_library_accordion_library_accordion_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patterns/library/accordion-library/accordion-library */ "./src/patterns/library/accordion-library/accordion-library.js");
 
 
 /**
@@ -26,40 +26,11 @@ __webpack_require__.r(__webpack_exports__);
  */
 // accordion - CityR
 // tabs - CityR
-// back-to-top web2020
 // opening-times 
 // primary nav - mobile
+ // import backToTop from './patterns/library/back-to-top/back-to-top';
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([_patterns_accordion_library_accordion_library__WEBPACK_IMPORTED_MODULE_0__["default"]]);
-
-/***/ }),
-
-/***/ "./src/patterns/accordion/library/accordion-library.js":
-/*!*************************************************************!*\
-  !*** ./src/patterns/accordion/library/accordion-library.js ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-
-
-/**
- * modal
- *
- * @module patterns/accordion/accordion-library
- * @author Web Development
- * @copyright City, University of London 2025
- *
- */
-const className = 'accordion';
-console.log('foo');
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  launchFn: launchAccordion,
-  launchQuery: `.${className}`
-});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([_patterns_library_accordion_library_accordion_library__WEBPACK_IMPORTED_MODULE_0__["default"]]);
 
 /***/ }),
 
@@ -101,6 +72,35 @@ function devcorate(elem, param, value) {
     }
   });
 }
+
+/***/ }),
+
+/***/ "./src/patterns/library/accordion-library/accordion-library.js":
+/*!*********************************************************************!*\
+  !*** ./src/patterns/library/accordion-library/accordion-library.js ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+
+/**
+ * modal
+ *
+ * @module patterns/accordion/accordion-library
+ * @author Web Development
+ * @copyright City, University of London 2025
+ *
+ */
+const className = 'accordion';
+console.log('foo');
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  launchFn: launchAccordion,
+  launchQuery: `.${className}`
+});
 
 /***/ }),
 
