@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.color--gray333 {
+    color: #333333;
+}
+
 .sr-only-focusable-within:active, .sr-only-focusable-within:focus, .sr-only-focusable-within:focus-within {
     clip: auto;
     height: auto;
