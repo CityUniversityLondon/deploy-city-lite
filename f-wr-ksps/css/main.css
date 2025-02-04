@@ -10598,6 +10598,9 @@ div#CybotCookiebotDialogPoweredByText {
     max-width: max-content;
     padding: 0 0.5rem;
 }
+.banner__txt__highlight + .banner__txt__highlight {
+    margin-top: 0.5rem;
+}
 
 .city-lite--c-pg .banner__txt__highlight {
     background-color: #d61726;
