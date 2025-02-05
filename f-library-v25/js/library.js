@@ -246,6 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (ie >= edgeVersion) {
         html.className = (html.className + ' js ' + 'edge').trim();
       } else {
+        console.log('test');
         html.className = (html.className + ' js').trim();
       }
     });
