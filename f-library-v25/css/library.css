@@ -744,6 +744,16 @@ readers do not read off random characters that represent icons */
     --fa--fa: "\f3c5\f3c5";
 }
 
+.fa-lock-keyhole {
+    --fa: "\f30d";
+    --fa--fa: "\f30d\f30d";
+}
+
+.fa-lock-alt {
+    --fa: "\f30d";
+    --fa--fa: "\f30d\f30d";
+}
+
 .fa-magnifying-glass {
     --fa: "\f002";
     --fa--fa: "\f002\f002";
@@ -920,19 +930,19 @@ readers do not read off random characters that represent icons */
  */
 :root, :host {
     --fa-style-family-sharp: "Font Awesome 6 Sharp";
-    --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+    --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
 }
 
 @font-face {
     font-family: "Font Awesome 6 Sharp";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-display: block;
-    src: url("../fonts//fa-sharp-regular-400.woff2") format("woff2"), url("../fonts//fa-sharp-regular-400.ttf") format("truetype");
+    src: url("../fonts//fa-sharp-light-300.woff2") format("woff2"), url("../fonts//fa-sharp-light-300.ttf") format("truetype");
 }
-.fasr,
-.fa-regular {
-    font-weight: 400;
+.fasl,
+.fa-light {
+    font-weight: 300;
 }
 
 @font-face {
