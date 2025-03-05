@@ -3313,7 +3313,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     }
 }
 
-.cta--inverse, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-science .ksp-block--solid .cta--ksp, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block--solid .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-cce .ksp-block--solid .cta--ksp, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-exec .ksp-block--solid .cta--ksp, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-omba .ksp-block--solid .cta--ksp, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-demba .ksp-block--solid .cta--ksp, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-emba .ksp-block--solid .cta--ksp, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-ug .ksp-block--solid .cta--ksp, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp {
+.cta--inverse, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3337,7 +3337,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .cta--inverse:hover, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-science .ksp-block--solid .cta--ksp:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block--solid .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
+    .cta--inverse:hover, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -3353,7 +3353,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
         text-decoration: none;
     }
 }
-.cta--inverse:focus, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-science .ksp-block--solid .cta--ksp:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block--solid .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-cce .ksp-block--solid .cta--ksp:focus, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-exec .ksp-block--solid .cta--ksp:focus, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-omba .ksp-block--solid .cta--ksp:focus, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-demba .ksp-block--solid .cta--ksp:focus, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-emba .ksp-block--solid .cta--ksp:focus, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-ug .ksp-block--solid .cta--ksp:focus, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse:active, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-science .ksp-block--solid .cta--ksp:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block--solid .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-cce .ksp-block--solid .cta--ksp:active, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-exec .ksp-block--solid .cta--ksp:active, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-omba .ksp-block--solid .cta--ksp:active, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-demba .ksp-block--solid .cta--ksp:active, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-emba .ksp-block--solid .cta--ksp:active, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-ug .ksp-block--solid .cta--ksp:active, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
+.cta--inverse:focus, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse:active, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3368,38 +3368,38 @@ iframe[src*=issuu], iframe[src*=prezi] {
     outline-width: 0;
     text-decoration: none;
 }
-.cta--inverse:focus, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-science .ksp-block--solid .cta--ksp:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block--solid .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-cce .ksp-block--solid .cta--ksp:focus, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-exec .ksp-block--solid .cta--ksp:focus, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-omba .ksp-block--solid .cta--ksp:focus, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-demba .ksp-block--solid .cta--ksp:focus, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-emba .ksp-block--solid .cta--ksp:focus, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-ug .ksp-block--solid .cta--ksp:focus, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse:active, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-science .ksp-block--solid .cta--ksp:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block--solid .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-cce .ksp-block--solid .cta--ksp:active, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-exec .ksp-block--solid .cta--ksp:active, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-omba .ksp-block--solid .cta--ksp:active, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-demba .ksp-block--solid .cta--ksp:active, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-emba .ksp-block--solid .cta--ksp:active, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-ug .ksp-block--solid .cta--ksp:active, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
+.cta--inverse:focus, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse:active, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
     outline-color: #0c0c0e;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.cta--inverse:after, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-science .ksp-block--solid .cta--ksp:after, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-health .ksp-block--solid .cta--ksp:after, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-cce .ksp-block--solid .cta--ksp:after, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-exec .ksp-block--solid .cta--ksp:after, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-omba .ksp-block--solid .cta--ksp:after, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-demba .ksp-block--solid .cta--ksp:after, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-emba .ksp-block--solid .cta--ksp:after, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-ug .ksp-block--solid .cta--ksp:after, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:after {
+.cta--inverse:after, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:after {
     opacity: 0;
 }
-.cta--inverse:visited, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-science .ksp-block--solid .cta--ksp:visited, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-health .ksp-block--solid .cta--ksp:visited, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-cce .ksp-block--solid .cta--ksp:visited, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-exec .ksp-block--solid .cta--ksp:visited, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-omba .ksp-block--solid .cta--ksp:visited, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-demba .ksp-block--solid .cta--ksp:visited, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-emba .ksp-block--solid .cta--ksp:visited, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-ug .ksp-block--solid .cta--ksp:visited, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:visited {
+.cta--inverse:visited, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:visited {
     border: 0.125rem solid #0c0c0e;
 }
-.cta--inverse, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-science .ksp-block--solid .cta--ksp, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block--solid .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-cce .ksp-block--solid .cta--ksp, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-exec .ksp-block--solid .cta--ksp, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-omba .ksp-block--solid .cta--ksp, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-demba .ksp-block--solid .cta--ksp, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-emba .ksp-block--solid .cta--ksp, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-ug .ksp-block--solid .cta--ksp, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp, .cta--inverse:focus, .cta--inverse:active {
+.cta--inverse, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp, .cta--inverse:focus, .cta--inverse:active {
     background-color: transparent;
     color: #0c0c0e;
     border: 0.125rem solid #0c0c0e;
 }
-.cta--inverse span, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-science .ksp-block--solid .cta--ksp span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-health .ksp-block--solid .cta--ksp span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-cce .ksp-block--solid .cta--ksp span, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-exec .ksp-block--solid .cta--ksp span, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-omba .ksp-block--solid .cta--ksp span, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-demba .ksp-block--solid .cta--ksp span, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-emba .ksp-block--solid .cta--ksp span, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-ug .ksp-block--solid .cta--ksp span, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp span, .cta--inverse:focus span, .cta--inverse:active span {
+.cta--inverse span, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp span, .cta--inverse:focus span, .cta--inverse:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .cta--inverse:hover, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-science .ksp-block--solid .cta--ksp:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block--solid .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
+    .cta--inverse:hover, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
         background-color: #0c0c0e;
         color: #ffffff;
         border: 0.125rem solid #0c0c0e;
     }
-    .cta--inverse:hover span, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-science .ksp-block--solid .cta--ksp:hover span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-health .ksp-block--solid .cta--ksp:hover span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-cce .ksp-block--solid .cta--ksp:hover span, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-exec .ksp-block--solid .cta--ksp:hover span, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-omba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-demba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-emba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-ug .ksp-block--solid .cta--ksp:hover span, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span {
+    .cta--inverse:hover span, .city-lite--c-science .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-health .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-cce .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-exec .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-omba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-demba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-emba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-ug .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span {
         color: #ffffff;
     }
 }
 
-.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .ksp-block[data-theme=dark] a[class*=cta], [class="city-lite city-lite"] .ksp-block--solid .cta--ksp, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-law .ksp-block--solid .cta--ksp, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-creativity .ksp-block--solid .cta--ksp, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-policy .ksp-block--solid .cta--ksp, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-science .ksp-block--solid .cta--ksp, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block--solid .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-phd .ksp-block--solid .cta--ksp, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-corporate .ksp-block--solid .cta--ksp, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp {
+.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .ksp-block[data-theme=dark] a[class*=cta], [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3423,7 +3423,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .cta--inverse--bg:hover, .ksp-block[data-theme=dark] a[class*=cta]:hover, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:hover, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-law .ksp-block--solid .cta--ksp:hover, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-science .ksp-block--solid .cta--ksp:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block--solid .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-corporate .ksp-block--solid .cta--ksp:hover, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
+    .cta--inverse--bg:hover, .ksp-block[data-theme=dark] a[class*=cta]:hover, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -3439,7 +3439,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
         text-decoration: none;
     }
 }
-.cta--inverse--bg:focus, .ksp-block[data-theme=dark] a[class*=cta]:focus, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:focus, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-law .ksp-block--solid .cta--ksp:focus, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-creativity .ksp-block--solid .cta--ksp:focus, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-policy .ksp-block--solid .cta--ksp:focus, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-science .ksp-block--solid .cta--ksp:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block--solid .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-phd .ksp-block--solid .cta--ksp:focus, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-corporate .ksp-block--solid .cta--ksp:focus, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse--bg:active, .ksp-block[data-theme=dark] a[class*=cta]:active, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:active, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-law .ksp-block--solid .cta--ksp:active, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-creativity .ksp-block--solid .cta--ksp:active, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-policy .ksp-block--solid .cta--ksp:active, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-science .ksp-block--solid .cta--ksp:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block--solid .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-phd .ksp-block--solid .cta--ksp:active, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-corporate .ksp-block--solid .cta--ksp:active, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
+.cta--inverse--bg:focus, .ksp-block[data-theme=dark] a[class*=cta]:focus, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse--bg:active, .ksp-block[data-theme=dark] a[class*=cta]:active, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3454,33 +3454,33 @@ iframe[src*=issuu], iframe[src*=prezi] {
     outline-width: 0;
     text-decoration: none;
 }
-.cta--inverse--bg:focus, .ksp-block[data-theme=dark] a[class*=cta]:focus, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:focus, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-law .ksp-block--solid .cta--ksp:focus, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-creativity .ksp-block--solid .cta--ksp:focus, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-policy .ksp-block--solid .cta--ksp:focus, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-science .ksp-block--solid .cta--ksp:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block--solid .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-phd .ksp-block--solid .cta--ksp:focus, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-msc .ksp-block--solid .cta--ksp:focus, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-corporate .ksp-block--solid .cta--ksp:focus, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b .ksp-block--solid .cta--ksp:focus, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse--bg:active, .ksp-block[data-theme=dark] a[class*=cta]:active, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:active, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-law .ksp-block--solid .cta--ksp:active, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-creativity .ksp-block--solid .cta--ksp:active, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-policy .ksp-block--solid .cta--ksp:active, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-science .ksp-block--solid .cta--ksp:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block--solid .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-phd .ksp-block--solid .cta--ksp:active, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-msc .ksp-block--solid .cta--ksp:active, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-corporate .ksp-block--solid .cta--ksp:active, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b .ksp-block--solid .cta--ksp:active, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
+.cta--inverse--bg:focus, .ksp-block[data-theme=dark] a[class*=cta]:focus, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--inverse--bg:active, .ksp-block[data-theme=dark] a[class*=cta]:active, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:active, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.cta--inverse--bg:after, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:after, .ksp-block[data-theme=dark] a[class*=cta]:after, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:after, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-law .ksp-block--solid .cta--ksp:after, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-creativity .ksp-block--solid .cta--ksp:after, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-policy .ksp-block--solid .cta--ksp:after, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-science .ksp-block--solid .cta--ksp:after, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-health .ksp-block--solid .cta--ksp:after, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-phd .ksp-block--solid .cta--ksp:after, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-msc .ksp-block--solid .cta--ksp:after, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-corporate .ksp-block--solid .cta--ksp:after, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b .ksp-block--solid .cta--ksp:after, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:after {
+.cta--inverse--bg:after, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta]:after, .ksp-block[data-theme=dark] a[class*=cta]:after, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:after, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:after {
     opacity: 0;
 }
-.cta--inverse--bg:visited, .ksp-block[data-theme=dark] a[class*=cta]:visited, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:visited, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-law .ksp-block--solid .cta--ksp:visited, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-creativity .ksp-block--solid .cta--ksp:visited, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-policy .ksp-block--solid .cta--ksp:visited, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-science .ksp-block--solid .cta--ksp:visited, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-health .ksp-block--solid .cta--ksp:visited, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-phd .ksp-block--solid .cta--ksp:visited, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-msc .ksp-block--solid .cta--ksp:visited, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-corporate .ksp-block--solid .cta--ksp:visited, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b .ksp-block--solid .cta--ksp:visited, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:visited {
+.cta--inverse--bg:visited, .ksp-block[data-theme=dark] a[class*=cta]:visited, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:visited, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:visited {
     border: 0.125rem solid #ffffff;
 }
-.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .ksp-block[data-theme=dark] a[class*=cta], [class="city-lite city-lite"] .ksp-block--solid .cta--ksp, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-law .ksp-block--solid .cta--ksp, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-creativity .ksp-block--solid .cta--ksp, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-policy .ksp-block--solid .cta--ksp, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-science .ksp-block--solid .cta--ksp, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block--solid .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-phd .ksp-block--solid .cta--ksp, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-msc .ksp-block--solid .cta--ksp, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-corporate .ksp-block--solid .cta--ksp, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b .ksp-block--solid .cta--ksp, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp, .cta--inverse--bg:focus, .cta--inverse--bg:active {
+.cta--inverse--bg, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta], .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b .ksp-block[data-theme=dark] a[class*=cta], .ksp-block[data-theme=dark] a[class*=cta], [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp, .cta--inverse--bg:focus, .cta--inverse--bg:active {
     background-color: transparent;
     color: #ffffff;
     border: 0.125rem solid #ffffff;
 }
-.cta--inverse--bg span, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta] span, .ksp-block[data-theme=dark] a[class*=cta] span, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp span, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-law .ksp-block--solid .cta--ksp span, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-creativity .ksp-block--solid .cta--ksp span, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-policy .ksp-block--solid .cta--ksp span, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-science .ksp-block--solid .cta--ksp span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-health .ksp-block--solid .cta--ksp span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-phd .ksp-block--solid .cta--ksp span, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-msc .ksp-block--solid .cta--ksp span, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-corporate .ksp-block--solid .cta--ksp span, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b .ksp-block--solid .cta--ksp span, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp span, .cta--inverse--bg:focus span, .cta--inverse--bg:active span {
+.cta--inverse--bg span, .city-lite--c-law .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-creativity .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--c-policy .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-phd .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-msc .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-corporate .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b .ksp-block[data-theme=dark] a[class*=cta] span, .ksp-block[data-theme=dark] a[class*=cta] span, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp span, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp span, .cta--inverse--bg:focus span, .cta--inverse--bg:active span {
     color: #ffffff;
 }
 @media (hover: hover) {
-    .cta--inverse--bg:hover, .ksp-block[data-theme=dark] a[class*=cta]:hover, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:hover, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-law .ksp-block--solid .cta--ksp:hover, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-science .ksp-block--solid .cta--ksp:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block--solid .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-corporate .ksp-block--solid .cta--ksp:hover, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b .ksp-block--solid .cta--ksp:hover, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
+    .cta--inverse--bg:hover, .ksp-block[data-theme=dark] a[class*=cta]:hover, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:hover, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
         background-color: #ffffff;
         color: #0c0c0e;
         border: 0.125rem solid #ffffff;
     }
-    .cta--inverse--bg:hover span, .ksp-block[data-theme=dark] a[class*=cta]:hover span, [class="city-lite city-lite"] .ksp-block--solid .cta--ksp:hover span, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-law .ksp-block--solid .cta--ksp:hover span, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-creativity .ksp-block--solid .cta--ksp:hover span, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-policy .ksp-block--solid .cta--ksp:hover span, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-science .ksp-block--solid .cta--ksp:hover span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-health .ksp-block--solid .cta--ksp:hover span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-phd .ksp-block--solid .cta--ksp:hover span, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-msc .ksp-block--solid .cta--ksp:hover span, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-corporate .ksp-block--solid .cta--ksp:hover span, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b .ksp-block--solid .cta--ksp:hover span, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span {
+    .cta--inverse--bg:hover span, .ksp-block[data-theme=dark] a[class*=cta]:hover span, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span, .city-lite--b .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span {
         color: #0c0c0e;
     }
 }
@@ -3571,7 +3571,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     }
 }
 
-.cta--white, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-mba .ksp-block--solid .cta--ksp, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp {
+.cta--white, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3595,7 +3595,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
     border-radius: 0.25rem;
 }
 @media (hover: hover) {
-    .cta--white:hover, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
+    .cta--white:hover, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
         background-color: initial;
         background-image: initial;
         background-size: initial;
@@ -3611,7 +3611,7 @@ iframe[src*=issuu], iframe[src*=prezi] {
         text-decoration: none;
     }
 }
-.cta--white:focus, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-mba .ksp-block--solid .cta--ksp:focus, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--white:active, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-mba .ksp-block--solid .cta--ksp:active, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
+.cta--white:focus, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--white:active, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
     background-color: initial;
     background-image: initial;
     background-size: initial;
@@ -3626,33 +3626,33 @@ iframe[src*=issuu], iframe[src*=prezi] {
     outline-width: 0;
     text-decoration: none;
 }
-.cta--white:focus, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-mba .ksp-block--solid .cta--ksp:focus, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--white:active, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-mba .ksp-block--solid .cta--ksp:active, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
+.cta--white:focus, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:focus, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:focus, .cta--white:active, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:active, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:active {
     outline-color: #ffffff;
     outline-offset: 0.1875rem;
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.cta--white:after, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-mba .ksp-block--solid .cta--ksp:after, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:after {
+.cta--white:after, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:after, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:after {
     opacity: 0;
 }
-.cta--white:visited, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-mba .ksp-block--solid .cta--ksp:visited, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited {
+.cta--white:visited, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:visited, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:visited {
     border: 0.125rem solid #ffffff;
 }
-.cta--white, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-mba .ksp-block--solid .cta--ksp, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp, .cta--white:focus, .cta--white:active {
+.cta--white, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta], .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp, .cta--white:focus, .cta--white:active {
     background-color: #ffffff;
     color: #0c0c0e;
     border: 0.125rem solid #ffffff;
 }
-.cta--white span, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-mba .ksp-block--solid .cta--ksp span, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .cta--white:focus span, .cta--white:active span {
+.cta--white span, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta] span, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp span, .cta--white:focus span, .cta--white:active span {
     color: #0c0c0e;
 }
 @media (hover: hover) {
-    .cta--white:hover, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
+    .cta--white:hover, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:hover, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover {
         background-color: black;
         color: #ffffff;
         border: 0.125rem solid #f0f0f0;
     }
-    .cta--white:hover span, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-mba .ksp-block--solid .cta--ksp:hover span, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span {
+    .cta--white:hover span, .city-lite--b-mba .ksp-block[data-theme=dark] a[class*=cta]:hover span, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .cta--ksp:hover span {
         color: #ffffff;
     }
 }
@@ -11927,616 +11927,536 @@ figure figcaption a:active,
     }
 }
 
-.city-lite--b .ksp-block--solid, .city-lite--b .ksp-block[data-theme=bayes-theme] {
+.city-lite--b .ksp-block[data-theme=bayes-theme] {
     background-color: #d61726;
     color: #ffffff;
 }
-.city-lite--b .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--b .ksp-block--solid .ksp__item__icon, .city-lite--b .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-.city-lite--b-corporate .ksp-block--solid, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-corporate .ksp-block[data-theme=bayes-theme] {
     background-color: #7e756d;
     color: #ffffff;
 }
-.city-lite--b-corporate .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--b-corporate .ksp-block--solid .ksp__item__icon, .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-corporate .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-corporate .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-.city-lite--b-ug .ksp-block--solid, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-ug .ksp-block[data-theme=bayes-theme] {
     background-color: #f1b434;
     color: #0c0c0e;
 }
-.city-lite--b-ug .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-ug .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-ug .ksp-block--solid .ksp__item__icon, .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-ug .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-ug .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-ug .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--b-msc .ksp-block--solid, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-msc .ksp-block[data-theme=bayes-theme] {
     background-color: #3457F1;
     color: #ffffff;
 }
-.city-lite--b-msc .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-msc .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--b-msc .ksp-block--solid .ksp__item__icon, .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-msc .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-msc .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-msc .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-.city-lite--b-phd .ksp-block--solid, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-phd .ksp-block[data-theme=bayes-theme] {
     background-color: #14cef5;
     color: #0c0c0e;
 }
-.city-lite--b-phd .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-phd .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-phd .ksp-block--solid .ksp__item__icon, .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-phd .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-phd .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-phd .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--b-mba .ksp-block--solid, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-mba .ksp-block[data-theme=bayes-theme] {
     background-color: #12e97a;
     color: #0c0c0e;
 }
-.city-lite--b-mba .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-mba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-mba .ksp-block--solid .ksp__item__icon, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-mba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.city-lite--b-mba .ksp-block--solid, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-mba .ksp-block[data-theme=bayes-theme] {
     background: #2e767a;
     color: #ffffff;
 }
-.city-lite--b-mba .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-mba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #12e97a;
 }
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-mba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-mba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--b-emba .ksp-block--solid, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-emba .ksp-block[data-theme=bayes-theme] {
     background-color: #12e97a;
     color: #0c0c0e;
 }
-.city-lite--b-emba .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-emba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-emba .ksp-block--solid .ksp__item__icon, .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-emba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-emba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-emba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--b-demba .ksp-block--solid, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-demba .ksp-block[data-theme=bayes-theme] {
     background-color: #12e97a;
     color: #0c0c0e;
 }
-.city-lite--b-demba .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-demba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-demba .ksp-block--solid .ksp__item__icon, .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-demba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-demba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-demba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--b-omba .ksp-block--solid, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-omba .ksp-block[data-theme=bayes-theme] {
     background-color: #12e97a;
     color: #0c0c0e;
 }
-.city-lite--b-omba .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-omba .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-omba .ksp-block--solid .ksp__item__icon, .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-omba .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-omba .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-omba .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--b-exec .ksp-block--solid, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-exec .ksp-block[data-theme=bayes-theme] {
     background-color: #e31c79;
     color: #0c0c0e;
 }
-.city-lite--b-exec .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-exec .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-exec .ksp-block--solid .ksp__item__icon, .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-exec .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-exec .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-exec .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--b-cce .ksp-block--solid, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] {
+.city-lite--b-cce .ksp-block[data-theme=bayes-theme] {
     background-color: #a9a19c;
     color: #0c0c0e;
 }
-.city-lite--b-cce .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--b-cce .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #0c0c0e;
 }
-.city-lite--b-cce .ksp-block--solid .ksp__item__icon, .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--b-cce .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #0c0c0e;
 }
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #0c0c0e;
 }
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #0c0c0e;
     outline-color: #0c0c0e;
 }
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--b-cce .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--b-cce .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #0c0c0e;
 }
 
-.city-lite--c-health .ksp-block--solid, .city-lite--c-health .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-health .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-health .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--c-health .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--c-health .ksp-block--solid .ksp__item__icon, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-health .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.city-lite--c-health .ksp-block--solid, .city-lite--c-health .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-health .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-health .ksp-block--solid .ksp__item__icon, .city-lite--c-health .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-health .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-health .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--c-health .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--c-health .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-.city-lite--c-science .ksp-block--solid, .city-lite--c-science .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-science .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-science .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--c-science .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--c-science .ksp-block--solid .ksp__item__icon, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-science .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.city-lite--c-science .ksp-block--solid, .city-lite--c-science .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-science .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-science .ksp-block--solid .ksp__item__icon, .city-lite--c-science .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-science .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-science .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--c-science .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--c-science .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-.city-lite--c-policy .ksp-block--solid, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-policy .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-policy .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--c-policy .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--c-policy .ksp-block--solid .ksp__item__icon, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-policy .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.city-lite--c-policy .ksp-block--solid, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-policy .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-policy .ksp-block--solid .ksp__item__icon, .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-policy .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--c-policy .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--c-policy .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-.city-lite--c-creativity .ksp-block--solid, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-creativity .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-creativity .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--c-creativity .ksp-block--solid .ksp__item__icon, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.city-lite--c-creativity .ksp-block--solid, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-creativity .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-creativity .ksp-block--solid .ksp__item__icon, .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--c-creativity .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--c-creativity .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-.city-lite--c-law .ksp-block--solid, .city-lite--c-law .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-law .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-law .ksp-block--solid .wrapper--ksp__item__icon, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+.city-lite--c-law .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-.city-lite--c-law .ksp-block--solid .ksp__item__icon, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-law .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(0%);
 }
-.city-lite--c-law .ksp-block--solid, .city-lite--c-law .ksp-block[data-theme=bayes-theme] {
+.city-lite--c-law .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-.city-lite--c-law .ksp-block--solid .ksp__item__icon, .city-lite--c-law .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+.city-lite--c-law .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button, .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
+.js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button,
 .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button {
     background-color: transparent;
     border: 0.0625rem solid #ffffff;
 }
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true], .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
+.js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button[aria-expanded=true],
 .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button[aria-expanded=true] {
     background-color: #ffffff;
 }
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-law .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus, .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
+.js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:active, .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) + .slider__controls button:focus,
 .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:active,
 .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) + .slider__controls button:focus {
     border-color: #ffffff;
     outline-color: #ffffff;
 }
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
-.js .city-lite--c-law .ksp-block--solid .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus, .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
+.js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots]:not([data-small=true]):not([data-count="0"]) .slide:focus,
 .js .city-lite--c-law .ksp-block[data-theme=bayes-theme] .slider[data-style=dots][data-small=true]:not([data-count="0"]) .slide:focus {
     outline-color: #ffffff;
 }
 
-[class="city-lite city-lite"] .ksp-block--solid, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] {
+[class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] {
     background-color: #1e1e1e;
     color: #ffffff;
 }
-[class="city-lite city-lite"] .ksp-block--solid .wrapper--ksp__item__icon, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
+[class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .wrapper--ksp__item__icon {
     background-color: #ffffff;
 }
-[class="city-lite city-lite"] .ksp-block--solid .ksp__item__icon, [class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
+[class="city-lite city-lite"] .ksp-block[data-theme=bayes-theme] .ksp__item__icon {
     filter: invert(100%);
 }
 .ksp-block {
