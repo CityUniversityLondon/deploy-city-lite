@@ -1,5 +1,5 @@
 /*!
- * Font Awesome Pro 6.6.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Pro 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
  * Copyright 2024 Fonticons, Inc.
  */
@@ -8,27 +8,32 @@
     font-weight: var(--fa-style, 900);
 }
 
+.fas,
+.fass,
+.far,
+.fasr,
+.fal,
+.fasl,
+.fat,
+.fast,
+.fad,
+.fadr,
+.fadl,
+.fadt,
+.fasds,
+.fasdr,
+.fasdl,
+.fasdt,
+.fab,
 .fa-solid,
 .fa-regular,
-.fa-brands,
-.fas,
-.far,
-.fab,
-.fal,
-.fat,
-.fad,
-.fass,
-.fasr,
-.fasl,
-.fast,
-.fasds,
 .fa-light,
 .fa-thin,
+.fa-brands,
+.fa-classic,
 .fa-duotone,
 .fa-sharp,
 .fa-sharp-duotone,
-.fa-sharp-solid,
-.fa-classic,
 .fa {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -39,32 +44,69 @@
     text-rendering: auto;
 }
 
-.fas,
-.far,
-.fal,
-.fat,
-.fa-solid,
-.fa-regular,
-.fa-light,
-.fa-thin,
-.fa-classic {
-    font-family: "Font Awesome 6 Pro";
+.fas::before,
+.fass::before,
+.far::before,
+.fasr::before,
+.fal::before,
+.fasl::before,
+.fat::before,
+.fast::before,
+.fad::before,
+.fadr::before,
+.fadl::before,
+.fadt::before,
+.fasds::before,
+.fasdr::before,
+.fasdl::before,
+.fasdt::before,
+.fab::before,
+.fa-solid::before,
+.fa-regular::before,
+.fa-light::before,
+.fa-thin::before,
+.fa-brands::before,
+.fa-classic::before,
+.fa-duotone::before,
+.fa-sharp::before,
+.fa-sharp-duotone::before,
+.fa::before {
+    content: var(--fa);
 }
 
-.fab,
-.fa-brands {
-    font-family: "Font Awesome 6 Brands";
+.fad::after,
+.fa-duotone.fa-solid::after,
+.fa-duotone::after,
+.fadr::after,
+.fa-duotone.fa-regular::after,
+.fadl::after,
+.fa-duotone.fa-light::after,
+.fadt::after,
+.fa-duotone.fa-thin::after,
+.fasds::after,
+.fa-sharp-duotone.fa-solid::after,
+.fa-sharp-duotone::after,
+.fasdr::after,
+.fa-sharp-duotone.fa-regular::after,
+.fasdl::after,
+.fa-sharp-duotone.fa-light::after,
+.fasdt::after,
+.fa-sharp-duotone.fa-thin::after {
+    content: var(--fa--fa);
 }
 
-.fad,
-.fa-classic.fa-duotone,
-.fa-duotone {
+.fa-classic.fa-duotone {
     font-family: "Font Awesome 6 Duotone";
 }
 
-.fasds,
-.fa-sharp-duotone {
-    font-family: "Font Awesome 6 Sharp Duotone";
+.fass,
+.fa-sharp {
+    font-weight: 900;
+}
+
+.fad,
+.fa-duotone {
+    font-weight: 900;
 }
 
 .fasds,
@@ -72,17 +114,45 @@
     font-weight: 900;
 }
 
+.fa-classic,
+.fas,
+.fa-solid,
+.far,
+.fa-regular,
+.fal,
+.fa-light,
+.fat,
+.fa-thin {
+    font-family: "Font Awesome 6 Pro";
+}
+
+.fa-duotone,
+.fad,
+.fadr,
+.fadl,
+.fadt {
+    font-family: "Font Awesome 6 Duotone";
+}
+
+.fa-brands,
+.fab {
+    font-family: "Font Awesome 6 Brands";
+}
+
+.fa-sharp,
 .fass,
 .fasr,
 .fasl,
-.fast,
-.fa-sharp {
+.fast {
     font-family: "Font Awesome 6 Sharp";
 }
 
-.fass,
-.fa-sharp {
-    font-weight: 900;
+.fa-sharp-duotone,
+.fasds,
+.fasdr,
+.fasdl,
+.fasdt {
+    font-family: "Font Awesome 6 Sharp Duotone";
 }
 
 .fa-1x {
@@ -443,76 +513,149 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
-.fa-arrow-down::before {
-    content: "\f063";
+.fa-arrow-down {
+    --fa: "\f063";
+    --fa--fa: "\f063\f063";
 }
 
-.fa-arrow-left::before {
-    content: "\f060";
+.fa-arrow-left {
+    --fa: "\f060";
+    --fa--fa: "\f060\f060";
 }
 
-.fa-arrow-right::before {
-    content: "\f061";
+.fa-arrow-right {
+    --fa: "\f061";
+    --fa--fa: "\f061\f061";
 }
 
-.fa-arrow-up::before {
-    content: "\f062";
+.fa-arrow-up {
+    --fa: "\f062";
+    --fa--fa: "\f062\f062";
 }
 
-.fa-chevron-down::before {
-    content: "\f078";
+.fa-building {
+    --fa: "\f1ad";
+    --fa--fa: "\f1ad\f1ad";
 }
 
-.fa-chevron-left::before {
-    content: "\f053";
+.fa-calendar-days {
+    --fa: "\f073";
+    --fa--fa: "\f073\f073";
 }
 
-.fa-chevron-right::before {
-    content: "\f054";
+.fa-calendar-alt {
+    --fa: "\f073";
+    --fa--fa: "\f073\f073";
 }
 
-.fa-chevron-up::before {
-    content: "\f077";
+.fa-chevron-down {
+    --fa: "\f078";
+    --fa--fa: "\f078\f078";
 }
 
-.fa-clock::before {
-    content: "\f017";
+.fa-chevron-left {
+    --fa: "\f053";
+    --fa--fa: "\f053\f053";
 }
 
-.fa-clock-four::before {
-    content: "\f017";
+.fa-chevron-right {
+    --fa: "\f054";
+    --fa--fa: "\f054\f054";
 }
 
-.fa-location-dot::before {
-    content: "\f3c5";
+.fa-chevron-up {
+    --fa: "\f077";
+    --fa--fa: "\f077\f077";
 }
 
-.fa-map-marker-alt::before {
-    content: "\f3c5";
+.fa-clock {
+    --fa: "\f017";
+    --fa--fa: "\f017\f017";
 }
 
-.fa-minus::before {
-    content: "\f068";
+.fa-clock-four {
+    --fa: "\f017";
+    --fa--fa: "\f017\f017";
 }
 
-.fa-subtract::before {
-    content: "\f068";
+.fa-envelope {
+    --fa: "\f0e0";
+    --fa--fa: "\f0e0\f0e0";
 }
 
-.fa-plus::before {
-    content: "\+";
+.fa-graduation-cap {
+    --fa: "\f19d";
+    --fa--fa: "\f19d\f19d";
 }
 
-.fa-add::before {
-    content: "\+";
+.fa-mortar-board {
+    --fa: "\f19d";
+    --fa--fa: "\f19d\f19d";
 }
 
-.fa-user::before {
-    content: "\f007";
+.fa-location-dot {
+    --fa: "\f3c5";
+    --fa--fa: "\f3c5\f3c5";
 }
 
-.fa-users::before {
-    content: "\f0c0";
+.fa-map-marker-alt {
+    --fa: "\f3c5";
+    --fa--fa: "\f3c5\f3c5";
+}
+
+.fa-lock-keyhole {
+    --fa: "\f30d";
+    --fa--fa: "\f30d\f30d";
+}
+
+.fa-lock-alt {
+    --fa: "\f30d";
+    --fa--fa: "\f30d\f30d";
+}
+
+.fa-magnifying-glass {
+    --fa: "\f002";
+    --fa--fa: "\f002\f002";
+}
+
+.fa-search {
+    --fa: "\f002";
+    --fa--fa: "\f002\f002";
+}
+
+.fa-minus {
+    --fa: "\f068";
+    --fa--fa: "\f068\f068";
+}
+
+.fa-subtract {
+    --fa: "\f068";
+    --fa--fa: "\f068\f068";
+}
+
+.fa-plus {
+    --fa: "\+";
+    --fa--fa: "\+\+";
+}
+
+.fa-add {
+    --fa: "\+";
+    --fa--fa: "\+\+";
+}
+
+.fa-school {
+    --fa: "\f549";
+    --fa--fa: "\f549\f549";
+}
+
+.fa-user {
+    --fa: "\f007";
+    --fa--fa: "\f007\f007";
+}
+
+.fa-users {
+    --fa: "\f0c0";
+    --fa--fa: "\f0c0\f0c0";
 }
 
 .sr-only,

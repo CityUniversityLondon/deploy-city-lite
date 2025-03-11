@@ -1,4 +1,4 @@
-(globalThis["webpackChunkcity_lite"] = globalThis["webpackChunkcity_lite"] || []).push([["vendor-direct"],{
+(self["webpackChunkcity_lite"] = self["webpackChunkcity_lite"] || []).push([["vendor-direct"],{
 
 /***/ "./node_modules/focus-trap/index.js":
 /*!******************************************!*\
