@@ -1354,7 +1354,7 @@ html {
     font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
     font-size: 16px;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     line-height: 1;
     text-rendering: optimizeLegibility;
 }
@@ -1393,7 +1393,7 @@ h1, h2, h3, h4, h5 {
 
 .sans {
     font-family: "ibm-plex-sans", sans-serif;
-    font-weight: 450;
+    font-weight: 400;
 }
 .sans b,
 .sans strong {
@@ -1406,7 +1406,7 @@ h1, h2, h3, h4, h5 {
 
 .serif {
     font-family: "ibm-plex-serif", serif;
-    font-weight: 450;
+    font-weight: 400;
 }
 .serif b,
 .serif strong {
@@ -1419,7 +1419,7 @@ h1, h2, h3, h4, h5 {
 
 .mono {
     font-family: "ibm-plex-mono", monospace;
-    font-weight: 450;
+    font-weight: 400;
 }
 .mono b,
 .mono strong {
@@ -1465,7 +1465,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .weight-text {
-    font-weight: 450;
+    font-weight: 400;
 }
 
 .weight-book {
@@ -1519,7 +1519,7 @@ h1, h2, h3, h4, h5 {
     line-height: 1.625;
     letter-spacing: -0.005em;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     max-width: 55ch;
 }
 .content-style i,
@@ -1571,7 +1571,7 @@ pre {
     line-height: 1.625;
     letter-spacing: -0.005em;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     max-width: 55ch;
     font-family: "ibm-plex-mono", monospace;
     letter-spacing: 0;
@@ -2132,7 +2132,7 @@ main blockquote {
     line-height: 1.625;
     letter-spacing: -0.005em;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     max-width: 55ch;
 }
 main p i,
@@ -2394,7 +2394,7 @@ main table {
     max-width: 100%;
     overflow-x: scroll;
     border-collapse: collapse;
-    font-weight: 450;
+    font-weight: 400;
 }
 main table tr th,
 main table tr td {
@@ -9207,7 +9207,7 @@ form:not([class]) fieldset label,
     line-height: 1.625;
     letter-spacing: -0.005em;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     max-width: 55ch;
     display: block;
     margin-bottom: 0.25rem;
@@ -9298,7 +9298,7 @@ form:not([class]) textarea,
     line-height: 1.625;
     letter-spacing: -0.005em;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
 }
 form:not([class]) input i,
 form:not([class]) input em,
@@ -22428,7 +22428,7 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
     line-height: 1.625;
     letter-spacing: -0.005em;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 400;
     max-width: 55ch;
 }
 .card .card__details .card__description i,
@@ -22557,7 +22557,7 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
     }
 }
 .card--event__label--shortdate span {
-    font-weight: 450;
+    font-weight: 400;
     display: block;
 }
 .card--event__label--shortdate:first-child {
