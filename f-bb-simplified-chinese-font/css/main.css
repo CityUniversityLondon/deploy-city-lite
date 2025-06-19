@@ -1358,8 +1358,8 @@ html {
     line-height: 1;
     text-rendering: optimizeLegibility;
 }
-.city-lite--han-sans html {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+html:lang(ja), html [lang=ja] {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 html i,
 html em {
@@ -1525,8 +1525,8 @@ h1, h2, h3, h4, h5 {
     font-weight: 400;
     max-width: 55ch;
 }
-.city-lite--han-sans .content-style {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+.content-style html:lang(ja), [lang=ja] .content-style {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .content-style i,
 .content-style em {
@@ -1583,9 +1583,10 @@ pre {
     letter-spacing: 0;
     max-width: unset;
 }
-.city-lite--han-sans code,
-.city-lite--han-sans pre {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+code html:lang(ja), [lang=ja] code,
+pre html:lang(ja),
+[lang=ja] pre {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 code i,
 code em,
@@ -1650,9 +1651,10 @@ h6,
     line-height: 1.3333333333;
     margin-top: 1rem;
 }
-.city-lite--han-sans h6,
-.city-lite--han-sans .h6-style {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+h6 html:lang(ja), [lang=ja] h6,
+.h6-style html:lang(ja),
+[lang=ja] .h6-style {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h6 i,
 h6 em,
@@ -1718,9 +1720,10 @@ h5,
     font-weight: 600;
     margin-top: 1rem;
 }
-.city-lite--han-sans h5,
-.city-lite--han-sans .h5-style {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+h5 html:lang(ja), [lang=ja] h5,
+.h5-style html:lang(ja),
+[lang=ja] .h5-style {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h5 i,
 h5 em,
@@ -1786,9 +1789,10 @@ h4,
     font-weight: 600;
     margin-top: 1rem;
 }
-.city-lite--han-sans h4,
-.city-lite--han-sans .h4-style {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+h4 html:lang(ja), [lang=ja] h4,
+.h4-style html:lang(ja),
+[lang=ja] .h4-style {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h4 i,
 h4 em,
@@ -1854,9 +1858,10 @@ h3,
     font-weight: 600;
     margin-top: 1rem;
 }
-.city-lite--han-sans h3,
-.city-lite--han-sans .h3-style {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+h3 html:lang(ja), [lang=ja] h3,
+.h3-style html:lang(ja),
+[lang=ja] .h3-style {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h3 i,
 h3 em,
@@ -1922,9 +1927,10 @@ h2,
     font-weight: 600;
     margin-top: 1rem;
 }
-.city-lite--han-sans h2,
-.city-lite--han-sans .h2-style {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+h2 html:lang(ja), [lang=ja] h2,
+.h2-style html:lang(ja),
+[lang=ja] .h2-style {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h2 i,
 h2 em,
@@ -1989,9 +1995,10 @@ h1,
     font-style: normal;
     font-weight: 600;
 }
-.city-lite--han-sans h1,
-.city-lite--han-sans .h1-style {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+h1 html:lang(ja), [lang=ja] h1,
+.h1-style html:lang(ja),
+[lang=ja] .h1-style {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h1 i,
 h1 em,
@@ -2169,12 +2176,16 @@ main blockquote {
     font-weight: 400;
     max-width: 55ch;
 }
-.city-lite--han-sans main p,
-.city-lite--han-sans main ol,
-.city-lite--han-sans main ul,
-.city-lite--han-sans main dl,
-.city-lite--han-sans main blockquote {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+main p html:lang(ja), [lang=ja] main p,
+main ol html:lang(ja),
+[lang=ja] main ol,
+main ul html:lang(ja),
+[lang=ja] main ul,
+main dl html:lang(ja),
+[lang=ja] main dl,
+main blockquote html:lang(ja),
+[lang=ja] main blockquote {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 main p i,
 main p em,
@@ -2273,8 +2284,8 @@ main header p {
     font-weight: 300;
     margin-top: 0;
 }
-.city-lite--han-sans main header p {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+main header p html:lang(ja), [lang=ja] main header p {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 main header p i,
 main header p em {
@@ -2386,8 +2397,8 @@ main dt {
     line-height: 1.3333333333;
     margin-top: 1rem;
 }
-.city-lite--han-sans main dt {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+main dt html:lang(ja), [lang=ja] main dt {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 main dt i,
 main dt em {
@@ -9260,11 +9271,14 @@ form:not([class]) fieldset label,
     margin-bottom: 0.25rem;
     margin-top: 1.5rem;
 }
-.city-lite--han-sans form:not([class]) fieldset .form__label,
-.city-lite--han-sans form:not([class]) fieldset label,
-.city-lite--han-sans .form fieldset .form__label,
-.city-lite--han-sans .form fieldset label {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+form:not([class]) fieldset .form__label html:lang(ja), [lang=ja] form:not([class]) fieldset .form__label,
+form:not([class]) fieldset label html:lang(ja),
+[lang=ja] form:not([class]) fieldset label,
+.form fieldset .form__label html:lang(ja),
+[lang=ja] .form fieldset .form__label,
+.form fieldset label html:lang(ja),
+[lang=ja] .form fieldset label {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 form:not([class]) fieldset .form__label i,
 form:not([class]) fieldset .form__label em,
@@ -9353,11 +9367,14 @@ form:not([class]) textarea,
     font-style: normal;
     font-weight: 400;
 }
-.city-lite--han-sans form:not([class]) input,
-.city-lite--han-sans form:not([class]) textarea,
-.city-lite--han-sans .form input,
-.city-lite--han-sans .form textarea {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+form:not([class]) input html:lang(ja), [lang=ja] form:not([class]) input,
+form:not([class]) textarea html:lang(ja),
+[lang=ja] form:not([class]) textarea,
+.form input html:lang(ja),
+[lang=ja] .form input,
+.form textarea html:lang(ja),
+[lang=ja] .form textarea {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 form:not([class]) input i,
 form:not([class]) input em,
@@ -10278,8 +10295,8 @@ div#CybotCookiebotDialogPoweredByText {
     margin-top: 1rem;
     font-weight: 400;
 }
-.city-lite--han-sans .banner__txt__subtitle {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+.banner__txt__subtitle html:lang(ja), [lang=ja] .banner__txt__subtitle {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .banner__txt__subtitle i,
 .banner__txt__subtitle em {
@@ -15209,8 +15226,8 @@ main .yt-cta .yt-cta__text .cta-block {
 .dialog__heading em {
     font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
 }
-.city-lite--han-sans .dialog__heading {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+.dialog__heading html:lang(ja), [lang=ja] .dialog__heading {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .dialog__heading i,
 .dialog__heading em {
@@ -15587,8 +15604,8 @@ main .yt-cta .yt-cta__text .cta-block {
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.city-lite--han-sans .dialog__slider-control button {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+.dialog__slider-control button html:lang(ja), [lang=ja] .dialog__slider-control button {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .dialog__slider-control button i,
 .dialog__slider-control button em {
@@ -22415,8 +22432,8 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
     display: inline;
     max-width: unset;
 }
-.city-lite--han-sans .card .card__details .card__heading {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+.card .card__details .card__heading html:lang(ja), [lang=ja] .card .card__details .card__heading {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .card .card__details .card__heading i,
 .card .card__details .card__heading em {
@@ -22502,8 +22519,8 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
     font-weight: 400;
     max-width: 55ch;
 }
-.city-lite--han-sans .card .card__details .card__description {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+.card .card__details .card__description html:lang(ja), [lang=ja] .card .card__details .card__description {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .card .card__details .card__description i,
 .card .card__details .card__description em {
@@ -22610,8 +22627,8 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
         letter-spacing: -0.017em;
     }
 }
-.city-lite--han-sans .card--event__label--shortdate {
-    font-family: " source-han-sans-simplified-c", sans-serif;
+.card--event__label--shortdate html:lang(ja), [lang=ja] .card--event__label--shortdate {
+    font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .card--event__label--shortdate i,
 .card--event__label--shortdate em {
