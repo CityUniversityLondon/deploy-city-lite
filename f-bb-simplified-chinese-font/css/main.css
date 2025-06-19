@@ -1358,7 +1358,7 @@ html {
     line-height: 1;
     text-rendering: optimizeLegibility;
 }
-html:lang(ja), html [lang=ja] {
+html:lang(zh-Hans-CN), html [lang=zh-Hans-CN] {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 html i,
@@ -1525,7 +1525,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 400;
     max-width: 55ch;
 }
-.content-style html:lang(ja), [lang=ja] .content-style {
+.content-style html:lang(zh-Hans-CN), [lang=zh-Hans-CN] .content-style {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .content-style i,
@@ -1583,9 +1583,9 @@ pre {
     letter-spacing: 0;
     max-width: unset;
 }
-code html:lang(ja), [lang=ja] code,
-pre html:lang(ja),
-[lang=ja] pre {
+code html:lang(zh-Hans-CN), [lang=zh-Hans-CN] code,
+pre html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] pre {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 code i,
@@ -1651,9 +1651,9 @@ h6,
     line-height: 1.3333333333;
     margin-top: 1rem;
 }
-h6 html:lang(ja), [lang=ja] h6,
-.h6-style html:lang(ja),
-[lang=ja] .h6-style {
+h6 html:lang(zh-Hans-CN), [lang=zh-Hans-CN] h6,
+.h6-style html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .h6-style {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h6 i,
@@ -1720,9 +1720,9 @@ h5,
     font-weight: 600;
     margin-top: 1rem;
 }
-h5 html:lang(ja), [lang=ja] h5,
-.h5-style html:lang(ja),
-[lang=ja] .h5-style {
+h5 html:lang(zh-Hans-CN), [lang=zh-Hans-CN] h5,
+.h5-style html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .h5-style {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h5 i,
@@ -1789,9 +1789,9 @@ h4,
     font-weight: 600;
     margin-top: 1rem;
 }
-h4 html:lang(ja), [lang=ja] h4,
-.h4-style html:lang(ja),
-[lang=ja] .h4-style {
+h4 html:lang(zh-Hans-CN), [lang=zh-Hans-CN] h4,
+.h4-style html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .h4-style {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h4 i,
@@ -1858,9 +1858,9 @@ h3,
     font-weight: 600;
     margin-top: 1rem;
 }
-h3 html:lang(ja), [lang=ja] h3,
-.h3-style html:lang(ja),
-[lang=ja] .h3-style {
+h3 html:lang(zh-Hans-CN), [lang=zh-Hans-CN] h3,
+.h3-style html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .h3-style {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h3 i,
@@ -1927,9 +1927,9 @@ h2,
     font-weight: 600;
     margin-top: 1rem;
 }
-h2 html:lang(ja), [lang=ja] h2,
-.h2-style html:lang(ja),
-[lang=ja] .h2-style {
+h2 html:lang(zh-Hans-CN), [lang=zh-Hans-CN] h2,
+.h2-style html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .h2-style {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h2 i,
@@ -1995,9 +1995,9 @@ h1,
     font-style: normal;
     font-weight: 600;
 }
-h1 html:lang(ja), [lang=ja] h1,
-.h1-style html:lang(ja),
-[lang=ja] .h1-style {
+h1 html:lang(zh-Hans-CN), [lang=zh-Hans-CN] h1,
+.h1-style html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .h1-style {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 h1 i,
@@ -2176,15 +2176,15 @@ main blockquote {
     font-weight: 400;
     max-width: 55ch;
 }
-main p html:lang(ja), [lang=ja] main p,
-main ol html:lang(ja),
-[lang=ja] main ol,
-main ul html:lang(ja),
-[lang=ja] main ul,
-main dl html:lang(ja),
-[lang=ja] main dl,
-main blockquote html:lang(ja),
-[lang=ja] main blockquote {
+main p html:lang(zh-Hans-CN), [lang=zh-Hans-CN] main p,
+main ol html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] main ol,
+main ul html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] main ul,
+main dl html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] main dl,
+main blockquote html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] main blockquote {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 main p i,
@@ -2284,7 +2284,7 @@ main header p {
     font-weight: 300;
     margin-top: 0;
 }
-main header p html:lang(ja), [lang=ja] main header p {
+main header p html:lang(zh-Hans-CN), [lang=zh-Hans-CN] main header p {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 main header p i,
@@ -2397,7 +2397,7 @@ main dt {
     line-height: 1.3333333333;
     margin-top: 1rem;
 }
-main dt html:lang(ja), [lang=ja] main dt {
+main dt html:lang(zh-Hans-CN), [lang=zh-Hans-CN] main dt {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 main dt i,
@@ -9271,13 +9271,13 @@ form:not([class]) fieldset label,
     margin-bottom: 0.25rem;
     margin-top: 1.5rem;
 }
-form:not([class]) fieldset .form__label html:lang(ja), [lang=ja] form:not([class]) fieldset .form__label,
-form:not([class]) fieldset label html:lang(ja),
-[lang=ja] form:not([class]) fieldset label,
-.form fieldset .form__label html:lang(ja),
-[lang=ja] .form fieldset .form__label,
-.form fieldset label html:lang(ja),
-[lang=ja] .form fieldset label {
+form:not([class]) fieldset .form__label html:lang(zh-Hans-CN), [lang=zh-Hans-CN] form:not([class]) fieldset .form__label,
+form:not([class]) fieldset label html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] form:not([class]) fieldset label,
+.form fieldset .form__label html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .form fieldset .form__label,
+.form fieldset label html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .form fieldset label {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 form:not([class]) fieldset .form__label i,
@@ -9367,13 +9367,13 @@ form:not([class]) textarea,
     font-style: normal;
     font-weight: 400;
 }
-form:not([class]) input html:lang(ja), [lang=ja] form:not([class]) input,
-form:not([class]) textarea html:lang(ja),
-[lang=ja] form:not([class]) textarea,
-.form input html:lang(ja),
-[lang=ja] .form input,
-.form textarea html:lang(ja),
-[lang=ja] .form textarea {
+form:not([class]) input html:lang(zh-Hans-CN), [lang=zh-Hans-CN] form:not([class]) input,
+form:not([class]) textarea html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] form:not([class]) textarea,
+.form input html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .form input,
+.form textarea html:lang(zh-Hans-CN),
+[lang=zh-Hans-CN] .form textarea {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 form:not([class]) input i,
@@ -10295,7 +10295,7 @@ div#CybotCookiebotDialogPoweredByText {
     margin-top: 1rem;
     font-weight: 400;
 }
-.banner__txt__subtitle html:lang(ja), [lang=ja] .banner__txt__subtitle {
+.banner__txt__subtitle html:lang(zh-Hans-CN), [lang=zh-Hans-CN] .banner__txt__subtitle {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .banner__txt__subtitle i,
@@ -15226,7 +15226,7 @@ main .yt-cta .yt-cta__text .cta-block {
 .dialog__heading em {
     font-feature-settings: "ss01" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "liga" 1;
 }
-.dialog__heading html:lang(ja), [lang=ja] .dialog__heading {
+.dialog__heading html:lang(zh-Hans-CN), [lang=zh-Hans-CN] .dialog__heading {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .dialog__heading i,
@@ -15604,7 +15604,7 @@ main .yt-cta .yt-cta__text .cta-block {
     outline-style: dotted;
     outline-width: 0.125rem;
 }
-.dialog__slider-control button html:lang(ja), [lang=ja] .dialog__slider-control button {
+.dialog__slider-control button html:lang(zh-Hans-CN), [lang=zh-Hans-CN] .dialog__slider-control button {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .dialog__slider-control button i,
@@ -22432,7 +22432,7 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
     display: inline;
     max-width: unset;
 }
-.card .card__details .card__heading html:lang(ja), [lang=ja] .card .card__details .card__heading {
+.card .card__details .card__heading html:lang(zh-Hans-CN), [lang=zh-Hans-CN] .card .card__details .card__heading {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .card .card__details .card__heading i,
@@ -22519,7 +22519,7 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
     font-weight: 400;
     max-width: 55ch;
 }
-.card .card__details .card__description html:lang(ja), [lang=ja] .card .card__details .card__description {
+.card .card__details .card__description html:lang(zh-Hans-CN), [lang=zh-Hans-CN] .card .card__details .card__description {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .card .card__details .card__description i,
@@ -22627,7 +22627,7 @@ body[class*=city-lite--c] .hallway-cards__card__details__seperator {
         letter-spacing: -0.017em;
     }
 }
-.card--event__label--shortdate html:lang(ja), [lang=ja] .card--event__label--shortdate {
+.card--event__label--shortdate html:lang(zh-Hans-CN), [lang=zh-Hans-CN] .card--event__label--shortdate {
     font-family: "source-han-sans-simplified-c", sans-serif;
 }
 .card--event__label--shortdate i,
