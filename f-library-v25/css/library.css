@@ -12466,6 +12466,10 @@ div#CybotCookiebotDialogPoweredByText {
     font-style: italic;
 }
 
+.secondary-navigation__list li {
+    margin-right: 1rem;
+}
+
 .primary-navigation {
     grid-column: 1/15;
 }
@@ -12481,6 +12485,7 @@ div#CybotCookiebotDialogPoweredByText {
 
 .primary-navigation-search {
     color: #ffffff;
+    padding-top: 2rem;
 }
 @media (max-width: 1023px) {
     .primary-navigation-search {
@@ -12925,6 +12930,202 @@ div#CybotCookiebotDialogPoweredByText {
     background-color: #f2f2f2;
     color: #0c0c0e;
     border-top: 0.015rem solid #696969;
+}
+
+.primary-search .search-box__query__input {
+    font-family: "Plex Sans", sans-serif;
+    /**
+     * IBM Plex OpenType stylistic sets:
+     *
+     * ss01: 0/1 double-storey/simple 'a'
+     * ss02: 0/1 double-storey/simple 'g'
+     * ss03: 0/1 plain/slashed '0'
+     * ss04: 0/1 plain/dotted '0'
+     */
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+    font-size: 1rem;
+    line-height: 1.625;
+    letter-spacing: -0.005em;
+    display: flex;
+    flex-grow: 1;
+    font-weight: 450;
+    padding: 0;
+    position: relative;
+}
+.primary-search .search-box__query__input i,
+.primary-search .search-box__query__input em {
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .primary-search .search-box__query__input {
+        letter-spacing: -0.008em;
+    }
+}
+@media (min-width: 1920px) and (max-width: 3839px) {
+    .primary-search .search-box__query__input {
+        letter-spacing: -0.013em;
+    }
+}
+@media (min-width: 3840px) and (max-width: 7679px) {
+    .primary-search .search-box__query__input {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 7680px) {
+    .primary-search .search-box__query__input {
+        letter-spacing: -0.017em;
+    }
+}
+.primary-search .search-box__query__input:focus-within {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+    outline-style: solid;
+}
+.primary-search .search-box__query__input input {
+    font-family: "Plex Sans", sans-serif;
+    /**
+     * IBM Plex OpenType stylistic sets:
+     *
+     * ss01: 0/1 double-storey/simple 'a'
+     * ss02: 0/1 double-storey/simple 'g'
+     * ss03: 0/1 plain/slashed '0'
+     * ss04: 0/1 plain/dotted '0'
+     */
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+    font-size: 1rem;
+    line-height: 1.625;
+    letter-spacing: -0.005em;
+    border-color: #0c0c0e;
+    border-style: solid;
+    border-width: 0.125rem;
+    border-radius: 0.25rem 0 0 0.25rem;
+    font-style: normal;
+    height: 3.25rem;
+    min-width: 0;
+    padding-left: 0.5rem;
+    padding-right: 3.5rem;
+    width: 100%;
+}
+.primary-search .search-box__query__input input i,
+.primary-search .search-box__query__input input em {
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .primary-search .search-box__query__input input {
+        letter-spacing: -0.008em;
+    }
+}
+@media (min-width: 1920px) and (max-width: 3839px) {
+    .primary-search .search-box__query__input input {
+        letter-spacing: -0.013em;
+    }
+}
+@media (min-width: 3840px) and (max-width: 7679px) {
+    .primary-search .search-box__query__input input {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 7680px) {
+    .primary-search .search-box__query__input input {
+        letter-spacing: -0.017em;
+    }
+}
+@media (max-width: 431px) {
+    .primary-search .search-box__query__input input {
+        padding-right: 1rem;
+    }
+}
+.primary-search .search-box__query__input input:focus-within {
+    color: #1e1e1e;
+    font-style: normal;
+    font-weight: 600;
+    outline: 0;
+}
+.primary-search .search-box__query__input input::placeholder {
+    font-style: italic;
+}
+.primary-search .search-box__query__input input:placeholder-shown {
+    color: #696969;
+}
+.primary-search .search-box__query__input .search-box__clear {
+    font-size: 1.602rem;
+    line-height: 1.3333333333;
+    letter-spacing: -0.015em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 2.25rem;
+    justify-content: center;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.25rem;
+    width: 2.25rem;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .primary-search .search-box__query__input .search-box__clear {
+        letter-spacing: -0.016em;
+    }
+}
+@media (min-width: 1920px) and (max-width: 3839px) {
+    .primary-search .search-box__query__input .search-box__clear {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 3840px) and (max-width: 7679px) {
+    .primary-search .search-box__query__input .search-box__clear {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 7680px) {
+    .primary-search .search-box__query__input .search-box__clear {
+        letter-spacing: -0.017em;
+    }
+}
+.primary-search .search-box__query__input .search-box__clear:focus {
+    outline-color: #0c0c0e;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+    outline-style: solid;
+    outline-offset: -0.25rem;
+}
+.primary-search .search-box__query__input .search-box__clear .search-box__clear__text {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.primary-search .search-box__query__input .search-box__clear .icon {
+    /*
+    // temp overide with xmark-temp-styling below
+
+    --fa-primary-color: #696969;
+    --fa-primary-opacity: 1;
+    --fa-secondary-color: #f2f2f2;
+    --fa-secondary-opacity: 1;
+    */
+    letter-spacing: 0;
+    line-height: 1;
+}
+@media (hover: hover) {
+    .primary-search .search-box__query__input .search-box__clear:hover {
+        background-color: transparent;
+    }
+    .primary-search .search-box__query__input .search-box__clear:hover .icon {
+        /*
+        // temp overide with xmark-temp-styling below
+
+        --fa-primary-color: #f2f2f2;
+        --fa-secondary-color: #696969;
+        */
+    }
 }
 
 .back-to-top {
@@ -15719,6 +15920,132 @@ div#CybotCookiebotDialogPoweredByText {
     main > .library .standfirst p {
         grid-column: 7/19;
     }
+}
+
+#content {
+    grid-column: 1/12;
+}
+
+#sidebar {
+    grid-column: 13/-1;
+}
+
+.header__search__fieldset {
+    font-family: "Plex Sans", sans-serif;
+    /**
+     * IBM Plex OpenType stylistic sets:
+     *
+     * ss01: 0/1 double-storey/simple 'a'
+     * ss02: 0/1 double-storey/simple 'g'
+     * ss03: 0/1 plain/slashed '0'
+     * ss04: 0/1 plain/dotted '0'
+     */
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+    font-size: 1rem;
+    line-height: 1.625;
+    letter-spacing: -0.005em;
+    display: flex;
+    flex-grow: 1;
+    font-weight: 450;
+    padding: 0;
+    position: relative;
+}
+.header__search__fieldset i,
+.header__search__fieldset em {
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .header__search__fieldset {
+        letter-spacing: -0.008em;
+    }
+}
+@media (min-width: 1920px) and (max-width: 3839px) {
+    .header__search__fieldset {
+        letter-spacing: -0.013em;
+    }
+}
+@media (min-width: 3840px) and (max-width: 7679px) {
+    .header__search__fieldset {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 7680px) {
+    .header__search__fieldset {
+        letter-spacing: -0.017em;
+    }
+}
+.header__search__fieldset:focus-within {
+    outline-color: #ffffff;
+    outline-offset: 0.1875rem;
+    outline-style: dotted;
+    outline-width: 0.125rem;
+    outline-style: solid;
+}
+.header__search__fieldset input {
+    font-family: "Plex Sans", sans-serif;
+    /**
+     * IBM Plex OpenType stylistic sets:
+     *
+     * ss01: 0/1 double-storey/simple 'a'
+     * ss02: 0/1 double-storey/simple 'g'
+     * ss03: 0/1 plain/slashed '0'
+     * ss04: 0/1 plain/dotted '0'
+     */
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+    font-size: 1rem;
+    line-height: 1.625;
+    letter-spacing: -0.005em;
+    border-color: #0c0c0e;
+    border-style: solid;
+    border-width: 0.125rem;
+    border-radius: 0.25rem 0 0 0.25rem;
+    font-style: normal;
+    height: 3.25rem;
+    min-width: 0;
+    padding-left: 0.5rem;
+    padding-right: 3.5rem;
+    width: 100%;
+}
+.header__search__fieldset input i,
+.header__search__fieldset input em {
+    font-feature-settings: "ss01" 0, "ss02" 1, "ss03" 1, "ss04" 0, "lnum" 1, "onum" 0, "pnum" 1, "tnum" 0, "frac" 0, "liga" 1;
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .header__search__fieldset input {
+        letter-spacing: -0.008em;
+    }
+}
+@media (min-width: 1920px) and (max-width: 3839px) {
+    .header__search__fieldset input {
+        letter-spacing: -0.013em;
+    }
+}
+@media (min-width: 3840px) and (max-width: 7679px) {
+    .header__search__fieldset input {
+        letter-spacing: -0.017em;
+    }
+}
+@media (min-width: 7680px) {
+    .header__search__fieldset input {
+        letter-spacing: -0.017em;
+    }
+}
+@media (max-width: 431px) {
+    .header__search__fieldset input {
+        padding-right: 1rem;
+    }
+}
+.header__search__fieldset input:focus-within {
+    color: #1e1e1e;
+    font-style: normal;
+    font-weight: 600;
+    outline: 0;
+}
+.header__search__fieldset input::placeholder {
+    font-style: italic;
+}
+.header__search__fieldset input:placeholder-shown {
+    color: #696969;
 }
 
 @media (max-width: 1024px) {
